@@ -1,0 +1,32 @@
+# Tipsy Cocktails
+
+Tipsy Cocktails provides mobile bar hire, private cocktail bartenders, cocktail making classes and event bar services for parties, weddings, hen parties, birthdays and corporate events in the United Kingdom.
+
+## Contact
+
+- Email: tipsycocktails1@hotmail.com
+- Phone: +44 7822 033406
+- Website: https://tipsycocktails.vercel.app/
+
+## Main Pages
+
+- Home: https://tipsycocktails.vercel.app/
+- Cocktail menu: https://tipsycocktails.vercel.app/menu
+- Cocktail making classes: https://tipsycocktails.vercel.app/classes
+- Reviews: https://tipsycocktails.vercel.app/reviews
+- FAQ: https://tipsycocktails.vercel.app/faq
+- Contact and quote requests: https://tipsycocktails.vercel.app/contact
+
+## Services
+
+- Mobile bar hire
+- Cocktail making classes
+- Private cocktail bartender hire
+- Cocktail party packages
+- Hen party cocktail classes
+- Birthday party bar hire
+- Wedding and corporate event bar service
+
+## Crawling
+
+Public service pages are available for search engines and AI assistants. Admin pages are private and should not be indexed.

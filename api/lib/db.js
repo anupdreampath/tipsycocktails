@@ -1,10 +1,19 @@
 import pg from 'pg'
 
-const DATABASE_URL = process.env.DATABASE_URL || 'postgresql://neondb_owner:npg_8N3HYUQKBzka@ep-divine-salad-am6cscmb-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+function cleanEnv(value) {
+  return value?.trim().replace(/^['"]|['"]$/g, '')
+}
+
+const DATABASE_URL = cleanEnv(process.env.DATABASE_URL) || 'postgresql://neondb_owner:npg_8N3HYUQKBzka@ep-divine-salad-am6cscmb-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
 const SHOULD_AUTO_SETUP = process.env.AUTO_SETUP_DATABASE === 'true' || process.env.NODE_ENV !== 'production'
 
 const { Pool } = pg
-const pgConnectionString = new URL(DATABASE_URL)
+let pgConnectionString
+try {
+  pgConnectionString = new URL(DATABASE_URL)
+} catch {
+  throw new Error('DATABASE_URL is not a valid Postgres connection string')
+}
 pgConnectionString.searchParams.delete('sslmode')
 pgConnectionString.searchParams.delete('channel_binding')
 

@@ -23,6 +23,7 @@ const apiRoutes = new Map([
   ['/api/admin/reset-password', 'api/admin/reset-password.js'],
   ['/api/admin/reviews', 'api/admin/reviews.js'],
   ['/api/content', 'api/content.js'],
+  ['/api/db-health', 'api/db-health.js'],
   ['/api/contact', 'api/contact.js'],
   ['/api/health', 'api/health.js'],
   ['/api/reviews', 'api/reviews.js'],
