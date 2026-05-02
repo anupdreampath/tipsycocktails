@@ -1,6 +1,6 @@
-import { sql } from '../lib/db.js'
+import { sql } from './lib/db.js'
 import jwt from 'jsonwebtoken'
-import { parseBody } from '../lib/body.js'
+import { parseBody } from './lib/body.js'
 
 const JWT_SECRET = process.env.JWT_SECRET || 'tipsy-cocktails-secret-key-2024'
 
@@ -24,13 +24,16 @@ export default async function handler(req, res) {
     return res.status(200).end()
   }
 
-  const { page } = req.query
+  const page = req.query?.page
+  if (!page) {
+    return res.status(400).json({ error: 'Page is required' })
+  }
 
   try {
     if (req.method === 'GET') {
       const content = await sql`
-        SELECT section, key, value 
-        FROM page_content 
+        SELECT section, key, value
+        FROM page_content
         WHERE page = ${page}
       `
       const result = {}
@@ -52,7 +55,7 @@ export default async function handler(req, res) {
       await sql`
         INSERT INTO page_content (page, section, key, value)
         VALUES (${page}, ${section}, ${key}, ${value})
-        ON CONFLICT (page, section, key) 
+        ON CONFLICT (page, section, key)
         DO UPDATE SET value = ${value}, updated_at = NOW()
       `
       return res.status(200).json({ success: true })

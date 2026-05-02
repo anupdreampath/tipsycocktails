@@ -7,7 +7,7 @@ export function usePageContent(page: string) {
 
   useEffect(() => {
     let cancelled = false
-    fetch(`/api/content/${page}`)
+    fetch(`/api/content?page=${encodeURIComponent(page)}`)
       .then((response) => response.ok ? response.json() : {})
       .then((data) => {
         if (!cancelled && data && typeof data === 'object') setContent(data as PageContent)

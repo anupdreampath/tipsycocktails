@@ -1,14 +1,33 @@
-import { neon } from '@neondatabase/serverless'
+import pg from 'pg'
 
 const DATABASE_URL = process.env.DATABASE_URL || 'postgresql://neondb_owner:npg_8N3HYUQKBzka@ep-divine-salad-am6cscmb-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+const SHOULD_AUTO_SETUP = process.env.AUTO_SETUP_DATABASE === 'true' || process.env.NODE_ENV !== 'production'
 
-const neonSql = neon(DATABASE_URL)
+const { Pool } = pg
+const pgConnectionString = new URL(DATABASE_URL)
+pgConnectionString.searchParams.delete('sslmode')
+pgConnectionString.searchParams.delete('channel_binding')
+
+const pool = new Pool({
+  connectionString: pgConnectionString.toString(),
+  ssl: { rejectUnauthorized: false },
+})
 
 let setupPromise
 
 export async function sql(strings, ...values) {
-  await ensureDatabase()
-  return neonSql(strings, ...values)
+  if (SHOULD_AUTO_SETUP) {
+    await ensureDatabase()
+  }
+  return query(strings, ...values)
+}
+
+async function query(strings, ...values) {
+  const text = strings.reduce((statement, string, index) => {
+    return `${statement}${string}${index < values.length ? `$${index + 1}` : ''}`
+  }, '')
+  const result = await pool.query(text, values)
+  return result.rows
 }
 
 export function ensureDatabase() {
@@ -23,7 +42,7 @@ export function ensureDatabase() {
 
 export async function setupDatabase() {
   // Contacts table
-  await neonSql`CREATE TABLE IF NOT EXISTS contacts (
+  await query`CREATE TABLE IF NOT EXISTS contacts (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
@@ -33,7 +52,7 @@ export async function setupDatabase() {
   )`
 
   // Admin users table
-  await neonSql`CREATE TABLE IF NOT EXISTS admin_users (
+  await query`CREATE TABLE IF NOT EXISTS admin_users (
     id SERIAL PRIMARY KEY,
     email VARCHAR(255) UNIQUE NOT NULL,
     password_hash VARCHAR(255) NOT NULL,
@@ -42,7 +61,7 @@ export async function setupDatabase() {
   )`
 
   // Visits table
-  await neonSql`CREATE TABLE IF NOT EXISTS visits (
+  await query`CREATE TABLE IF NOT EXISTS visits (
     id SERIAL PRIMARY KEY,
     session_id VARCHAR(255) NOT NULL,
     ip_address VARCHAR(45),
@@ -58,7 +77,7 @@ export async function setupDatabase() {
   )`
 
   // Page content table
-  await neonSql`CREATE TABLE IF NOT EXISTS page_content (
+  await query`CREATE TABLE IF NOT EXISTS page_content (
     id SERIAL PRIMARY KEY,
     page VARCHAR(100) NOT NULL,
     section VARCHAR(100) NOT NULL,
@@ -69,7 +88,7 @@ export async function setupDatabase() {
   )`
 
   // Reviews table
-  await neonSql`CREATE TABLE IF NOT EXISTS reviews (
+  await query`CREATE TABLE IF NOT EXISTS reviews (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     email VARCHAR(255),
@@ -80,11 +99,11 @@ export async function setupDatabase() {
   )`
 
   // Seed default admin
-  const existing = await neonSql`SELECT * FROM admin_users WHERE email = 'admin@tipsycocktails.com'`
+  const existing = await query`SELECT * FROM admin_users WHERE email = 'admin@tipsycocktails.com'`
   if (existing.length === 0) {
     const bcrypt = await import('bcryptjs')
     const hash = await bcrypt.hash('demo@123', 10)
-    await neonSql`INSERT INTO admin_users (email, password_hash) VALUES ('admin@tipsycocktails.com', ${hash})`
+    await query`INSERT INTO admin_users (email, password_hash) VALUES ('admin@tipsycocktails.com', ${hash})`
   }
 
   // Seed default content
@@ -155,7 +174,7 @@ export async function setupDatabase() {
   ]
 
   for (const [page, section, key, value] of defaultContent) {
-    await neonSql`
+    await query`
       INSERT INTO page_content (page, section, key, value)
       VALUES (${page}, ${section}, ${key}, ${value})
       ON CONFLICT (page, section, key) DO NOTHING

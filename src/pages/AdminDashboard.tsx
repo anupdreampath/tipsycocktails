@@ -144,11 +144,11 @@ function ContentEditor({ token }: { token: string }) {
   const [page, setPage] = useState('home')
   const [content, setContent] = useState<Record<string, Record<string, string>>>({})
   useEffect(() => {
-    fetch(`${API}/api/content/${page}`).then(r => r.json()).then(setContent)
+    fetch(`${API}/api/content?page=${encodeURIComponent(page)}`).then(r => r.json()).then(setContent)
   }, [page])
 
   const save = (section: string, key: string, value: string) => {
-    fetch(`${API}/api/content/${page}`, {
+    fetch(`${API}/api/content?page=${encodeURIComponent(page)}`, {
       method: 'PUT', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
       body: JSON.stringify({ section, key, value }),
     })
@@ -191,7 +191,7 @@ function StoreEditor({ token }: { token: string }) {
   const previewPath = page === 'home' || page === 'site' ? '/' : `/${page}`
 
   const load = () => {
-    fetch(`${API}/api/content/${page}`)
+    fetch(`${API}/api/content?page=${encodeURIComponent(page)}`)
       .then(r => r.json())
       .then(d => setContent(d && typeof d === 'object' ? d : {}))
       .catch(() => setContent({}))
@@ -202,7 +202,7 @@ function StoreEditor({ token }: { token: string }) {
   }, [page])
 
   const save = async (section: string, key: string, value: string) => {
-    const response = await fetch(`${API}/api/content/${page}`, {
+    const response = await fetch(`${API}/api/content?page=${encodeURIComponent(page)}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
       body: JSON.stringify({ section, key, value }),

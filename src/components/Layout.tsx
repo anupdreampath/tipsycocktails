@@ -126,10 +126,8 @@ export function Footer() {
             <h2>Find Us</h2>
             <p>
               <strong>Mobile Bar Hire</strong><br/>
-              Your Address Line 1<br/>
-              City, Postcode<br/>
-              <a href="tel:0000000000">000 000 0000</a><br/>
-              <a href="mailto:hello@yourbrand.com">hello@yourbrand.com</a>
+              <a href="tel:+447822033406">+44 7822 033406</a><br/>
+              <a href="mailto:tipsycocktails1@hotmail.com">tipsycocktails1@hotmail.com</a>
             </p>
           </div>
         </div>
