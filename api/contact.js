@@ -1,5 +1,6 @@
 import { sql } from './lib/db.js'
 import { parseBody } from './lib/body.js'
+import { notifyQuoteRequest } from './lib/notify.js'
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*')
@@ -26,6 +27,8 @@ export default async function handler(req, res) {
       VALUES (${name}, ${email}, ${phone || ''}, ${message})
       RETURNING *
     `
+
+    await notifyQuoteRequest(result[0])
 
     return res.status(201).json({ success: true, data: result[0] })
   } catch (error) {

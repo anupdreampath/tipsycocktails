@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { cmsValue, usePageContent } from '../lib/cms'
 
 export function ScrollToTop() {
   const { pathname } = useLocation()
@@ -15,6 +16,8 @@ export function Header({ navColor = 'black' }: { navColor?: 'white' | 'black' })
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const burgerRef = useRef<HTMLButtonElement | null>(null)
+  const content = usePageContent('site')
+  const logoSrc = cmsValue(content, 'branding', 'logo-image', '/logo.png')
 
   useEffect(() => {
     let ticking = false
@@ -50,7 +53,7 @@ export function Header({ navColor = 'black' }: { navColor?: 'white' | 'black' })
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
         <div className="header-inner">
           <Link to="/" className="logo" aria-label="Tipsy Cocktails">
-            <img className="logo-img" src="/logo.png" alt="Tipsy Cocktails" />
+            <img className="logo-img" src={logoSrc} alt="Tipsy Cocktails" />
           </Link>
           <nav>
             <ul className="nav-list">
@@ -79,7 +82,7 @@ export function Header({ navColor = 'black' }: { navColor?: 'white' | 'black' })
       <div className={`nav-overlay${menuOpen ? ' nav-overlay--open' : ''}`} aria-hidden={!menuOpen}>
         <div className="nav-overlay__top">
           <Link to="/" className="nav-overlay__logo" onClick={close} aria-label="Home">
-            <img src="/logo.png" alt="Tipsy Cocktails" />
+            <img src={logoSrc} alt="Tipsy Cocktails" />
           </Link>
           <button className="nav-overlay__close" onClick={close} aria-label="Close menu">
             <svg width="28" height="28" viewBox="0 0 28 28" fill="none">

@@ -50,6 +50,33 @@ reviews         -- Customer reviews (approved/pending)
 - POST /api/admin/reset-password
 - GET /api/admin/me
 
+### Quote Requests
+- POST /api/contact
+- GET /api/admin/contacts
+
+Quote requests are stored in the `contacts` table and shown in the admin dashboard under `quotes`.
+
+Cloudinary uploads use Vite environment variables:
+
+```bash
+VITE_CLOUDINARY_CLOUD_NAME=ndimwurksz
+VITE_CLOUDINARY_UPLOAD_PRESET=ml_default
+```
+
+Optional instant email notifications use your existing email account SMTP settings:
+
+```bash
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-email-app-password
+QUOTE_NOTIFY_EMAIL=you@example.com
+QUOTE_FROM_EMAIL=your-email@gmail.com
+```
+
+If these variables are not set, the quote request still saves to the database and dashboard. WhatsApp does not allow automatic server-to-personal-WhatsApp notifications without using the official WhatsApp Business API or a provider. The admin quotes panel includes a free click-to-chat WhatsApp link for every inquiry with a phone number.
+
 ### Visitor Tracking
 - POST /api/visit/start
 - POST /api/visit/end

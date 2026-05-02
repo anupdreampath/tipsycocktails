@@ -725,8 +725,14 @@ section.block {
   .classes-row { grid-template-columns: 360px 1fr; }
 }
 @media (max-width: 900px) {
+  .header { padding: 9px 0; }
+  .header-inner { padding: 0 8px; gap: 0; justify-content: space-between; }
+  .logo { height: 72px; margin-right: auto; transform: translateX(-10px); }
+  .logo-img { height: 184px; }
   .nav-list { display: none; }
+  .header-right { margin-left: auto; transform: translateX(0); }
   .header-right .btn { display: none; }
+  .burger { width: 30px; height: 30px; }
   .row-2 { grid-template-columns: 1fr; }
   .classes-row { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
@@ -735,6 +741,28 @@ section.block {
   .footer-bottom { grid-template-columns: 1fr; }
   section.block { padding: 70px 0; }
 }
+
+@media (max-width: 1100px) {
+  .admin-shell {
+    grid-template-columns: 216px minmax(0, 1fr) !important;
+  }
+  .store-editor-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .admin-shell {
+    grid-template-columns: 1fr !important;
+  }
+  .admin-sidebar {
+    min-height: auto !important;
+    position: relative !important;
+  }
+  .admin-main {
+    padding: 12px !important;
+  }
+}
 @media (max-width: 1100px) {
   .featured-scroll { padding-left: 140px; }
 }
@@ -742,12 +770,6 @@ section.block {
   .featured-scroll { padding-left: 80px; }
 }
 @media (max-width: 600px) {
-  .header { padding: 9px 0; }
-  .header-inner { padding: 0 8px; gap: 0; justify-content: space-between; }
-  .logo { height: 72px; margin-right: auto; transform: translateX(-10px); }
-  .logo-img { height: 184px; }
-  .header-right { margin-left: auto; transform: translateX(0); }
-  .burger { width: 30px; height: 30px; }
   .cocktail-card { flex: 0 0 180px; }
   .featured-card { flex: 0 0 260px; }
   .polaroid { flex: 0 0 220px; }

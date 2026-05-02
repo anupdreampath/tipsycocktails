@@ -1,16 +1,17 @@
 import { useEffect, useRef, useState } from 'react';
 import HTMLFlipBook from 'react-pageflip';
+import { cmsValue, usePageContent } from '../lib/cms';
 
 const MENU_IMAGES = [
-  '/1 (1).png',
-  '/2 (1).png',
-  '/3 (1).png',
-  '/4.png',
-  '/5.png',
-  '/6.png',
-  '/7.png',
-  '/8.png',
-  '/9.png',
+  { key: 'page-1-image', src: '/1 (1).png' },
+  { key: 'page-2-image', src: '/2 (1).png' },
+  { key: 'page-3-image', src: '/3 (1).png' },
+  { key: 'page-4-image', src: '/4.png' },
+  { key: 'page-5-image', src: '/5.png' },
+  { key: 'page-6-image', src: '/6.png' },
+  { key: 'page-7-image', src: '/7.png' },
+  { key: 'page-8-image', src: '/8.png' },
+  { key: 'page-9-image', src: '/9.png' },
 ];
 
 type BookMode = 'single' | 'double';
@@ -24,6 +25,7 @@ type PageFlipApi = {
 
 export default function MenuBook() {
   const bookRef = useRef<PageFlipApi | null>(null);
+  const content = usePageContent('menu');
   const [mode, setMode] = useState<BookMode>(() =>
     typeof window !== 'undefined' && window.matchMedia('(max-width: 700px)').matches ? 'single' : 'double'
   );
@@ -61,10 +63,10 @@ export default function MenuBook() {
         flippingTime={500}
         className="menu-flipbook"
       >
-        {MENU_IMAGES.map((src, i) => (
+        {MENU_IMAGES.map((page, i) => (
           <div key={i} className="menu-page">
             <img
-              src={src}
+              src={cmsValue(content, 'pages', page.key, page.src)}
               alt={`Menu page ${i + 1}`}
               className="menu-page-img"
               draggable={false}
