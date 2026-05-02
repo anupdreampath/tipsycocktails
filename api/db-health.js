@@ -1,7 +1,6 @@
-import { sql } from './lib/db.js'
-
 export default async function handler(req, res) {
   try {
+    const { sql } = await import('./lib/db.js')
     const rows = await sql`SELECT current_database() AS database, current_user AS user`
     return res.status(200).json({ ok: true, ...rows[0] })
   } catch (error) {

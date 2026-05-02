@@ -1,5 +1,3 @@
-import pg from 'pg'
-
 function cleanEnv(value) {
   return value?.trim().replace(/^['"]|['"]$/g, '')
 }
@@ -7,21 +5,7 @@ function cleanEnv(value) {
 const DATABASE_URL = cleanEnv(process.env.DATABASE_URL) || 'postgresql://neondb_owner:npg_8N3HYUQKBzka@ep-divine-salad-am6cscmb-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
 const SHOULD_AUTO_SETUP = process.env.AUTO_SETUP_DATABASE === 'true' || process.env.NODE_ENV !== 'production'
 
-const { Pool } = pg
-let pgConnectionString
-try {
-  pgConnectionString = new URL(DATABASE_URL)
-} catch {
-  throw new Error('DATABASE_URL is not a valid Postgres connection string')
-}
-pgConnectionString.searchParams.delete('sslmode')
-pgConnectionString.searchParams.delete('channel_binding')
-
-const pool = new Pool({
-  connectionString: pgConnectionString.toString(),
-  ssl: { rejectUnauthorized: false },
-})
-
+let poolPromise
 let setupPromise
 
 export async function sql(strings, ...values) {
@@ -35,8 +19,36 @@ async function query(strings, ...values) {
   const text = strings.reduce((statement, string, index) => {
     return `${statement}${string}${index < values.length ? `$${index + 1}` : ''}`
   }, '')
+  const pool = await getPool()
   const result = await pool.query(text, values)
   return result.rows
+}
+
+async function getPool() {
+  if (!poolPromise) {
+    poolPromise = createPool()
+  }
+  return poolPromise
+}
+
+async function createPool() {
+  let pgConnectionString
+  try {
+    pgConnectionString = new URL(DATABASE_URL)
+  } catch {
+    throw new Error('DATABASE_URL is not a valid Postgres connection string')
+  }
+
+  pgConnectionString.searchParams.delete('sslmode')
+  pgConnectionString.searchParams.delete('channel_binding')
+
+  const pg = await import('pg')
+  const Pool = pg.default?.Pool || pg.Pool
+
+  return new Pool({
+    connectionString: pgConnectionString.toString(),
+    ssl: { rejectUnauthorized: false },
+  })
 }
 
 export function ensureDatabase() {
