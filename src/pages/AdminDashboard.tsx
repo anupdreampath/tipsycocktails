@@ -6,6 +6,7 @@ const CLOUDINARY_CLOUD_NAME = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME || ''
 const CLOUDINARY_UPLOAD_PRESET = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET || ''
 const EDITABLE_PAGES = ['site','home','menu','classes','reviews','faq','contact']
 const ADMIN_TABS = ['leads','visitors','content','store','reviews','password'] as const
+const WHATSAPP_MESSAGE = encodeURIComponent('Hello, I would like some information about your service.')
 
 export default function AdminDashboard() {
   const navigate = useNavigate()
@@ -90,7 +91,7 @@ function LeadsCollector({ token }: { token: string }) {
               <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
                 <a href={`mailto:${contact.email}?subject=Your Tipsy Cocktails enquiry`} style={{ padding: '7px 10px', background: '#6053cc', color: 'white', borderRadius: '6px', fontWeight: 700, fontSize: '13px' }}>Email</a>
                 {contact.phone && (
-                  <a href={`https://wa.me/${String(contact.phone).replace(/[^\d]/g, '')}`} target="_blank" rel="noreferrer" style={{ padding: '7px 10px', background: '#1f9d55', color: 'white', borderRadius: '6px', fontWeight: 700, fontSize: '13px' }}>WhatsApp</a>
+                  <a href={`https://wa.me/${String(contact.phone).replace(/[^\d]/g, '')}?text=${WHATSAPP_MESSAGE}`} target="_blank" rel="noreferrer" style={{ padding: '7px 10px', background: '#1f9d55', color: 'white', borderRadius: '6px', fontWeight: 700, fontSize: '13px' }}>WhatsApp</a>
                 )}
               </div>
             </div>

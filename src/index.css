@@ -717,6 +717,42 @@ section.block {
 .footer-bottom .quick-links { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; }
 .footer-bottom .quick-links a:hover { opacity: 0.7; }
 
+.whatsapp-cta {
+  position: fixed;
+  right: 22px;
+  bottom: calc(24px + env(safe-area-inset-bottom));
+  z-index: 220;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  color: #fff;
+  background:
+    radial-gradient(circle at 30% 22%, rgba(255,255,255,0.38) 0 18%, transparent 19%),
+    linear-gradient(145deg, #37e878 0%, #20c463 45%, #0f8f43 100%);
+  border: 1px solid rgba(255,255,255,0.28);
+  box-shadow:
+    0 6px 0 #086c31,
+    0 18px 30px rgba(0, 0, 0, 0.36),
+    inset 0 2px 3px rgba(255,255,255,0.35),
+    inset 0 -5px 10px rgba(0,0,0,0.16);
+  transition: transform .2s, box-shadow .2s, filter .2s;
+}
+.whatsapp-cta:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 0 #086c31,
+    0 22px 34px rgba(0, 0, 0, 0.4),
+    inset 0 2px 3px rgba(255,255,255,0.35),
+    inset 0 -5px 10px rgba(0,0,0,0.16);
+}
+.whatsapp-cta__icon {
+  display: block;
+  filter: drop-shadow(0 2px 1px rgba(0,0,0,0.18));
+}
+
 /* ============ RESPONSIVE ============ */
 @media (max-width: 1100px) {
   .nav-list { gap: 24px; }
@@ -770,6 +806,12 @@ section.block {
   .featured-scroll { padding-left: 80px; }
 }
 @media (max-width: 600px) {
+  .whatsapp-cta {
+    right: 16px;
+    bottom: calc(88px + env(safe-area-inset-bottom));
+    width: 56px;
+    height: 56px;
+  }
   .cocktail-card { flex: 0 0 180px; }
   .featured-card { flex: 0 0 260px; }
   .polaroid { flex: 0 0 220px; }

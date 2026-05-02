@@ -2,6 +2,9 @@ import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { cmsValue, usePageContent } from '../lib/cms'
 
+const WHATSAPP_MESSAGE = encodeURIComponent('Hello, I would like some information about your service.')
+const WHATSAPP_URL = `https://wa.me/447822033406?text=${WHATSAPP_MESSAGE}`
+
 export function ScrollToTop() {
   const { pathname } = useLocation()
 
@@ -127,7 +130,8 @@ export function Footer() {
             <p>
               <strong>Mobile Bar Hire</strong><br/>
               <a href="tel:+447822033406">+44 7822 033406</a><br/>
-              <a href="mailto:tipsycocktails1@hotmail.com">tipsycocktails1@hotmail.com</a>
+              <a href="mailto:tipsycocktails1@hotmail.com">tipsycocktails1@hotmail.com</a><br/>
+              <a href={WHATSAPP_URL} target="_blank" rel="noreferrer">WhatsApp us</a>
             </p>
           </div>
         </div>
@@ -163,6 +167,11 @@ export default function Layout({ children, navColor = 'black' }: { children: Rea
       <Header navColor={navColor} />
       <main>{children}</main>
       <Footer />
+      <a className="whatsapp-cta" href={WHATSAPP_URL} target="_blank" rel="noreferrer" aria-label="Chat with Tipsy Cocktails on WhatsApp">
+        <svg aria-hidden="true" className="whatsapp-cta__icon" viewBox="0 0 32 32" width="34" height="34">
+          <path fill="currentColor" d="M16.01 3.2c-7.04 0-12.76 5.62-12.76 12.55 0 2.2.59 4.36 1.71 6.25L3.2 28.8l6.99-1.68a13.02 13.02 0 0 0 5.82 1.39c7.04 0 12.76-5.62 12.76-12.55S23.05 3.2 16.01 3.2Zm0 22.92c-1.86 0-3.68-.49-5.28-1.41l-.38-.22-4.14.99 1.05-4.02-.25-.41a10.06 10.06 0 0 1-1.52-5.3c0-5.6 4.72-10.16 10.52-10.16s10.52 4.56 10.52 10.16-4.72 10.37-10.52 10.37Zm5.78-7.6c-.32-.16-1.88-.91-2.17-1.01-.29-.11-.5-.16-.71.16-.21.31-.82 1.01-1 1.22-.18.21-.37.24-.69.08-.32-.16-1.34-.49-2.55-1.55-.94-.83-1.58-1.85-1.76-2.16-.18-.31-.02-.48.14-.64.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.71-1.68-.97-2.3-.26-.6-.52-.52-.71-.53h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.06-1.11 2.59s1.14 3.01 1.3 3.22c.16.21 2.24 3.36 5.42 4.71.76.32 1.35.51 1.81.65.76.24 1.45.2 2 .12.61-.09 1.88-.75 2.14-1.48.26-.72.26-1.34.18-1.48-.08-.13-.29-.21-.61-.37Z" />
+        </svg>
+      </a>
     </>
   )
 }
