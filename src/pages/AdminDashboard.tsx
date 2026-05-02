@@ -5,7 +5,7 @@ const API = ''
 const CLOUDINARY_CLOUD_NAME = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME || ''
 const CLOUDINARY_UPLOAD_PRESET = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET || ''
 const EDITABLE_PAGES = ['site','home','menu','classes','reviews','faq','contact']
-const ADMIN_TABS = ['quotes','visitors','content','store','reviews','password'] as const
+const ADMIN_TABS = ['leads','visitors','content','store','reviews','password'] as const
 
 export default function AdminDashboard() {
   const navigate = useNavigate()
@@ -39,7 +39,7 @@ export default function AdminDashboard() {
             </div>
           </div>
           <div>
-            {tab === 'quotes' && <QuotesCollector token={token!} />}
+            {tab === 'leads' && <LeadsCollector token={token!} />}
             {tab === 'visitors' && <Visitors token={token!} />}
             {tab === 'content' && <ContentEditor token={token!} />}
             {tab === 'store' && <StoreEditor token={token!} />}
@@ -52,7 +52,7 @@ export default function AdminDashboard() {
   )
 }
 
-function QuotesCollector({ token }: { token: string }) {
+function LeadsCollector({ token }: { token: string }) {
   const [contacts, setContacts] = useState<any[]>([])
 
   const load = () => {
@@ -70,15 +70,15 @@ function QuotesCollector({ token }: { token: string }) {
     <div>
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: '16px', alignItems: 'center', marginBottom: '18px' }}>
         <div>
-          <h2 style={{ margin: '0 0 4px' }}>Quote Requests ({contacts.length})</h2>
-          <p style={{ margin: 0, color: '#666', fontSize: '14px' }}>Every contact form submission is saved here so you can reply quickly.</p>
+          <h2 style={{ margin: '0 0 4px' }}>Leads ({contacts.length})</h2>
+          <p style={{ margin: 0, color: '#666', fontSize: '14px' }}>Every enquiry is saved here so you can reply quickly.</p>
         </div>
         <button onClick={load} style={{ padding: '8px 12px', background: '#eee', color: '#333', borderRadius: '6px', fontWeight: 700 }}>Refresh</button>
       </div>
 
       <div style={{ display: 'grid', gap: '12px' }}>
         {contacts.length === 0 && (
-          <div style={{ padding: '18px', background: '#f9f9f9', borderRadius: '8px', color: '#666' }}>No quote requests yet.</div>
+          <div style={{ padding: '18px', background: '#f9f9f9', borderRadius: '8px', color: '#666' }}>No leads yet.</div>
         )}
         {contacts.map(contact => (
           <div key={contact.id} style={{ padding: '16px', background: '#f9f9f9', border: '1px solid #eee', borderRadius: '8px' }}>
@@ -88,7 +88,7 @@ function QuotesCollector({ token }: { token: string }) {
                 <div style={{ color: '#777', fontSize: '13px', marginTop: '2px' }}>{new Date(contact.created_at).toLocaleString()}</div>
               </div>
               <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
-                <a href={`mailto:${contact.email}?subject=Your Tipsy Cocktails quote request`} style={{ padding: '7px 10px', background: '#6053cc', color: 'white', borderRadius: '6px', fontWeight: 700, fontSize: '13px' }}>Email</a>
+                <a href={`mailto:${contact.email}?subject=Your Tipsy Cocktails enquiry`} style={{ padding: '7px 10px', background: '#6053cc', color: 'white', borderRadius: '6px', fontWeight: 700, fontSize: '13px' }}>Email</a>
                 {contact.phone && (
                   <a href={`https://wa.me/${String(contact.phone).replace(/[^\d]/g, '')}`} target="_blank" rel="noreferrer" style={{ padding: '7px 10px', background: '#1f9d55', color: 'white', borderRadius: '6px', fontWeight: 700, fontSize: '13px' }}>WhatsApp</a>
                 )}

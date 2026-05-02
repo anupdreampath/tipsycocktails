@@ -2,7 +2,8 @@ function cleanEnv(value) {
   return value?.trim().replace(/^['"]|['"]$/g, '')
 }
 
-const DATABASE_URL = cleanEnv(process.env.DATABASE_URL) || 'postgresql://neondb_owner:npg_8N3HYUQKBzka@ep-divine-salad-am6cscmb-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+const FALLBACK_DATABASE_URL = 'postgresql://neondb_owner:npg_8N3HYUQKBzka@ep-divine-salad-am6cscmb-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+const DATABASE_URL = getDatabaseUrl()
 const SHOULD_AUTO_SETUP = process.env.AUTO_SETUP_DATABASE === 'true' || process.env.NODE_ENV !== 'production'
 
 let poolPromise
@@ -32,12 +33,7 @@ async function getPool() {
 }
 
 async function createPool() {
-  let pgConnectionString
-  try {
-    pgConnectionString = new URL(DATABASE_URL)
-  } catch {
-    throw new Error('DATABASE_URL is not a valid Postgres connection string')
-  }
+  const pgConnectionString = new URL(DATABASE_URL)
 
   pgConnectionString.searchParams.delete('sslmode')
   pgConnectionString.searchParams.delete('channel_binding')
@@ -49,6 +45,34 @@ async function createPool() {
     connectionString: pgConnectionString.toString(),
     ssl: { rejectUnauthorized: false },
   })
+}
+
+function getDatabaseUrl() {
+  const candidates = [
+    process.env.DATABASE_URL,
+    process.env.POSTGRES_URL,
+    process.env.POSTGRES_PRISMA_URL,
+    process.env.POSTGRES_URL_NON_POOLING,
+    FALLBACK_DATABASE_URL,
+  ]
+
+  for (const candidate of candidates) {
+    const value = cleanEnv(candidate)
+    if (isValidPostgresUrl(value)) return value
+  }
+
+  throw new Error('No valid Postgres connection string was found')
+}
+
+function isValidPostgresUrl(value) {
+  if (!value) return false
+
+  try {
+    const url = new URL(value)
+    return url.protocol === 'postgresql:' || url.protocol === 'postgres:'
+  } catch {
+    return false
+  }
 }
 
 export function ensureDatabase() {

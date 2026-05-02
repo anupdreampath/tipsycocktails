@@ -50,11 +50,11 @@ reviews         -- Customer reviews (approved/pending)
 - POST /api/admin/reset-password
 - GET /api/admin/me
 
-### Quote Requests
+### Leads
 - POST /api/contact
 - GET /api/admin/contacts
 
-Quote requests are stored in the `contacts` table and shown in the admin dashboard under `quotes`.
+Enquiries are stored in the `contacts` table and shown in the admin dashboard under `leads`.
 
 Cloudinary uploads use Vite environment variables:
 
@@ -75,7 +75,7 @@ QUOTE_NOTIFY_EMAIL=you@example.com
 QUOTE_FROM_EMAIL=your-email@gmail.com
 ```
 
-If these variables are not set, the quote request still saves to the database and dashboard. WhatsApp does not allow automatic server-to-personal-WhatsApp notifications without using the official WhatsApp Business API or a provider. The admin quotes panel includes a free click-to-chat WhatsApp link for every inquiry with a phone number.
+If these variables are not set, the enquiry still saves to the database and dashboard. WhatsApp does not allow automatic server-to-personal-WhatsApp notifications without using the official WhatsApp Business API or a provider. The admin leads panel includes a free click-to-chat WhatsApp link for every inquiry with a phone number.
 
 Database auto-setup runs in local development. In production, the app uses the existing Neon schema to avoid slow Vercel cold starts. If you ever point production at a brand-new empty database, temporarily set:
 
