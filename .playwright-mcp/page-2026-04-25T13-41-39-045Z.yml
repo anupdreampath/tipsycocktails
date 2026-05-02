@@ -1,0 +1,219 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2F
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2F
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2F
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]
+            - listbox
+          - button "Visual search" [ref=e52] [cursor=pointer]:
+            - img [ref=e53]
+        - generic [ref=e55]:
+          - link "Get Unsplash+" [ref=e56] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e57] [cursor=pointer]:
+            - /url: /login?referrer=%2F
+        - button "Submit an image" [ref=e59] [cursor=pointer]
+      - list [ref=e65]:
+        - listitem [ref=e66]:
+          - link "Featured":
+            - /url: /
+        - listitem [ref=e67]:
+          - link "New Spring" [ref=e68] [cursor=pointer]:
+            - /url: /t/spring
+            - generic [ref=e69]:
+              - generic [ref=e70]: New
+              - text: Spring
+        - listitem [ref=e71]:
+          - link "Wallpapers" [ref=e72] [cursor=pointer]:
+            - /url: /t/wallpapers
+        - listitem [ref=e73]:
+          - link "3D Renders" [ref=e74] [cursor=pointer]:
+            - /url: /t/3d-renders
+        - listitem [ref=e75]:
+          - link "Nature" [ref=e76] [cursor=pointer]:
+            - /url: /t/nature
+        - listitem [ref=e77]:
+          - link "Textures" [ref=e78] [cursor=pointer]:
+            - /url: /t/textures-patterns
+        - listitem [ref=e79]:
+          - link "Film" [ref=e80] [cursor=pointer]:
+            - /url: /t/film
+        - listitem [ref=e81]:
+          - link "Architecture" [ref=e82] [cursor=pointer]:
+            - /url: /t/architecture-interior
+        - listitem [ref=e83]:
+          - link "Street Photography" [ref=e84] [cursor=pointer]:
+            - /url: /t/street-photography
+        - listitem [ref=e85]:
+          - link "Experimental" [ref=e86] [cursor=pointer]:
+            - /url: /t/experimental
+        - listitem [ref=e87]:
+          - link "Travel" [ref=e88] [cursor=pointer]:
+            - /url: /t/travel
+        - listitem [ref=e89]:
+          - link "People" [ref=e90] [cursor=pointer]:
+            - /url: /t/people
+      - generic [ref=e91]:
+        - generic [ref=e94]:
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - text: Unsplash
+                - heading "The internet’s source for visuals." [level=1] [ref=e100]
+                - paragraph [ref=e101]: Powered by creators everywhere.
+              - generic [ref=e102]:
+                - text: Supported by
+                - img "Squarespace" [ref=e103]
+            - search "Find visuals sitewide" [ref=e106]:
+              - button "Search Unsplash" [ref=e107] [cursor=pointer]:
+                - img [ref=e108]
+              - combobox [ref=e110]:
+                - searchbox "Search Unsplash" [ref=e111]
+                - listbox
+              - button "Visual search" [ref=e113] [cursor=pointer]:
+                - img [ref=e114]
+          - link "New premium visuals every month. Available to Unsplash+ members. Get Unsplash+" [ref=e117] [cursor=pointer]:
+            - /url: /plus
+            - generic [ref=e119]:
+              - img [ref=e120]
+              - generic [ref=e122]:
+                - heading "New premium visuals every month." [level=2] [ref=e123]
+                - paragraph [ref=e124]: Available to Unsplash+ members.
+              - generic [ref=e125]: Get Unsplash+
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - figure [ref=e136]:
+              - link "Woman meditating on yoga mat with phone and drink." [ref=e139]:
+                - /url: /photos/woman-meditating-on-yoga-mat-with-phone-and-drink-G94PWBjH-Yo
+                - img "Woman meditating on yoga mat with phone and drink." [ref=e140]
+            - figure [ref=e141]:
+              - link "Sunlight streams through a canyon landscape" [ref=e144]:
+                - /url: /photos/sunlight-streams-through-a-canyon-landscape-fyMy4WgK1kI
+                - img "Sunlight streams through a canyon landscape" [ref=e145]
+            - figure [ref=e146]:
+              - link "Dramatic mountain range with sun breaking through clouds" [ref=e149]:
+                - /url: /photos/dramatic-mountain-range-with-sun-breaking-through-clouds-nTZZj8dPQhM
+                - img "Dramatic mountain range with sun breaking through clouds" [ref=e150]
+            - figure [ref=e151]:
+              - link "Man on bicycle crosses busy shibuya street at night" [ref=e154]:
+                - /url: /photos/man-on-bicycle-crosses-busy-shibuya-street-at-night-aWteZ838cI8
+                - img "Man on bicycle crosses busy shibuya street at night" [ref=e155]
+            - figure [ref=e156]:
+              - link "a group of mounds of grass with a tree in the middle of them" [ref=e159]:
+                - /url: /photos/a-group-of-mounds-of-grass-with-a-tree-in-the-middle-of-them-lmJw1VBWywQ
+                - img "a group of mounds of grass with a tree in the middle of them" [ref=e160]
+            - figure [ref=e161]:
+              - link "New york city skyline with bridge and highway traffic." [ref=e164]:
+                - /url: /photos/new-york-city-skyline-with-bridge-and-highway-traffic-x1NBoEVrBUw
+                - img "New york city skyline with bridge and highway traffic." [ref=e165]
+            - figure [ref=e167]:
+              - link "Woman cooking on a stovetop in a kitchen" [ref=e170]:
+                - /url: /photos/woman-cooking-on-a-stovetop-in-a-kitchen-eoTvdke70Vw
+                - img "Woman cooking on a stovetop in a kitchen" [ref=e171]
+            - figure [ref=e172]:
+              - link "Woman holding camera on beach at sunset" [ref=e175]:
+                - /url: /photos/woman-holding-camera-on-beach-at-sunset-L3dmSb_TXFY
+                - img "Woman holding camera on beach at sunset" [ref=e176]
+            - figure [ref=e177]:
+              - link "Ornate temple rooftops with intricate colorful details" [ref=e180]:
+                - /url: /photos/ornate-temple-rooftops-with-intricate-colorful-details-miQUQDu-3uU
+                - img "Ornate temple rooftops with intricate colorful details" [ref=e181]
+            - figure [ref=e183]:
+              - link "Grandfather and grandchildren prepare food in kitchen" [ref=e186]:
+                - /url: /photos/grandfather-and-grandchildren-prepare-food-in-kitchen-pazs-Hi5mf8
+                - img "Grandfather and grandchildren prepare food in kitchen" [ref=e187]
+          - generic [ref=e188]:
+            - figure [ref=e189]:
+              - link "a black and white photo of a leafy tree" [ref=e192]:
+                - /url: /photos/a-black-and-white-photo-of-a-leafy-tree-p8QntaADuWo
+                - img "a black and white photo of a leafy tree" [ref=e193]
+            - figure [ref=e194]:
+              - link "Earth rising over the moon's surface" [ref=e197]:
+                - /url: /photos/earth-rising-over-the-moons-surface-w9sZL_hvNug
+                - img "Earth rising over the moon's surface" [ref=e198]
+            - figure [ref=e199]:
+              - link "a woman with curly hair wearing a tank top" [ref=e202]:
+                - /url: /photos/a-woman-with-curly-hair-wearing-a-tank-top-JXDFfSHarvY
+                - img "a woman with curly hair wearing a tank top" [ref=e203]
+            - figure [ref=e204]:
+              - link "A tabby cat with green eyes stares intently." [ref=e207]:
+                - /url: /photos/a-tabby-cat-with-green-eyes-stares-intently-lbAFsc8duP8
+                - img "A tabby cat with green eyes stares intently." [ref=e208]
+            - figure [ref=e209]:
+              - link "A lone sailboat on the vast ocean at sunset." [ref=e212]:
+                - /url: /photos/a-lone-sailboat-on-the-vast-ocean-at-sunset--8tFu_2gh8s
+                - img "A lone sailboat on the vast ocean at sunset." [ref=e213]
+            - figure [ref=e214]:
+              - link "Cakes are set out on a table with stairs." [ref=e217]:
+                - /url: /photos/cakes-are-set-out-on-a-table-with-stairs-Ny4d3UFxLII
+                - img "Cakes are set out on a table with stairs." [ref=e218]
+            - figure [ref=e219]:
+              - link "Pink magnolia blossoms on a tree branch." [ref=e222]:
+                - /url: /photos/pink-magnolia-blossoms-on-a-tree-branch-ggZVOqfqFyw
+                - img "Pink magnolia blossoms on a tree branch." [ref=e223]
+          - generic [ref=e224]:
+            - figure [ref=e225]:
+              - link "a black and white photo of an empty room" [ref=e228]:
+                - /url: /photos/a-black-and-white-photo-of-an-empty-room-a8M5S6Skf2A
+                - img "a black and white photo of an empty room" [ref=e229]
+            - figure [ref=e231]:
+              - link "Woman preparing food with a girl watching" [ref=e234]:
+                - /url: /photos/woman-preparing-food-with-a-girl-watching-sbWDEX4BXmY
+                - img "Woman preparing food with a girl watching" [ref=e235]
+            - figure [ref=e236]:
+              - link "Bookshelves filled with books and stacked on the floor." [ref=e239]:
+                - /url: /photos/bookshelves-filled-with-books-and-stacked-on-the-floor-UW6g4jq4Qss
+                - img "Bookshelves filled with books and stacked on the floor." [ref=e240]
+            - figure [ref=e241]:
+              - link "Modern building facade with vertical striped design" [ref=e244]:
+                - /url: /photos/modern-building-facade-with-vertical-striped-design-m6GBW6dRP5Q
+                - img "Modern building facade with vertical striped design" [ref=e245]
+            - figure [ref=e246]:
+              - link "a woman leaning against a wall reading a book" [ref=e249]:
+                - /url: /photos/a-woman-leaning-against-a-wall-reading-a-book-gZrcO_S7FN4
+                - img "a woman leaning against a wall reading a book" [ref=e250]
+            - figure [ref=e251]:
+              - link "Woman in denim outfit and cowboy hat poses near barn" [ref=e254]:
+                - /url: /photos/woman-in-denim-outfit-and-cowboy-hat-poses-near-barn-wYeFCBvGJ1s
+                - img "Woman in denim outfit and cowboy hat poses near barn" [ref=e255]
+            - figure [ref=e256]:
+              - link "Abstract swirls of pink and peach paint" [ref=e259]:
+                - /url: /photos/abstract-swirls-of-pink-and-peach-paint-7G18nE_wVwk
+                - img "Abstract swirls of pink and peach paint" [ref=e260]
+    - generic:
+      - region "Notifications"

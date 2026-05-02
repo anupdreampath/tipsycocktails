@@ -1,0 +1,260 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: cocktail drink glass colorful
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 4.8k":
+                - /url: /s/photos/cocktail-drink-glass-colorful
+                - img
+                - text: Photos
+                - generic: 4.8k
+            - listitem [ref=e73]:
+              - link "Illustrations 411" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/cocktail-drink-glass-colorful
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "411"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Cocktail drink glass colorful" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "cocktail" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/cocktail
+              - link "drink" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/drink
+              - link "beverage" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/beverage
+              - link "cocktail recipe" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/cocktail-recipe
+              - link "glass" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/glass
+              - link "garnish" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/garnish
+              - link "drink photography boozy" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/drink-photography-boozy
+              - link "socializing" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/socializing
+              - link "cocktail menu creative cocktail" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/cocktail-menu-creative-cocktail
+              - link "happy hour mixologist" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/happy-hour-mixologist
+              - link "mix and mingle" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/mix-and-mingle
+              - link "cocktail presentation cocktail artistry" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/cocktail-presentation-cocktail-artistry
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - link "a group of different colored drinks sitting next to each other" [ref=e146]:
+                  - /url: /photos/a-group-of-different-colored-drinks-sitting-next-to-each-other-7-yYp2RW2no
+                  - img "a group of different colored drinks sitting next to each other" [ref=e147]
+              - generic [ref=e148]:
+                - heading "Sponsored images" [level=4] [ref=e149]:
+                  - generic [ref=e150]: Sponsored images
+                  - link [ref=e151] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=cocktail+drink+glass+colorful&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e152]
+                - generic [ref=e154]:
+                  - link "Glass of Spritz cocktail" [ref=e155] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/glass-of-spritz-cocktail-gm1167734128-322144427?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Glass of Spritz cocktail" [ref=e156]
+                  - link "Women hands toasting with summer cocktails" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/women-hands-toasting-with-summer-cocktails-gm1001299780-270670552?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Women hands toasting with summer cocktails" [ref=e158]
+                  - link "Glass goblets create wonderful coloured shadows on a solar table. The shadow of sunlight reflect to glass of pink and yellow, emerald colors. Top view." [ref=e159] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/glass-goblets-create-wonderful-coloured-shadows-on-a-solar-table-the-shadow-of-gm1207329491-348553883?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Glass goblets create wonderful coloured shadows on a solar table. The shadow of sunlight reflect to glass of pink and yellow, emerald colors. Top view." [ref=e160]
+                  - link "cocktail splashing in a smoky background" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/cocktail-splashing-in-a-smoky-background-gm906025790-249811330?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "cocktail splashing in a smoky background" [ref=e162]
+                - link "Get 20% off with code UNSPLASH20" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=cocktail+drink+glass+colorful&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e164]:
+                - link "a drink with a straw and a straw hat next to it" [ref=e167]:
+                  - /url: /photos/a-drink-with-a-straw-and-a-straw-hat-next-to-it-wexS_XIyuU4
+                  - img "a drink with a straw and a straw hat next to it" [ref=e168]
+              - figure [ref=e169]:
+                - link "a person pouring a drink into a glass" [ref=e172]:
+                  - /url: /photos/a-person-pouring-a-drink-into-a-glass-UTHkanfPFL8
+                  - img "a person pouring a drink into a glass" [ref=e173]
+              - figure [ref=e174]:
+                - link "three glasses of different types of drinks on a table" [ref=e177]:
+                  - /url: /photos/three-glasses-of-different-types-of-drinks-on-a-table-z34ZJRmLaEA
+                  - img "three glasses of different types of drinks on a table" [ref=e178]
+              - figure [ref=e179]:
+                - link "a green drink sitting on top of a wooden table" [ref=e182]:
+                  - /url: /photos/a-green-drink-sitting-on-top-of-a-wooden-table-_YYKeZJmTjI
+                  - img "a green drink sitting on top of a wooden table" [ref=e183]
+              - figure [ref=e184]:
+                - link "Two blurred glasses, one red and one yellow" [ref=e187]:
+                  - /url: /photos/two-blurred-glasses-one-red-and-one-yellow-e2k1AqBYP2o
+                  - img "Two blurred glasses, one red and one yellow" [ref=e188]
+              - figure [ref=e189]:
+                - link "a person holding a glass with a drink in it" [ref=e192]:
+                  - /url: /photos/a-person-holding-a-glass-with-a-drink-in-it-WZosd9FaGsY
+                  - img "a person holding a glass with a drink in it" [ref=e193]
+            - generic [ref=e194]:
+              - figure [ref=e195]:
+                - link "Two glasses of clear liquid on blue surface" [ref=e198]:
+                  - /url: /photos/two-glasses-of-clear-liquid-on-blue-surface-zm8dwbu8eoI
+                  - img "Two glasses of clear liquid on blue surface" [ref=e199]
+              - figure [ref=e200]:
+                - link "A pink liquid is poured into a flower-shaped glass." [ref=e203]:
+                  - /url: /photos/a-pink-liquid-is-poured-into-a-flower-shaped-glass-5ci2_W65aLk
+                  - img "A pink liquid is poured into a flower-shaped glass." [ref=e204]
+              - figure [ref=e205]:
+                - link "A festive cocktail with a green apple garnish" [ref=e208]:
+                  - /url: /photos/a-festive-cocktail-with-a-green-apple-garnish-RfWVcJ48VOY
+                  - img "A festive cocktail with a green apple garnish" [ref=e209]
+              - figure [ref=e210]:
+                - link "a close up of a wine glass on a table" [ref=e213]:
+                  - /url: /photos/a-close-up-of-a-wine-glass-on-a-table-_G5PFxtjCyE
+                  - img "a close up of a wine glass on a table" [ref=e214]
+              - figure [ref=e215]:
+                - link "a table topped with two martini glasses filled with pink liquid" [ref=e218]:
+                  - /url: /photos/a-table-topped-with-two-martini-glasses-filled-with-pink-liquid-8Fg77ijE1Nw
+                  - img "a table topped with two martini glasses filled with pink liquid" [ref=e219]
+              - figure [ref=e220]:
+                - link "a drink sitting on top of a wooden table" [ref=e223]:
+                  - /url: /photos/a-drink-sitting-on-top-of-a-wooden-table-2g4nNJAueEM
+                  - img "a drink sitting on top of a wooden table" [ref=e224]
+              - figure [ref=e225]:
+                - link "a woman pouring a drink into a glass" [ref=e228]:
+                  - /url: /photos/a-woman-pouring-a-drink-into-a-glass-aEhlTIm9vH8
+                  - img "a woman pouring a drink into a glass" [ref=e229]
+            - generic [ref=e230]:
+              - contentinfo [ref=e235]:
+                - generic [ref=e241]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e243]:
+                - link "Hand holding a vibrant berry cocktail with mint garnish." [ref=e246]:
+                  - /url: /photos/hand-holding-a-vibrant-berry-cocktail-with-mint-garnish-GWHPPxt75Cw
+                  - img "Hand holding a vibrant berry cocktail with mint garnish." [ref=e247]
+              - figure [ref=e248]:
+                - link "a person pouring a drink into a wine glass" [ref=e251]:
+                  - /url: /photos/a-person-pouring-a-drink-into-a-wine-glass-AgB-QZSdyjk
+                  - img "a person pouring a drink into a wine glass" [ref=e252]
+              - figure [ref=e253]:
+                - link "two glasses of water with a lemon wedge in them" [ref=e256]:
+                  - /url: /photos/two-glasses-of-water-with-a-lemon-wedge-in-them-We38LQgpvRc
+                  - img "two glasses of water with a lemon wedge in them" [ref=e257]
+              - figure [ref=e258]:
+                - link "a woman sitting at a bar with a drink in her hand" [ref=e261]:
+                  - /url: /photos/a-woman-sitting-at-a-bar-with-a-drink-in-her-hand-lIY5JYG7E-g
+                  - img "a woman sitting at a bar with a drink in her hand" [ref=e262]
+              - figure [ref=e263]:
+                - link "a close up of a drink on a table" [ref=e266]:
+                  - /url: /photos/a-close-up-of-a-drink-on-a-table-tlgJ4oD06fA
+                  - img "a close up of a drink on a table" [ref=e267]
+              - figure [ref=e268]:
+                - link "a pink drink sitting on top of a wooden table" [ref=e271]:
+                  - /url: /photos/a-pink-drink-sitting-on-top-of-a-wooden-table-PukJAYiQHc4
+                  - img "a pink drink sitting on top of a wooden table" [ref=e272]
+          - button "Load more" [ref=e275] [cursor=pointer]
+          - generic [ref=e278]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e279]:
+              - text: Browse premium images on iStock
+              - generic [ref=e280]: "| Claim your discount now"
+            - generic [ref=e282]:
+              - link "Five colorful gin tonic cocktails in wine glasses on bar counter in pup or restaurant" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/five-colorful-gin-tonic-cocktails-in-wine-glasses-on-bar-counter-in-pup-or-restaurant-gm928321242-254628629?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Five colorful gin tonic cocktails in wine glasses on bar counter in pup or restaurant" [ref=e284]
+              - link "Row of Italian Soda Drinks" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/row-of-italian-soda-drinks-gm482100878-69829367?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Row of Italian Soda Drinks" [ref=e286]
+              - link "Cappuccino" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/cappuccino-gm182145978-1167291?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Cappuccino" [ref=e288]
+              - link "Kalamansi orange drink" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/kalamansi-orange-drink-gm2224097448-640257322?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Kalamansi orange drink" [ref=e290]
+              - link "Green aperitif in a Martini glass" [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/green-aperitif-in-a-martini-glass-gm2178727066-598043395?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Green aperitif in a Martini glass" [ref=e292]
+              - link "Cocktails" [ref=e293] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/cocktails-gm1188917360-336438332?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Cocktails" [ref=e294]
+              - link "Luxury celebration set up" [ref=e295] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/luxury-celebration-set-up-gm874895492-244271792?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Luxury celebration set up" [ref=e296]
+              - generic [ref=e297]:
+                - link "Punch Bowl" [ref=e298] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/punch-bowl-gm92791077-851853?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A
+                  - img "Punch Bowl" [ref=e299]
+                - link "View more on iStock ↗" [ref=e300] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-drink-glass-colorful&utm_term=cocktail+drink+glass+colorful%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=cocktail+drink+glass+colorful&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e302]:
+            - link [ref=e303] [cursor=pointer]:
+              - /url: /
+              - img [ref=e304]
+            - paragraph [ref=e306]: Make something awesome
+    - generic:
+      - region "Notifications"

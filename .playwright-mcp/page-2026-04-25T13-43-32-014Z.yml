@@ -1,0 +1,260 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fcorporate-event-dinner-party
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcorporate-event-dinner-party
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcorporate-event-dinner-party
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: corporate event dinner party
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fcorporate-event-dinner-party
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 8.2k":
+                - /url: /s/photos/corporate-event-dinner-party
+                - img
+                - text: Photos
+                - generic: 8.2k
+            - listitem [ref=e73]:
+              - link "Illustrations 32" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/corporate-event-dinner-party
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "32"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Corporate event dinner party" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "corporate event" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/corporate-event
+              - link "dinner party" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/dinner-party
+              - link "banquet" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/banquet
+              - link "celebration" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/celebration
+              - link "table setting" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/table-setting
+              - link "formal event" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/formal-event
+              - link "social event" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/social-event
+              - link "event" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/event
+              - link "fine dining" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/fine-dining
+              - link "social gathering" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/social-gathering
+              - link "gathering" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/gathering
+              - link "gala" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/gala
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - link "A group of people sitting around a table" [ref=e146]:
+                  - /url: /photos/a-group-of-people-sitting-around-a-table-s392H0nNuCk
+                  - img "A group of people sitting around a table" [ref=e147]
+              - generic [ref=e148]:
+                - heading "Sponsored images" [level=4] [ref=e149]:
+                  - generic [ref=e150]: Sponsored images
+                  - link [ref=e151] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=corporate+event+dinner+party&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e152]
+                - generic [ref=e154]:
+                  - link "Catering at a corporate event with an array of grilled meats and vegetables being served by a guest in a busy, festive atmosphere" [ref=e155] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/catering-at-a-corporate-event-with-an-array-of-grilled-meats-and-vegetables-being-gm2175726520-595261604?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Catering at a corporate event with an array of grilled meats and vegetables being served by a guest in a busy, festive atmosphere" [ref=e156]
+                  - link "Table decoration for an event" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/table-decoration-for-an-event-gm1457739367-492471569?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Table decoration for an event" [ref=e158]
+                  - link "Businesswoman taking a speech at the corporate lunch" [ref=e159] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/businesswoman-taking-a-speech-at-the-corporate-lunch-gm1446049165-484253700?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Businesswoman taking a speech at the corporate lunch" [ref=e160]
+                  - link "Asian different cultural social life style weekend gathering outdoor cafe stock photo" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/asian-different-cultural-social-life-style-weekend-gathering-outdoor-cafe-stock-photo-gm2206480449-623792943?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Asian different cultural social life style weekend gathering outdoor cafe stock photo" [ref=e162]
+                - link "Get 20% off with code UNSPLASH20" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=corporate+event+dinner+party&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e164]:
+                - link "a large banquet hall with tables and chairs" [ref=e167]:
+                  - /url: /photos/a-large-banquet-hall-with-tables-and-chairs-g6q29w1ZYnc
+                  - img "a large banquet hall with tables and chairs" [ref=e168]
+              - figure [ref=e169]:
+                - link "Three people seated at a formal dinner table" [ref=e172]:
+                  - /url: /photos/three-people-seated-at-a-formal-dinner-table-VqHrACdXu80
+                  - img "Three people seated at a formal dinner table" [ref=e173]
+              - figure [ref=e174]:
+                - link "A formal dinner table setting with black tablecloth." [ref=e177]:
+                  - /url: /photos/a-formal-dinner-table-setting-with-black-tablecloth-vi6u8RcMSUU
+                  - img "A formal dinner table setting with black tablecloth." [ref=e178]
+              - figure [ref=e179]:
+                - link "Business People Dining Together Concept" [ref=e182]:
+                  - /url: /photos/business-people-dining-together-concept-UCaTMesIOiQ
+                  - img "Business People Dining Together Concept" [ref=e183]
+              - figure [ref=e184]:
+                - link "Elegant tables are set for a special event." [ref=e187]:
+                  - /url: /photos/elegant-tables-are-set-for-a-special-event-h7W2q4yfsvA
+                  - img "Elegant tables are set for a special event." [ref=e188]
+              - figure [ref=e189]:
+                - link "A formal dining table is set elegantly." [ref=e192]:
+                  - /url: /photos/a-formal-dining-table-is-set-elegantly-b5T60pCkXwk
+                  - img "A formal dining table is set elegantly." [ref=e193]
+            - generic [ref=e194]:
+              - figure [ref=e195]:
+                - link "People seated at a formal dinner with floral centerpieces." [ref=e198]:
+                  - /url: /photos/people-seated-at-a-formal-dinner-with-floral-centerpieces-y1UbwZS44v0
+                  - img "People seated at a formal dinner with floral centerpieces." [ref=e199]
+              - figure [ref=e200]:
+                - link "People seated at a formal dinner event with elegant lighting." [ref=e203]:
+                  - /url: /photos/people-seated-at-a-formal-dinner-event-with-elegant-lighting-loRBLg9hyaU
+                  - img "People seated at a formal dinner event with elegant lighting." [ref=e204]
+              - figure [ref=e205]:
+                - link "Brunch Choice Crowd Dining Food Options Eating Concept" [ref=e208]:
+                  - /url: /photos/brunch-choice-crowd-dining-food-options-eating-concept-mFUjH7JSrqk
+                  - img "Brunch Choice Crowd Dining Food Options Eating Concept" [ref=e209]
+              - figure [ref=e210]:
+                - link "People mingling at a formal event with american flags." [ref=e213]:
+                  - /url: /photos/people-mingling-at-a-formal-event-with-american-flags-rtxYBG3WIxM
+                  - img "People mingling at a formal event with american flags." [ref=e214]
+              - figure [ref=e215]:
+                - link "a table with glasses on it" [ref=e218]:
+                  - /url: /photos/a-table-with-glasses-on-it-i5I7VeIZRmE
+                  - img "a table with glasses on it" [ref=e219]
+              - figure [ref=e220]:
+                - link "People gathered at a formal event with elegant decor." [ref=e223]:
+                  - /url: /photos/people-gathered-at-a-formal-event-with-elegant-decor-cAIB6cLAF4Q
+                  - img "People gathered at a formal event with elegant decor." [ref=e224]
+              - figure [ref=e225]:
+                - link "Formal event setup with round tables and elegant lighting" [ref=e228]:
+                  - /url: /photos/formal-event-setup-with-round-tables-and-elegant-lighting-YYD8eqHwlFw
+                  - img "Formal event setup with round tables and elegant lighting" [ref=e229]
+            - generic [ref=e230]:
+              - contentinfo [ref=e235]:
+                - generic [ref=e241]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e243]:
+                - link "A woman smiles at a formal gathering with many people" [ref=e246]:
+                  - /url: /photos/a-woman-smiles-at-a-formal-gathering-with-many-people-TfljWjE3iLo
+                  - img "A woman smiles at a formal gathering with many people" [ref=e247]
+              - figure [ref=e248]:
+                - link "People gathered at a formal dinner event" [ref=e251]:
+                  - /url: /photos/people-gathered-at-a-formal-dinner-event-FBYrzkDelOw
+                  - img "People gathered at a formal dinner event" [ref=e252]
+              - figure [ref=e253]:
+                - link "A formal dining setup with round tables and chairs." [ref=e256]:
+                  - /url: /photos/a-formal-dining-setup-with-round-tables-and-chairs-dB-ZSHalLPo
+                  - img "A formal dining setup with round tables and chairs." [ref=e257]
+              - figure [ref=e258]:
+                - link "Three people at a formal dinner event" [ref=e261]:
+                  - /url: /photos/three-people-at-a-formal-dinner-event-UCHR7VqS8lk
+                  - img "Three people at a formal dinner event" [ref=e262]
+              - figure [ref=e263]:
+                - link "Brunch Choice Crowd Dining Food Options Eating Concept" [ref=e266]:
+                  - /url: /photos/brunch-choice-crowd-dining-food-options-eating-concept-GeUamDpWpjA
+                  - img "Brunch Choice Crowd Dining Food Options Eating Concept" [ref=e267]
+              - figure [ref=e268]:
+                - link "A table with a chandelier and plates of food on it" [ref=e271]:
+                  - /url: /photos/a-table-with-a-chandelier-and-plates-of-food-on-it-iVryyjELM3Q
+                  - img "A table with a chandelier and plates of food on it" [ref=e272]
+          - button "Load more" [ref=e275] [cursor=pointer]
+          - generic [ref=e278]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e279]:
+              - text: Browse premium images on iStock
+              - generic [ref=e280]: "| Claim your discount now"
+            - generic [ref=e282]:
+              - link "Glasses and other tableware arranged for use by waitstaff" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/glasses-and-other-tableware-arranged-for-use-by-waitstaff-gm2186790930-605422841?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Glasses and other tableware arranged for use by waitstaff" [ref=e284]
+              - link "Group of people eating at a restaurant" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/group-of-people-eating-at-a-restaurant-gm981194018-266503993?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Group of people eating at a restaurant" [ref=e286]
+              - link "Luxury banquet table setting with glassware and modern decor prepared for event." [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/luxury-banquet-table-setting-with-glassware-and-modern-decor-prepared-for-event-gm2271013917-683486355?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Luxury banquet table setting with glassware and modern decor prepared for event." [ref=e288]
+              - link "Several people in business attire gathered around a table" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/several-people-in-business-attire-gathered-around-a-table-gm178616900-25063367?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Several people in business attire gathered around a table" [ref=e290]
+              - link "An elegant overhead view of a formal dinner or banquet table setting with a dark tablecloth." [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/an-elegant-overhead-view-of-a-formal-dinner-or-banquet-table-setting-with-a-dark-gm2249457761-663228410?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "An elegant overhead view of a formal dinner or banquet table setting with a dark tablecloth." [ref=e292]
+              - link "Beautifully decorated catering banquet table set" [ref=e293] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/beautifully-decorated-catering-banquet-table-set-gm2213992985-630836663?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Beautifully decorated catering banquet table set" [ref=e294]
+              - link "Business people dining in a luxury restaurant" [ref=e295] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/business-people-dining-in-a-luxury-restaurant-gm1446048813-484253419?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Business people dining in a luxury restaurant" [ref=e296]
+              - generic [ref=e297]:
+                - link "Decor for a large party or gala dinner" [ref=e298] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/decor-for-a-large-party-or-gala-dinner-gm943685424-257822125?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                  - img "Decor for a large party or gala dinner" [ref=e299]
+                - link "View more on iStock ↗" [ref=e300] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcorporate-event-dinner-party&utm_term=corporate+event+dinner+party%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=corporate+event+dinner+party&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e302]:
+            - link [ref=e303] [cursor=pointer]:
+              - /url: /
+              - img [ref=e304]
+            - paragraph [ref=e306]: Make something awesome
+    - generic:
+      - region "Notifications"

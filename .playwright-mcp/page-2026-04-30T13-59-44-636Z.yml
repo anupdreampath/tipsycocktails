@@ -1,0 +1,122 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Tipsy Cocktails" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Tipsy Cocktails" [ref=e6]
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Home" [ref=e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e11]:
+            - link "Classes" [ref=e12] [cursor=pointer]:
+              - /url: /classes
+          - listitem [ref=e13]:
+            - link "Reviews" [ref=e14] [cursor=pointer]:
+              - /url: /reviews
+          - listitem [ref=e15]:
+            - link "FAQ" [ref=e16] [cursor=pointer]:
+              - /url: /faq
+          - listitem [ref=e17]:
+            - link "Menu" [ref=e18] [cursor=pointer]:
+              - /url: /menu
+          - listitem [ref=e19]:
+            - link "Contact Us" [ref=e20] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e21]:
+        - link "Instant Quote" [ref=e22] [cursor=pointer]:
+          - /url: /contact
+        - button "Toggle menu" [ref=e23] [cursor=pointer]
+  - generic:
+    - generic:
+      - link:
+        - /url: /
+        - img
+      - button:
+        - img
+    - navigation:
+      - list:
+        - listitem:
+          - link:
+            - /url: /
+            - text: Home
+        - listitem:
+          - link:
+            - /url: /classes
+            - text: Classes
+        - listitem:
+          - link:
+            - /url: /reviews
+            - text: Reviews
+        - listitem:
+          - link:
+            - /url: /menu
+            - text: Menu
+        - listitem:
+          - link:
+            - /url: /faq
+            - text: FAQ
+        - listitem:
+          - link:
+            - /url: /contact
+            - text: Contact Us
+  - main [ref=e27]:
+    - generic [ref=e29]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - img "Menu page 1"
+        - generic [ref=e34]:
+          - img "Menu page 2"
+      - generic "Menu book controls" [ref=e35]:
+        - button "Previous menu page" [ref=e36] [cursor=pointer]: ‹
+        - group "Menu page view" [ref=e37]:
+          - button "Single" [ref=e38] [cursor=pointer]
+          - button "Two page" [ref=e39] [cursor=pointer]
+        - button "Next menu page" [ref=e40] [cursor=pointer]: ›
+  - contentinfo [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - heading "Contact the Team" [level=2] [ref=e45]
+          - paragraph [ref=e46]: Get in touch with our team to discuss your event. We'll get back to you as soon as possible with a tailored quote.
+          - generic [ref=e47]:
+            - textbox "Name" [ref=e48]
+            - textbox "Email" [ref=e49]
+            - textbox "Phone" [ref=e50]
+            - textbox "Tell us about your event" [ref=e51]
+            - button "Send Enquiry" [ref=e52] [cursor=pointer]
+        - generic [ref=e53]:
+          - heading "Find Us" [level=2] [ref=e54]
+          - paragraph [ref=e55]:
+            - strong [ref=e56]: Mobile Bar Hire
+            - text: Your Address Line 1
+            - text: City, Postcode
+            - link "000 000 0000" [ref=e57] [cursor=pointer]:
+              - /url: tel:0000000000
+            - link "hello@yourbrand.com" [ref=e58] [cursor=pointer]:
+              - /url: mailto:hello@yourbrand.com
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - heading "Connect" [level=2] [ref=e61]
+          - generic [ref=e62]:
+            - link "Instagram" [ref=e63] [cursor=pointer]:
+              - /url: "#"
+            - link "Facebook" [ref=e64] [cursor=pointer]:
+              - /url: "#"
+            - link "TikTok" [ref=e65] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e66]:
+          - heading "Quick Links" [level=2] [ref=e67]
+          - generic [ref=e68]:
+            - link "Classes" [ref=e69] [cursor=pointer]:
+              - /url: /classes
+            - link "Menu" [ref=e70] [cursor=pointer]:
+              - /url: /menu
+            - link "Reviews" [ref=e71] [cursor=pointer]:
+              - /url: /reviews
+            - link "FAQ" [ref=e72] [cursor=pointer]:
+              - /url: /faq
+            - link "Contact" [ref=e73] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e74]: © 2026 Your Brand

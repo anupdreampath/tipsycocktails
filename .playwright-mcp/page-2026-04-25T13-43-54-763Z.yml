@@ -1,0 +1,280 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fchristmas-party-celebration
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fchristmas-party-celebration
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fchristmas-party-celebration
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: christmas party celebration
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fchristmas-party-celebration
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 9.7k":
+                - /url: /s/photos/christmas-party-celebration
+                - img
+                - text: Photos
+                - generic: 9.7k
+            - listitem [ref=e73]:
+              - link "Illustrations 1.5k" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/christmas-party-celebration
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: 1.5k
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Christmas party celebration" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "celebration" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/celebration
+              - link "holiday season" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/holiday-season
+              - link "party" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/party
+              - link "christmas" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/christmas
+              - link "festive mood" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/festive-mood
+              - link "gathering" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/gathering
+              - link "celebrating" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/celebrating
+              - link "festivity" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/festivity
+              - link "friend" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/friend
+              - link "christmas tree" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/christmas-tree
+              - link "holiday party" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/holiday-party
+              - link "social event" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/social-event
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - generic [ref=e145]:
+                  - link "a group of young people sitting on top of a couch" [ref=e146]:
+                    - /url: /photos/a-group-of-young-people-sitting-on-top-of-a-couch-heLkgB7H7Oc
+                    - img "a group of young people sitting on top of a couch" [ref=e147]
+                  - link [ref=e148] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-group-of-young-people-sitting-on-top-of-a-couch-heLkgB7H7Oc
+                    - img [ref=e149]
+              - generic [ref=e151]:
+                - heading "Sponsored images" [level=4] [ref=e152]:
+                  - generic [ref=e153]: Sponsored images
+                  - link [ref=e154] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3A8563b941-1db3-4fc6-b84a-7bb58079776c&phrase=christmas+party+celebration&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e155]
+                - generic [ref=e157]:
+                  - link "Multiracial group of happy friends using sparklers and having fun on New Year's day at home." [ref=e158] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/multiracial-group-of-happy-friends-using-sparklers-and-having-fun-on-new-years-day-gm1436949458-477870096?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3A2ac0c006-fe87-4864-853f-4a583deb07c1
+                    - img "Multiracial group of happy friends using sparklers and having fun on New Year's day at home." [ref=e159]
+                  - link "Secret santa" [ref=e160] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/secret-santa-gm1439710504-479904486?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3A23e4abe8-13ab-4bb0-8a34-3cab03b0a18d
+                    - img "Secret santa" [ref=e161]
+                  - link "Christmas party at a bar, focus on foreground decorations" [ref=e162] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/christmas-party-at-a-bar-focus-on-foreground-decorations-gm623714174-109486339?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3Af8120066-25ac-49d5-9517-7cd57feb3961
+                    - img "Christmas party at a bar, focus on foreground decorations" [ref=e163]
+                  - link "Photo of cheerful young people friends group good mood dancing cheerful smile cozy christmas party decor spacious apartment indoors" [ref=e164] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/photo-of-cheerful-young-people-friends-group-good-mood-dancing-cheerful-smile-cozy-gm2178531965-597862772?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3A97189983-3f65-4d15-a191-a4df00a700ab
+                    - img "Photo of cheerful young people friends group good mood dancing cheerful smile cozy christmas party decor spacious apartment indoors" [ref=e165]
+                - link "Get 20% off with code UNSPLASH20" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3A8563b941-1db3-4fc6-b84a-7bb58079776c&phrase=christmas+party+celebration&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e167]:
+                - generic [ref=e169]:
+                  - link "a couple of women sitting on top of a wooden bench" [ref=e170]:
+                    - /url: /photos/a-couple-of-women-sitting-on-top-of-a-wooden-bench-Z0plLdUytqg
+                    - img "a couple of women sitting on top of a wooden bench" [ref=e171]
+                  - link [ref=e172] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-couple-of-women-sitting-on-top-of-a-wooden-bench-Z0plLdUytqg
+                    - img [ref=e173]
+              - figure [ref=e175]:
+                - link "A stall filled with santa claus costumes and christmas costumes." [ref=e178]:
+                  - /url: /photos/a-stall-filled-with-santa-claus-costumes-and-christmas-costumes-M_dEp2t-gIA
+                  - img "A stall filled with santa claus costumes and christmas costumes." [ref=e179]
+              - figure [ref=e180]:
+                - generic [ref=e182]:
+                  - link "a group of people sitting around a wooden table" [ref=e183]:
+                    - /url: /photos/a-group-of-people-sitting-around-a-wooden-table-DIJaNNaKGVE
+                    - img "a group of people sitting around a wooden table" [ref=e184]
+                  - link [ref=e185] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-group-of-people-sitting-around-a-wooden-table-DIJaNNaKGVE
+                    - img [ref=e186]
+              - figure [ref=e188]:
+                - link "person holding wine glasses with red liquid" [ref=e191]:
+                  - /url: /photos/person-holding-wine-glasses-with-red-liquid-0Ad6Q6SQo1Y
+                  - img "person holding wine glasses with red liquid" [ref=e192]
+              - figure [ref=e193]:
+                - generic [ref=e195]:
+                  - link "a group of people sitting around a table eating pizza" [ref=e196]:
+                    - /url: /photos/a-group-of-people-sitting-around-a-table-eating-pizza-FOgdznaZ9NY
+                    - img "a group of people sitting around a table eating pizza" [ref=e197]
+                  - link [ref=e198] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-group-of-people-sitting-around-a-table-eating-pizza-FOgdznaZ9NY
+                    - img [ref=e199]
+              - figure [ref=e201]:
+                - link "Champagne glasses filled with bubbly on ice" [ref=e204]:
+                  - /url: /photos/champagne-glasses-filled-with-bubbly-on-ice-gSwVSRY72HM
+                  - img "Champagne glasses filled with bubbly on ice" [ref=e205]
+              - figure [ref=e206]:
+                - generic [ref=e208]:
+                  - link "A woman standing in front of a mirror" [ref=e209]:
+                    - /url: /photos/a-woman-standing-in-front-of-a-mirror-Bsl3PYDafGQ
+                    - img "A woman standing in front of a mirror" [ref=e210]
+                  - link [ref=e211] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-woman-standing-in-front-of-a-mirror-Bsl3PYDafGQ
+                    - img [ref=e212]
+              - figure [ref=e214]:
+                - link "A woman sitting at a table with a glass of wine" [ref=e217]:
+                  - /url: /photos/a-woman-sitting-at-a-table-with-a-glass-of-wine-CZp1ZioAZxE
+                  - img "A woman sitting at a table with a glass of wine" [ref=e218]
+            - generic [ref=e219]:
+              - figure [ref=e220]:
+                - link "Person in santa costume dancing at a party" [ref=e223]:
+                  - /url: /photos/person-in-santa-costume-dancing-at-a-party-QACUnQUGyLM
+                  - img "Person in santa costume dancing at a party" [ref=e224]
+              - figure [ref=e225]:
+                - link "gold glitter" [ref=e228]:
+                  - /url: /photos/gold-glitter-PgP9L5CWI38
+                  - img "gold glitter" [ref=e229]
+              - figure [ref=e230]:
+                - link "a christmas tree with red candles and decorations" [ref=e233]:
+                  - /url: /photos/a-christmas-tree-with-red-candles-and-decorations-CreNEj0x1Q8
+                  - img "a christmas tree with red candles and decorations" [ref=e234]
+              - figure [ref=e235]:
+                - link "Hands clinking champagne glasses near christmas tree" [ref=e238]:
+                  - /url: /photos/hands-clinking-champagne-glasses-near-christmas-tree-WObnKImpju8
+                  - img "Hands clinking champagne glasses near christmas tree" [ref=e239]
+              - figure [ref=e240]:
+                - link "Hands clinking champagne glasses by a decorated christmas tree" [ref=e243]:
+                  - /url: /photos/hands-clinking-champagne-glasses-by-a-decorated-christmas-tree-iXv1CB8XANc
+                  - img "Hands clinking champagne glasses by a decorated christmas tree" [ref=e244]
+              - figure [ref=e245]:
+                - link "Man in santa hat with tinsel around neck" [ref=e248]:
+                  - /url: /photos/man-in-santa-hat-with-tinsel-around-neck-gxfz4QhQ10A
+                  - img "Man in santa hat with tinsel around neck" [ref=e249]
+            - generic [ref=e250]:
+              - contentinfo [ref=e255]:
+                - generic [ref=e261]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e263]:
+                - link "lighted sparklers" [ref=e266]:
+                  - /url: /photos/lighted-sparklers-_-we5UB3-5c
+                  - img "lighted sparklers" [ref=e267]
+              - figure [ref=e268]:
+                - link "Man wearing a santa hat and holding a disco ball" [ref=e271]:
+                  - /url: /photos/man-wearing-a-santa-hat-and-holding-a-disco-ball-KNNBRPXDDWo
+                  - img "Man wearing a santa hat and holding a disco ball" [ref=e272]
+              - figure [ref=e273]:
+                - link "Man pouring champagne into a glass with ornaments" [ref=e276]:
+                  - /url: /photos/man-pouring-champagne-into-a-glass-with-ornaments-2yUxKRGgxNE
+                  - img "Man pouring champagne into a glass with ornaments" [ref=e277]
+              - figure [ref=e278]:
+                - link "Woman in black dress near christmas tree" [ref=e281]:
+                  - /url: /photos/woman-in-black-dress-near-christmas-tree-P-qWMlVlfGc
+                  - img "Woman in black dress near christmas tree" [ref=e282]
+              - figure [ref=e283]:
+                - link "A woman holding a martini glass filled with candy" [ref=e286]:
+                  - /url: /photos/a-woman-holding-a-martini-glass-filled-with-candy-jye3M8-coBk
+                  - img "A woman holding a martini glass filled with candy" [ref=e287]
+          - button "Load more" [ref=e290] [cursor=pointer]
+          - generic [ref=e293]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e294]:
+              - text: Browse premium images on iStock
+              - generic [ref=e295]: "| Claim your discount now"
+            - generic [ref=e297]:
+              - link "Christmas party vibes!" [ref=e298] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/christmas-party-vibes-gm1199238326-343034607?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3Ab6d3d8f0-f739-48b2-9bdc-a8090a410460
+                - img "Christmas party vibes!" [ref=e299]
+              - link "Generation Z Friends Christmas Photo Booth" [ref=e300] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/generation-z-friends-christmas-photo-booth-gm1087298756-291714140?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3Addea899b-0d21-4892-a085-186bdbc96150
+                - img "Generation Z Friends Christmas Photo Booth" [ref=e301]
+              - link "Christmas charcuterie table scene against a dark wood background" [ref=e302] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/christmas-charcuterie-table-scene-against-a-dark-wood-background-gm1437539517-478307834?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3Aa0aa357b-308d-4cd6-a658-18dec58811c9
+                - img "Christmas charcuterie table scene against a dark wood background" [ref=e303]
+              - link "Both sets of parents talking during Christmas dinner." [ref=e304] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/both-sets-of-parents-talking-during-christmas-dinner-gm2234993199-650369804?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3Af8d20869-853c-4934-b4c1-5f69a08d29b8
+                - img "Both sets of parents talking during Christmas dinner." [ref=e305]
+              - link "Happy people, Christmas and dancing with friends for party or new year celebration at home. Excited, group or energy with smile for December holiday, festive event or fun get together at house" [ref=e306] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/happy-people-christmas-and-dancing-with-friends-for-party-or-new-year-celebration-at-gm2227681225-643538445?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3A923a2e27-4760-4c1f-8acd-0f72dcbdd245
+                - img "Happy people, Christmas and dancing with friends for party or new year celebration at home. Excited, group or energy with smile for December holiday, festive event or fun get together at house" [ref=e307]
+              - link "New Year sparklers!" [ref=e308] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/new-year-sparklers-gm2237984411-653049369?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3A2dbdaf58-a1e2-434d-82ea-b9e2ee2076aa
+                - img "New Year sparklers!" [ref=e309]
+              - link "Red train with Christmas tree and Christmas presents on dark green background. Christmas greeting card design with copy space." [ref=e310] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/red-train-with-christmas-tree-and-christmas-presents-on-dark-green-background-gm2242426372-656767416?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3A8d33846d-8d5f-47cc-8312-3d5f0416d251
+                - img "Red train with Christmas tree and Christmas presents on dark green background. Christmas greeting card design with copy space." [ref=e311]
+              - generic [ref=e312]:
+                - link "Festive vibes" [ref=e313] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/festive-vibes-gm2188956587-607448098?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3Aeb833e23-18ea-4eff-b09e-85bf44d92d6b
+                  - img "Festive vibes" [ref=e314]
+                - link "View more on iStock ↗" [ref=e315] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchristmas-party-celebration&utm_term=christmas+party+celebration%3A%3Aaffiliate-layout-optim%3Ab%3A22d2b8ee-a03b-47b6-bb39-71bae841d00f&phrase=christmas+party+celebration&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e317]:
+            - link [ref=e318] [cursor=pointer]:
+              - /url: /
+              - img [ref=e319]
+            - paragraph [ref=e321]: Make something awesome
+    - generic:
+      - region "Notifications"

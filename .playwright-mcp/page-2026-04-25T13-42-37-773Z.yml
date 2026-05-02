@@ -1,0 +1,260 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fbartender-making-cocktails
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fbartender-making-cocktails
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fbartender-making-cocktails
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: bartender making cocktails
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fbartender-making-cocktails
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 7.1k":
+                - /url: /s/photos/bartender-making-cocktails
+                - img
+                - text: Photos
+                - generic: 7.1k
+            - listitem [ref=e73]:
+              - link "Illustrations 129" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/bartender-making-cocktails
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "129"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Bartender making cocktails" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "cocktail" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/cocktail
+              - link "cocktail making" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/cocktail-making
+              - link "drink" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/drink
+              - link "bartender" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/bartender
+              - link "bartending" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/bartending
+              - link "beverage" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/beverage
+              - link "bar" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/bar
+              - link "mixology" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/mixology
+              - link "craft cocktail" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/craft-cocktail
+              - link "bar service" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/bar-service
+              - link "alcohol" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/alcohol
+              - link "making drink" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/making-drink
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - link "Asian man barista shaking iced black coffee in shaker and pouring in cocktail glass on bar counter at coffee shop. Male coffee shop owner serving cold drink coffee to customer. Small business restaurant concept." [ref=e146]:
+                  - /url: /photos/asian-man-barista-shaking-iced-black-coffee-in-shaker-and-pouring-in-cocktail-glass-on-bar-counter-at-coffee-shop-male-coffee-shop-owner-serving-cold-drink-coffee-to-customer-small-business-restaurant-concept-tsnoioiDZmI
+                  - img "Asian man barista shaking iced black coffee in shaker and pouring in cocktail glass on bar counter at coffee shop. Male coffee shop owner serving cold drink coffee to customer. Small business restaurant concept." [ref=e147]
+              - generic [ref=e148]:
+                - heading "Sponsored images" [level=4] [ref=e149]:
+                  - generic [ref=e150]: Sponsored images
+                  - link [ref=e151] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=bartender+making+cocktails&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e152]
+                - generic [ref=e154]:
+                  - link "Bartender preparing cocktails" [ref=e155] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/bartender-preparing-cocktails-gm1297673506-390747521?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Bartender preparing cocktails" [ref=e156]
+                  - link "Male bartender pouring alcohol in glass, A young bartender making luxury cocktail." [ref=e157] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/male-bartender-pouring-alcohol-in-glass-a-young-bartender-making-luxury-cocktail-gm1143080981-306848000?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Male bartender pouring alcohol in glass, A young bartender making luxury cocktail." [ref=e158]
+                  - link "Professional bartender teaches new employee on how to make cocktails." [ref=e159] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/professional-bartender-teaches-new-employee-on-how-to-make-cocktails-gm1300870943-393065325?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Professional bartender teaches new employee on how to make cocktails." [ref=e160]
+                  - link "Bartender making cocktails at a bar" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/bartender-making-cocktails-at-a-bar-gm525498538-92438767?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Bartender making cocktails at a bar" [ref=e162]
+                - link "Get 20% off with code UNSPLASH20" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=bartender+making+cocktails&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e164]:
+                - link "a person is pouring a drink into a glass" [ref=e167]:
+                  - /url: /photos/a-person-is-pouring-a-drink-into-a-glass-Vs3Y1wNxZGo
+                  - img "a person is pouring a drink into a glass" [ref=e168]
+              - figure [ref=e169]:
+                - link "Barteneder Barista Service Working Cafe Concept" [ref=e172]:
+                  - /url: /photos/barteneder-barista-service-working-cafe-concept-Af-yD2LbNkI
+                  - img "Barteneder Barista Service Working Cafe Concept" [ref=e173]
+              - figure [ref=e174]:
+                - link "a person is pouring a drink into a wine glass" [ref=e177]:
+                  - /url: /photos/a-person-is-pouring-a-drink-into-a-wine-glass-XfWRNTD5TMA
+                  - img "a person is pouring a drink into a wine glass" [ref=e178]
+              - figure [ref=e179]:
+                - link "a man in an apron is washing dishes in the kitchen" [ref=e182]:
+                  - /url: /photos/a-man-in-an-apron-is-washing-dishes-in-the-kitchen-aBV_X_wWYQ0
+                  - img "a man in an apron is washing dishes in the kitchen" [ref=e183]
+              - figure [ref=e184]:
+                - link "Two bartenders juggling bottles against a white background" [ref=e187]:
+                  - /url: /photos/two-bartenders-juggling-bottles-against-a-white-background-fTB0KdyGeH8
+                  - img "Two bartenders juggling bottles against a white background" [ref=e188]
+              - figure [ref=e189]:
+                - link "Bartender pouring liquid from bottle into shaker" [ref=e192]:
+                  - /url: /photos/bartender-pouring-liquid-from-bottle-into-shaker-fMPiT5rxuw8
+                  - img "Bartender pouring liquid from bottle into shaker" [ref=e193]
+              - figure [ref=e194]:
+                - link "Smoked cocktail being prepared with a glass cloche" [ref=e197]:
+                  - /url: /photos/smoked-cocktail-being-prepared-with-a-glass-cloche-fmNr0qT-rVM
+                  - img "Smoked cocktail being prepared with a glass cloche" [ref=e198]
+            - generic [ref=e199]:
+              - figure [ref=e200]:
+                - link "a person pouring a drink into glasses on a bar" [ref=e203]:
+                  - /url: /photos/a-person-pouring-a-drink-into-glasses-on-a-bar-dlXefgzcsQo
+                  - img "a person pouring a drink into glasses on a bar" [ref=e204]
+              - figure [ref=e205]:
+                - link "a person pouring a drink into a glass" [ref=e208]:
+                  - /url: /photos/a-person-pouring-a-drink-into-a-glass-90kWJqcsfBA
+                  - img "a person pouring a drink into a glass" [ref=e209]
+              - figure [ref=e210]:
+                - link "a person pouring a drink into a glass" [ref=e213]:
+                  - /url: /photos/a-person-pouring-a-drink-into-a-glass-vLOBZ-luCcI
+                  - img "a person pouring a drink into a glass" [ref=e214]
+              - figure [ref=e215]:
+                - link "Bartender juggling bottles in a white room" [ref=e218]:
+                  - /url: /photos/bartender-juggling-bottles-in-a-white-room-Q8d50NtLWfA
+                  - img "Bartender juggling bottles in a white room" [ref=e219]
+              - figure [ref=e220]:
+                - link "Bartender stirs a cocktail with ice and garnish." [ref=e223]:
+                  - /url: /photos/bartender-stirs-a-cocktail-with-ice-and-garnish-BeIH9mFe3oM
+                  - img "Bartender stirs a cocktail with ice and garnish." [ref=e224]
+              - figure [ref=e225]:
+                - link "a person pouring a drink into a glass" [ref=e228]:
+                  - /url: /photos/a-person-pouring-a-drink-into-a-glass-pCOtuXy-tjM
+                  - img "a person pouring a drink into a glass" [ref=e229]
+            - generic [ref=e230]:
+              - contentinfo [ref=e235]:
+                - generic [ref=e241]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e243]:
+                - link "A bartender pours a drink into a jigger." [ref=e246]:
+                  - /url: /photos/a-bartender-pours-a-drink-into-a-jigger-OF1NP253cQA
+                  - img "A bartender pours a drink into a jigger." [ref=e247]
+              - figure [ref=e248]:
+                - link "a drink sitting on top of a table next to a metal grate" [ref=e251]:
+                  - /url: /photos/a-drink-sitting-on-top-of-a-table-next-to-a-metal-grate-Jg8qNgt71OI
+                  - img "a drink sitting on top of a table next to a metal grate" [ref=e252]
+              - figure [ref=e253]:
+                - link "Bartender garnishing a cocktail with a lime wedge." [ref=e256]:
+                  - /url: /photos/bartender-garnishing-a-cocktail-with-a-lime-wedge-YoETYpE4tlI
+                  - img "Bartender garnishing a cocktail with a lime wedge." [ref=e257]
+              - figure [ref=e258]:
+                - link "Bartender juggles bottles and shaker with a smile" [ref=e261]:
+                  - /url: /photos/bartender-juggles-bottles-and-shaker-with-a-smile-WzyRRxNDJUY
+                  - img "Bartender juggles bottles and shaker with a smile" [ref=e262]
+              - figure [ref=e263]:
+                - link "a man holding a piece of bread in a kitchen" [ref=e266]:
+                  - /url: /photos/a-man-holding-a-piece-of-bread-in-a-kitchen-RXZhfMZWnIw
+                  - img "a man holding a piece of bread in a kitchen" [ref=e267]
+              - figure [ref=e268]:
+                - link "Bartender pouring cocktail into a glass with ice." [ref=e271]:
+                  - /url: /photos/bartender-pouring-cocktail-into-a-glass-with-ice-Hdt3lTnCwi0
+                  - img "Bartender pouring cocktail into a glass with ice." [ref=e272]
+          - button "Load more" [ref=e275] [cursor=pointer]
+          - generic [ref=e278]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e279]:
+              - text: Browse premium images on iStock
+              - generic [ref=e280]: "| Claim your discount now"
+            - generic [ref=e282]:
+              - link "Tattooed professional bartender adding spices powder into a cocktail glass with slice of lemon" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/tattooed-professional-bartender-adding-spices-powder-into-a-cocktail-glass-with-gm1073296840-287293821?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Tattooed professional bartender adding spices powder into a cocktail glass with slice of lemon" [ref=e284]
+              - link "Cocktail preparing" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/cocktail-preparing-gm863723820-143377817?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Cocktail preparing" [ref=e286]
+              - link "Bartender pours drink for guests at outdoor gathering in sunny setting" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/bartender-pours-drink-for-guests-at-outdoor-gathering-in-sunny-setting-gm2239730148-654528943?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Bartender pours drink for guests at outdoor gathering in sunny setting" [ref=e288]
+              - link "Young Bartender Working In Party At Night" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/young-bartender-working-in-party-at-night-gm2163755652-584083739?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Young Bartender Working In Party At Night" [ref=e290]
+              - link "Young male barista preparing coffee and drinks in a coffee shop" [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/young-male-barista-preparing-coffee-and-drinks-in-a-coffee-shop-gm2209084846-626197991?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Young male barista preparing coffee and drinks in a coffee shop" [ref=e292]
+              - link "Adult man behind bar with multiple drinks" [ref=e293] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/adult-man-behind-bar-with-multiple-drinks-gm2175080606-594684167?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Adult man behind bar with multiple drinks" [ref=e294]
+              - link "Close-up of a bartender preparing a drink on a pub" [ref=e295] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/close-up-of-a-bartender-preparing-a-drink-on-a-pub-gm2181982543-600963979?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Close-up of a bartender preparing a drink on a pub" [ref=e296]
+              - generic [ref=e297]:
+                - link "Vertical shot of a bartender making mango and grape-flavored lemonades." [ref=e298] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/vertical-shot-of-a-bartender-making-mango-and-grape-flavored-lemonades-gm1455706173-490961789?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A
+                  - img "Vertical shot of a bartender making mango and grape-flavored lemonades." [ref=e299]
+                - link "View more on iStock ↗" [ref=e300] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbartender-making-cocktails&utm_term=bartender+making+cocktails%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=bartender+making+cocktails&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e302]:
+            - link [ref=e303] [cursor=pointer]:
+              - /url: /
+              - img [ref=e304]
+            - paragraph [ref=e306]: Make something awesome
+    - generic:
+      - region "Notifications"

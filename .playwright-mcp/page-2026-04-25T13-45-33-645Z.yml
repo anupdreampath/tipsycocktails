@@ -1,0 +1,260 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: night bar atmospheric dark drinks
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 22k":
+                - /url: /s/photos/night-bar-atmospheric-dark-drinks
+                - img
+                - text: Photos
+                - generic: 22k
+            - listitem [ref=e73]:
+              - link "Illustrations 177" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/night-bar-atmospheric-dark-drinks
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "177"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Night bar atmospheric dark drinks" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "person" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/person
+              - link "bar" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/bar
+              - link "alcohol" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/alcohol
+              - link "lighting" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/lighting
+              - link "human" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/human
+              - link "beverage" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/beverage
+              - link "vietnam" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/vietnam
+              - link "bar counter" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/bar-counter
+              - link "red" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/red
+              - link "pub" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/pub
+              - link "bottle" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/bottle
+              - link "glass" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/glass
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - link "a bar sign lit up at night in the dark" [ref=e146]:
+                  - /url: /photos/a-bar-sign-lit-up-at-night-in-the-dark-5GlCfagyv4s
+                  - img "a bar sign lit up at night in the dark" [ref=e147]
+              - generic [ref=e148]:
+                - heading "Sponsored images" [level=4] [ref=e149]:
+                  - generic [ref=e150]: Sponsored images
+                  - link [ref=e151] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=night+bar+atmospheric+dark+drinks&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e152]
+                - generic [ref=e154]:
+                  - link "Blurred bokeh of the bar interior." [ref=e155] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/blurred-bokeh-of-the-bar-interior-gm1180418289-330694414?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Blurred bokeh of the bar interior." [ref=e156]
+                  - link "white russian cocktail with icecream on backlighted background;" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/white-russian-cocktail-with-icecream-on-backlighted-background-gm992047794-268808176?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "white russian cocktail with icecream on backlighted background;" [ref=e158]
+                  - link "empty whiskey glass" [ref=e159] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/empty-whiskey-glass-gm1184250585-333282465?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "empty whiskey glass" [ref=e160]
+                  - link "Luxury celebration set up" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/luxury-celebration-set-up-gm874895492-244271792?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Luxury celebration set up" [ref=e162]
+                - link "Get 20% off with code UNSPLASH20" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=night+bar+atmospheric+dark+drinks&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e164]:
+                - link "a bar with bottles and glasses on a counter" [ref=e167]:
+                  - /url: /photos/a-bar-with-bottles-and-glasses-on-a-counter-EySouZW1aMg
+                  - img "a bar with bottles and glasses on a counter" [ref=e168]
+              - figure [ref=e169]:
+                - link "a man and a woman standing in front of a bar" [ref=e172]:
+                  - /url: /photos/a-man-and-a-woman-standing-in-front-of-a-bar-pu9gcSLmI_Y
+                  - img "a man and a woman standing in front of a bar" [ref=e173]
+              - figure [ref=e174]:
+                - link "a bar lit up at night with people standing around" [ref=e177]:
+                  - /url: /photos/a-bar-lit-up-at-night-with-people-standing-around-jMxraOhpReM
+                  - img "a bar lit up at night with people standing around" [ref=e178]
+              - figure [ref=e179]:
+                - link "a group of people standing around a table filled with bottles" [ref=e182]:
+                  - /url: /photos/a-group-of-people-standing-around-a-table-filled-with-bottles-c4stPi6phHs
+                  - img "a group of people standing around a table filled with bottles" [ref=e183]
+              - figure [ref=e184]:
+                - link "two shot glasses sitting on top of a table" [ref=e187]:
+                  - /url: /photos/two-shot-glasses-sitting-on-top-of-a-table-63l5tqu859s
+                  - img "two shot glasses sitting on top of a table" [ref=e188]
+            - generic [ref=e189]:
+              - figure [ref=e190]:
+                - link "people sitting on chair in front of table" [ref=e193]:
+                  - /url: /photos/people-sitting-on-chair-in-front-of-table-qOQDgCqe_o0
+                  - img "people sitting on chair in front of table" [ref=e194]
+              - figure [ref=e195]:
+                - link "a tall glass filled with liquid sitting on a table" [ref=e198]:
+                  - /url: /photos/a-tall-glass-filled-with-liquid-sitting-on-a-table-qxSAO13Zhhs
+                  - img "a tall glass filled with liquid sitting on a table" [ref=e199]
+              - figure [ref=e200]:
+                - link "a group of bottles on a table" [ref=e203]:
+                  - /url: /photos/a-group-of-bottles-on-a-table-9JSArMCHFWE
+                  - img "a group of bottles on a table" [ref=e204]
+              - figure [ref=e205]:
+                - link "Bottles of liquor at a dimly lit bar." [ref=e208]:
+                  - /url: /photos/bottles-of-liquor-at-a-dimly-lit-bar-vCtr-ufbDYU
+                  - img "Bottles of liquor at a dimly lit bar." [ref=e209]
+              - figure [ref=e210]:
+                - link "People toasting with cocktails at a dark bar." [ref=e213]:
+                  - /url: /photos/people-toasting-with-cocktails-at-a-dark-bar-zLOOyLS7t7s
+                  - img "People toasting with cocktails at a dark bar." [ref=e214]
+              - figure [ref=e215]:
+                - link "a candle and a glass of liquid on a table" [ref=e218]:
+                  - /url: /photos/a-candle-and-a-glass-of-liquid-on-a-table-1eTBO2OpoV0
+                  - img "a candle and a glass of liquid on a table" [ref=e219]
+              - figure [ref=e220]:
+                - link "Hands holding cocktails with olives at night" [ref=e223]:
+                  - /url: /photos/hands-holding-cocktails-with-olives-at-night-je6KTk7vVvM
+                  - img "Hands holding cocktails with olives at night" [ref=e224]
+              - figure [ref=e225]:
+                - link "man in black shirt holding lighted candle" [ref=e228]:
+                  - /url: /photos/man-in-black-shirt-holding-lighted-candle-iWRKAAzuaOQ
+                  - img "man in black shirt holding lighted candle" [ref=e229]
+              - figure [ref=e230]:
+                - link "a neon sign that reads night club" [ref=e233]:
+                  - /url: /photos/a-neon-sign-that-reads-night-club-s55JxY81dw4
+                  - img "a neon sign that reads night club" [ref=e234]
+              - figure [ref=e235]:
+                - link "a person sitting at a table in a dimly lit room" [ref=e238]:
+                  - /url: /photos/a-person-sitting-at-a-table-in-a-dimly-lit-room-fiNrudFJDCw
+                  - img "a person sitting at a table in a dimly lit room" [ref=e239]
+            - generic [ref=e240]:
+              - contentinfo [ref=e245]:
+                - generic [ref=e251]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e253]:
+                - link "a neon sign that reads night club" [ref=e256]:
+                  - /url: /photos/a-neon-sign-that-reads-night-club-B75w_nI6KkA
+                  - img "a neon sign that reads night club" [ref=e257]
+              - figure [ref=e258]:
+                - link "a bar filled with lots of bottles of liquor" [ref=e261]:
+                  - /url: /photos/a-bar-filled-with-lots-of-bottles-of-liquor-NVEiUiNHX6Y
+                  - img "a bar filled with lots of bottles of liquor" [ref=e262]
+              - figure [ref=e263]:
+                - link "selective focus photography of glass bottles on table" [ref=e266]:
+                  - /url: /photos/selective-focus-photography-of-glass-bottles-on-table-ts2e1Dia5Ec
+                  - img "selective focus photography of glass bottles on table" [ref=e267]
+              - figure [ref=e268]:
+                - link "A group of people sitting at a bar" [ref=e271]:
+                  - /url: /photos/a-group-of-people-sitting-at-a-bar-6n6t9DVJdIY
+                  - img "A group of people sitting at a bar" [ref=e272]
+          - button "Load more" [ref=e275] [cursor=pointer]
+          - generic [ref=e278]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e279]:
+              - text: Browse premium images on iStock
+              - generic [ref=e280]: "| Claim your discount now"
+            - generic [ref=e282]:
+              - link "Midsection of young female bartender preparing cocktails in cocktail bar" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/midsection-of-young-female-bartender-preparing-cocktails-in-cocktail-bar-gm532395622-94243979?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Midsection of young female bartender preparing cocktails in cocktail bar" [ref=e284]
+              - link "the secret bar in berlin" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/the-secret-bar-in-berlin-gm1173189963-325757739?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "the secret bar in berlin" [ref=e286]
+              - link "black chairs with tables on terrace on a illuminated street" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/black-chairs-with-tables-on-terrace-on-a-illuminated-street-gm1338756038-419254310?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "black chairs with tables on terrace on a illuminated street" [ref=e288]
+              - link "Female couple having drinks" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/female-couple-having-drinks-gm641124394-116108579?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Female couple having drinks" [ref=e290]
+              - link "Female friends in the bar" [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/female-friends-in-the-bar-gm638788078-114752031?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Female friends in the bar" [ref=e292]
+              - link "Abstract Blurred Nightlife Bar Background with Pink and Red Lights" [ref=e293] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/abstract-blurred-nightlife-bar-background-with-pink-and-red-lights-gm2223365241-639578437?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Abstract Blurred Nightlife Bar Background with Pink and Red Lights" [ref=e294]
+              - link "Soccer ball and trophy celebrating championship in bar" [ref=e295] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/soccer-ball-and-trophy-celebrating-championship-in-bar-gm2258014043-671045450?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Soccer ball and trophy celebrating championship in bar" [ref=e296]
+              - generic [ref=e297]:
+                - link "Halloween decorations in hotel lobby. Holiday still life with cup of coffee, skull, book, bat." [ref=e298] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/halloween-decorations-in-hotel-lobby-holiday-still-life-with-cup-of-coffee-skull-gm2167204073-587276198?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A
+                  - img "Halloween decorations in hotel lobby. Holiday still life with cup of coffee, skull, book, bat." [ref=e299]
+                - link "View more on iStock ↗" [ref=e300] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnight-bar-atmospheric-dark-drinks&utm_term=night+bar+atmospheric+dark+drinks%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=night+bar+atmospheric+dark+drinks&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e302]:
+            - link [ref=e303] [cursor=pointer]:
+              - /url: /
+              - img [ref=e304]
+            - paragraph [ref=e306]: Make something awesome
+    - generic:
+      - region "Notifications"

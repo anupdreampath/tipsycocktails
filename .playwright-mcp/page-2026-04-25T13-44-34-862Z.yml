@@ -1,0 +1,287 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fevent-venue-hall-wedding
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fevent-venue-hall-wedding
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fevent-venue-hall-wedding
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: event venue hall wedding
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fevent-venue-hall-wedding
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 50":
+                - /url: /s/photos/event-venue-hall-wedding
+                - img
+                - text: Photos
+                - generic: "50"
+            - listitem [ref=e73]:
+              - link "Illustrations 0" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/event-venue-hall-wedding
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "0"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Event venue hall wedding" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "banquet hall" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/banquet-hall
+              - link "wedding venue" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/wedding-venue
+              - link "celebration" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/celebration
+              - link "event planning" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/event-planning
+              - link "gathering" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/gathering
+              - link "table setting" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/table-setting
+              - link "wedding reception" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/wedding-reception
+              - link "event space" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/event-space
+              - link "reception hall" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/reception-hall
+              - link "venue rental" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/venue-rental
+              - link "party venue" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/party-venue
+              - link "special occasion" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/special-occasion
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - generic [ref=e145]:
+                  - link "a large room with tables and chairs in it" [ref=e146]:
+                    - /url: /photos/a-large-room-with-tables-and-chairs-in-it-neAMdikyhEQ
+                    - img "a large room with tables and chairs in it" [ref=e147]
+                  - link [ref=e148] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-large-room-with-tables-and-chairs-in-it-neAMdikyhEQ
+                    - img [ref=e149]
+              - generic [ref=e151]:
+                - heading "Sponsored images" [level=4] [ref=e152]:
+                  - generic [ref=e153]: Sponsored images
+                  - link [ref=e154] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A93d5ce77-0e80-4bea-b90e-4901f0c031a2&phrase=event+venue+hall+wedding&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e155]
+                - generic [ref=e157]:
+                  - link "Festive tables with flower composition on black tablecloth and chairs for guests. Wedding set up, dinner table reception in area on party. Banquet decoration in hall restaurant. Setting. Side view." [ref=e158] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/festive-tables-with-flower-composition-on-black-tablecloth-and-chairs-for-guests-gm1488540550-513677724?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3Af59e78ab-51d1-49f2-9214-0b22f01d20e9
+                    - img "Festive tables with flower composition on black tablecloth and chairs for guests. Wedding set up, dinner table reception in area on party. Banquet decoration in hall restaurant. Setting. Side view." [ref=e159]
+                  - link "APAC registration counter with digital tablet display QR code for self check in at hotel business conference entrance hall" [ref=e160] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/apac-registration-counter-with-digital-tablet-display-qr-code-for-self-check-in-at-gm1571182447-527952137?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A34346727-67bd-494e-89dc-82b12a0b3949
+                    - img "APAC registration counter with digital tablet display QR code for self check in at hotel business conference entrance hall" [ref=e161]
+                  - link "Wedding Reception Hall Table Setting" [ref=e162] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/wedding-reception-hall-table-setting-gm157377031-6814719?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A8af199e4-f856-4c6f-b8ab-78633c21fb16
+                    - img "Wedding Reception Hall Table Setting" [ref=e163]
+                  - link "Arch decorated with red and pink balloons, flower arrangements" [ref=e164] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/arch-decorated-with-red-and-pink-balloons-flower-arrangements-gm2156170476-576946246?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3Abfe12c8b-0ce5-4bd1-af4e-6fbb080f6bfb
+                    - img "Arch decorated with red and pink balloons, flower arrangements" [ref=e165]
+                - link "Get 20% off with code UNSPLASH20" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A93d5ce77-0e80-4bea-b90e-4901f0c031a2&phrase=event+venue+hall+wedding&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e167]:
+                - link "Elegant banquet hall set up for an event" [ref=e170]:
+                  - /url: /photos/elegant-banquet-hall-set-up-for-an-event-XAoHCa1GIns
+                  - img "Elegant banquet hall set up for an event" [ref=e171]
+              - figure [ref=e172]:
+                - generic [ref=e174]:
+                  - link "a room with tables and chandeliers in it" [ref=e175]:
+                    - /url: /photos/a-room-with-tables-and-chandeliers-in-it-nAVmFbBeKk0
+                    - img "a room with tables and chandeliers in it" [ref=e176]
+                  - link [ref=e177] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-room-with-tables-and-chandeliers-in-it-nAVmFbBeKk0
+                    - img [ref=e178]
+              - figure [ref=e180]:
+                - link "Grand hall with stage and pipe organ" [ref=e183]:
+                  - /url: /photos/grand-hall-with-stage-and-pipe-organ-nD1Z6a9b9ro
+                  - img "Grand hall with stage and pipe organ" [ref=e184]
+              - figure [ref=e185]:
+                - link "Elegant wedding reception set in a library" [ref=e188]:
+                  - /url: /photos/elegant-wedding-reception-set-in-a-library-sHEwH4lgGrY
+                  - img "Elegant wedding reception set in a library" [ref=e189]
+              - figure [ref=e190]:
+                - link "Wedding reception tables with floral centerpieces" [ref=e193]:
+                  - /url: /photos/wedding-reception-tables-with-floral-centerpieces-wYWeVmlGWHM
+                  - img "Wedding reception tables with floral centerpieces" [ref=e194]
+              - figure [ref=e195]:
+                - link "People entering a decorated hall with floral arrangements." [ref=e198]:
+                  - /url: /photos/people-entering-a-decorated-hall-with-floral-arrangements-HG1kVu-dEhk
+                  - img "People entering a decorated hall with floral arrangements." [ref=e199]
+            - generic [ref=e200]:
+              - figure [ref=e201]:
+                - link "Long tables set for a banquet in a grand hall." [ref=e204]:
+                  - /url: /photos/long-tables-set-for-a-banquet-in-a-grand-hall-jds_OTZ8c7w
+                  - img "Long tables set for a banquet in a grand hall." [ref=e205]
+              - figure [ref=e206]:
+                - link "Wedding reception dinner with guests seated at tables." [ref=e209]:
+                  - /url: /photos/wedding-reception-dinner-with-guests-seated-at-tables-pyd736FSNvk
+                  - img "Wedding reception dinner with guests seated at tables." [ref=e210]
+              - figure [ref=e211]:
+                - link "Elegant banquet hall with long tables and stone fireplace" [ref=e214]:
+                  - /url: /photos/elegant-banquet-hall-with-long-tables-and-stone-fireplace-HDgu-wT3OTs
+                  - img "Elegant banquet hall with long tables and stone fireplace" [ref=e215]
+              - figure [ref=e216]:
+                - link "Empty event space with decorated high-top tables" [ref=e219]:
+                  - /url: /photos/empty-event-space-with-decorated-high-top-tables-4PEkh4rvyMQ
+                  - img "Empty event space with decorated high-top tables" [ref=e220]
+              - figure [ref=e221]:
+                - link "Elegant wedding reception hall with guests seated at tables" [ref=e224]:
+                  - /url: /photos/elegant-wedding-reception-hall-with-guests-seated-at-tables-6QI4RM5ybEQ
+                  - img "Elegant wedding reception hall with guests seated at tables" [ref=e225]
+              - figure [ref=e226]:
+                - generic [ref=e228]:
+                  - link "a large banquet hall with tables and chairs" [ref=e229]:
+                    - /url: /photos/a-large-banquet-hall-with-tables-and-chairs-g6q29w1ZYnc
+                    - img "a large banquet hall with tables and chairs" [ref=e230]
+                  - link [ref=e231] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-large-banquet-hall-with-tables-and-chairs-g6q29w1ZYnc
+                    - img [ref=e232]
+              - figure [ref=e234]:
+                - generic [ref=e236]:
+                  - link "a table set up for a formal dinner" [ref=e237]:
+                    - /url: /photos/a-table-set-up-for-a-formal-dinner-9sSFPVFnKzc
+                    - img "a table set up for a formal dinner" [ref=e238]
+                  - link [ref=e239] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-table-set-up-for-a-formal-dinner-9sSFPVFnKzc
+                    - img [ref=e240]
+            - generic [ref=e242]:
+              - link "On-brand and on budget images for your next campaign Learn More" [ref=e245] [cursor=pointer]:
+                - /url: https://e-10457.adzerk.net/r?e=eyJ2IjoiMS4xNCIsImF2Ijo4MjM1NTIsImF0Ijo1LCJidCI6MCwiY20iOjk0ODU5NTcsImNoIjo0NTE2MywiY2siOnt9LCJjciI6MzY0NTc4NzUxLCJkaSI6IjFjZWM0Y2YyZjE5NDRjZjBiZjk1NDMzOGJjZjdiNjAzIiwiZGoiOjAsImlpIjoiMDNlYWQzMWNlZTQ1NDhjM2FiMDUyNDNmOGJmZGE0OTkiLCJkbSI6MywiZmMiOjUzOTcxNjg1MywiZmwiOjU1ODQ4Njg0LCJpcCI6IjQ5LjM2LjI0MS45NyIsIm53IjoxMDQ1NywicGMiOjAsIm9wIjowLCJtcCI6MCwiZWMiOjAsImdtIjowLCJlcCI6bnVsbCwicHIiOjIwODI4MywicnQiOjEsInJzIjo1MDAsInNhIjoiOTYiLCJzYiI6ImktMDRkMTAwYzhlNTZiNGU1Y2UiLCJzcCI6MjE1ODMyLCJzdCI6MTEyMTk1NCwidWsiOiI3MjhiMzkwYy0wOTI1LTQ4MTAtYjMzNi01NTI4ZTdkMmYyNjgiLCJ6biI6MjQxMzQ4LCJ6bSI6WzI0MTM0OF0sInRzIjoxNzc3MTI0Njc0MzU1LCJwbiI6InNlYXJjaC1pbi1mZWVkIiwiZ3IiOnRydWUsImdjIjp0cnVlLCJnQyI6dHJ1ZSwiZ3MiOiJub25lIiwidHoiOiJBbWVyaWNhL05ld19Zb3JrIiwidXIiOiJodHRwczovL3Vuc3BsYXNoLmNvbS9zdHVkaW8ifQ&s=dZbcZVRRHuDdm8CBs8lMV_VlEXk
+                - generic [ref=e246]:
+                  - img [ref=e248]
+                  - contentinfo [ref=e249]:
+                    - generic [ref=e250]:
+                      - img [ref=e252]
+                      - generic [ref=e256]: On-brand and on budget images for your next campaign
+                    - generic [ref=e257]: Learn More
+              - figure [ref=e258]:
+                - generic [ref=e260]:
+                  - link "a dining room with a chandelier hanging from the ceiling" [ref=e261]:
+                    - /url: /photos/a-dining-room-with-a-chandelier-hanging-from-the-ceiling--0vup8en_hw
+                    - img "a dining room with a chandelier hanging from the ceiling" [ref=e262]
+                  - link [ref=e263] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-dining-room-with-a-chandelier-hanging-from-the-ceiling--0vup8en_hw
+                    - img [ref=e264]
+              - figure [ref=e266]:
+                - link "Empty banquet hall with red chairs and round tables." [ref=e269]:
+                  - /url: /photos/empty-banquet-hall-with-red-chairs-and-round-tables-S3Qh6mNZbLc
+                  - img "Empty banquet hall with red chairs and round tables." [ref=e270]
+              - figure [ref=e271]:
+                - link "Long tables set for a banquet in a grand hall." [ref=e274]:
+                  - /url: /photos/long-tables-set-for-a-banquet-in-a-grand-hall-XiZd25Fk7H0
+                  - img "Long tables set for a banquet in a grand hall." [ref=e275]
+              - figure [ref=e276]:
+                - link "Rustic barn interior with wooden arch and string lights" [ref=e279]:
+                  - /url: /photos/rustic-barn-interior-with-wooden-arch-and-string-lights-jPraDj9ZEMI
+                  - img "Rustic barn interior with wooden arch and string lights" [ref=e280]
+              - figure [ref=e281]:
+                - link "Elegant dining room with round tables and chandeliers." [ref=e284]:
+                  - /url: /photos/elegant-dining-room-with-round-tables-and-chandeliers-7K67WDBrcIs
+                  - img "Elegant dining room with round tables and chandeliers." [ref=e285]
+              - figure [ref=e286]:
+                - link "Grand ballroom with chandeliers and rows of chairs" [ref=e289]:
+                  - /url: /photos/grand-ballroom-with-chandeliers-and-rows-of-chairs-FKLXn1mw3Bg
+                  - img "Grand ballroom with chandeliers and rows of chairs" [ref=e290]
+          - button "Load more" [ref=e293] [cursor=pointer]
+          - generic [ref=e296]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e297]:
+              - text: Browse premium images on iStock
+              - generic [ref=e298]: "| Claim your discount now"
+            - generic [ref=e300]:
+              - link "Dais at an Indian Wedding" [ref=e301] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/dais-at-an-indian-wedding-gm529027491-53792536?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A87d74b17-0cb6-4fdd-ad67-cf1dcdc85899
+                - img "Dais at an Indian Wedding" [ref=e302]
+              - link "Wedding Reception Hall Event Tables" [ref=e303] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/wedding-reception-hall-event-tables-gm2164893663-585138938?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A0c5bc8d0-ebfc-4934-87cc-fb62019bdc59
+                - img "Wedding Reception Hall Event Tables" [ref=e304]
+              - link "Decorated interior for festive event. Fancy table set for dinner with white flower composition in restaurant, luxury interior background. Wedding elegant banquet decoration arranged by catering service." [ref=e305] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/decorated-interior-for-festive-event-fancy-table-set-for-dinner-with-white-flower-gm2260229125-673113783?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3Aec186269-0d80-41be-a3a6-7b0e9a6a8d3d
+                - img "Decorated interior for festive event. Fancy table set for dinner with white flower composition in restaurant, luxury interior background. Wedding elegant banquet decoration arranged by catering service." [ref=e306]
+              - link "Wedding barn ceiling decoration" [ref=e307] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/wedding-barn-ceiling-decoration-gm2227353072-643231355?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A0c6a95f4-8243-4313-9647-825acef7c24a
+                - img "Wedding barn ceiling decoration" [ref=e308]
+              - link "Banquet decoration in hall restaurant. Festive tables with flower composition on black tablecloth and chairs for guests. Wedding set up, dinner table reception in area on party. Setting. Side view." [ref=e309] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/banquet-decoration-in-hall-restaurant-festive-tables-with-flower-composition-on-gm1516488332-524280764?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A0c34f788-d4d9-4dc3-a0e0-e0f7a0875d5c
+                - img "Banquet decoration in hall restaurant. Festive tables with flower composition on black tablecloth and chairs for guests. Wedding set up, dinner table reception in area on party. Setting. Side view." [ref=e310]
+              - link "Group of multiracial Asian business participants casual chat after successful conference event" [ref=e311] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/group-of-multiracial-asian-business-participants-casual-chat-after-successful-gm1633285114-532671556?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3Af3e5bf0e-6931-48a8-8b27-98cc056180f7
+                - img "Group of multiracial Asian business participants casual chat after successful conference event" [ref=e312]
+              - link "wedding reception" [ref=e313] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/wedding-reception-gm171259492-20874484?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A5ff47f6c-72a8-4ff8-9bca-cbadc7ee8d94
+                - img "wedding reception" [ref=e314]
+              - generic [ref=e315]:
+                - link "Beautiful table setting for family Christmas dinner. Cozy atmosphere, candlelight on tall candelabras. stock photo" [ref=e316] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/beautiful-table-setting-for-family-christmas-dinner-cozy-atmosphere-candlelight-on-gm2158305514-578948707?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3Acab3ecf1-702a-4d2f-a168-b16abc3d54fc
+                  - img "Beautiful table setting for family Christmas dinner. Cozy atmosphere, candlelight on tall candelabras. stock photo" [ref=e317]
+                - link "View more on iStock ↗" [ref=e318] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fevent-venue-hall-wedding&utm_term=event+venue+hall+wedding%3A%3Aaffiliate-layout-optim%3Ab%3A2b5030a7-8270-404c-937a-2fafe02b186e&phrase=event+venue+hall+wedding&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e320]:
+            - link [ref=e321] [cursor=pointer]:
+              - /url: /
+              - img [ref=e322]
+            - paragraph [ref=e324]: Make something awesome
+    - generic:
+      - region "Notifications"

@@ -1,0 +1,238 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Tipsy Cocktails" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Tipsy Cocktails" [ref=e6]
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Home" [ref=e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e11]:
+            - link "Classes" [ref=e12] [cursor=pointer]:
+              - /url: /classes
+          - listitem [ref=e13]:
+            - link "Reviews" [ref=e14] [cursor=pointer]:
+              - /url: /reviews
+          - listitem [ref=e15]:
+            - link "FAQ" [ref=e16] [cursor=pointer]:
+              - /url: /faq
+          - listitem [ref=e17]:
+            - link "Menu" [ref=e18] [cursor=pointer]:
+              - /url: /menu
+          - listitem [ref=e19]:
+            - link "Contact Us" [ref=e20] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e21]:
+        - link "Instant Quote" [ref=e22] [cursor=pointer]:
+          - /url: /contact
+        - button "Toggle menu" [ref=e23] [cursor=pointer]
+  - generic:
+    - generic:
+      - link:
+        - /url: /
+        - img
+      - button:
+        - img
+    - navigation:
+      - list:
+        - listitem:
+          - link:
+            - /url: /
+            - text: Home
+        - listitem:
+          - link:
+            - /url: /classes
+            - text: Classes
+        - listitem:
+          - link:
+            - /url: /reviews
+            - text: Reviews
+        - listitem:
+          - link:
+            - /url: /menu
+            - text: Menu
+        - listitem:
+          - link:
+            - /url: /faq
+            - text: FAQ
+        - listitem:
+          - link:
+            - /url: /contact
+            - text: Contact Us
+  - main [ref=e27]:
+    - main [ref=e28]:
+      - generic [ref=e29]:
+        - img [ref=e30]
+        - generic [ref=e31]:
+          - heading "Mobile Bartending & Cocktail Experiences" [level=1] [ref=e32]:
+            - text: Mobile Bartending
+            - text: "& Cocktail Experiences"
+          - paragraph [ref=e33]: We bring THE PARTY to your event.
+          - link "Get the Party Started" [ref=e34] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - link "21st Birthdays 21st Birthdays" [ref=e37] [cursor=pointer]:
+            - /url: "#"
+            - heading "21st Birthdays" [level=2] [ref=e38]
+            - img "21st Birthdays" [ref=e40]
+          - link "Hen Parties Hen Parties" [ref=e41] [cursor=pointer]:
+            - /url: "#"
+            - heading "Hen Parties" [level=2] [ref=e42]
+            - img "Hen Parties" [ref=e44]
+          - link "40th Birthdays 40th Birthdays" [ref=e45] [cursor=pointer]:
+            - /url: "#"
+            - heading "40th Birthdays" [level=2] [ref=e46]
+            - img "40th Birthdays" [ref=e48]
+          - link "50th Birthdays 50th Birthdays" [ref=e49] [cursor=pointer]:
+            - /url: "#"
+            - heading "50th Birthdays" [level=2] [ref=e50]
+            - img "50th Birthdays" [ref=e52]
+          - link "30th Birthdays 30th Birthdays" [ref=e53] [cursor=pointer]:
+            - /url: "#"
+            - heading "30th Birthdays" [level=2] [ref=e54]
+            - img "30th Birthdays" [ref=e56]
+          - link "60th Birthdays 60th Birthdays" [ref=e57] [cursor=pointer]:
+            - /url: "#"
+            - heading "60th Birthdays" [level=2] [ref=e58]
+            - img "60th Birthdays" [ref=e60]
+          - link "Garden Parties Garden Parties" [ref=e61] [cursor=pointer]:
+            - /url: "#"
+            - heading "Garden Parties" [level=2] [ref=e62]
+            - img "Garden Parties" [ref=e64]
+          - link "Corporate Events Corporate Events" [ref=e65] [cursor=pointer]:
+            - /url: "#"
+            - heading "Corporate Events" [level=2] [ref=e66]
+            - img "Corporate Events" [ref=e68]
+          - link "Christmas Parties Christmas Parties" [ref=e69] [cursor=pointer]:
+            - /url: "#"
+            - heading "Christmas Parties" [level=2] [ref=e70]
+            - img "Christmas Parties" [ref=e72]
+        - generic [ref=e73]: ›
+      - generic [ref=e76]:
+        - generic:
+          - img "Mobile cocktail bar party setup"
+        - generic [ref=e77]:
+          - heading "Your event, our bar, unforgettable moments" [level=2] [ref=e78]:
+            - text: Your event,
+            - text: our bar,
+            - text: unforgettable
+            - text: moments
+          - paragraph [ref=e79]: We're a passionate crew of expert mixologists who bring a premium bar experience straight to your door. From intimate house parties to grand venue celebrations, we transform any space into a cocktail destination.
+          - paragraph [ref=e80]: Every event is unique — which is why we tailor our cocktail menu, bar setup, and service style entirely to you. Premium spirits, personalised garnishes, and skilled bartenders who know how to read the room.
+          - link "Get a Quote" [ref=e81] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - heading "Our Signature Cocktail Menu" [level=2] [ref=e85]
+          - paragraph [ref=e86]: From timeless classics to dazzling originals, our menu has something for every taste. Bold spirits, light fruity blends, or alcohol-free creations — our mixologists bring them all to life at your event.
+          - link "View Full Menu" [ref=e87] [cursor=pointer]:
+            - /url: /menu
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - img "Amaretto Sour" [ref=e92]
+            - heading "Amaretto Sour" [level=3] [ref=e93]
+          - generic [ref=e94]:
+            - img "Cosmopolitan" [ref=e96]
+            - heading "Cosmopolitan" [level=3] [ref=e97]
+          - generic [ref=e98]:
+            - img "Hugo Spritz" [ref=e100]
+            - heading "Hugo Spritz" [level=3] [ref=e101]
+          - generic [ref=e102]:
+            - img "Kingston" [ref=e104]
+            - heading "Kingston" [level=3] [ref=e105]
+          - generic [ref=e106]:
+            - img "Kir Royale" [ref=e108]
+            - heading "Kir Royale" [level=3] [ref=e109]
+          - generic [ref=e110]:
+            - img "Margarita" [ref=e112]
+            - heading "Margarita" [level=3] [ref=e113]
+          - generic [ref=e114]:
+            - img "Mojito" [ref=e116]
+            - heading "Mojito" [level=3] [ref=e117]
+          - generic [ref=e118]:
+            - img "Negroni" [ref=e120]
+            - heading "Negroni" [level=3] [ref=e121]
+          - generic [ref=e122]:
+            - img "Pornstar Martini" [ref=e124]
+            - heading "Pornstar Martini" [level=3] [ref=e125]
+          - generic [ref=e126]:
+            - img "Sex On The Beach" [ref=e128]
+            - heading "Sex On The Beach" [level=3] [ref=e129]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - heading "Our Partner Venues" [level=2] [ref=e133]
+          - paragraph [ref=e134]: Beyond private hire, we're proud to be the resident bar team at some of the region's most celebrated event spaces.
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - img "The Grand Ballroom" [ref=e138]
+            - heading "The Grand Ballroom" [level=3] [ref=e139]
+            - paragraph [ref=e141]: A breathtaking historic venue perfect for elegant weddings, milestone birthdays, and upscale corporate celebrations.
+          - generic [ref=e142]:
+            - img "Riverside Sports Club" [ref=e144]
+            - heading "Riverside Sports Club" [level=3] [ref=e145]
+            - paragraph [ref=e147]: A vibrant sporting venue where we deliver premium bar service for matches, functions, and private events.
+          - generic [ref=e148]:
+            - img "Meadowbrook Farm" [ref=e150]
+            - heading "Meadowbrook Farm" [level=3] [ref=e151]
+            - paragraph [ref=e153]: A stunning rural retreat surrounded by rolling countryside — ideal for outdoor weddings and unforgettable celebrations.
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - heading "We Come To You. Wherever You Are." [level=2] [ref=e158]:
+            - text: We Come
+            - text: To You.
+            - text: Wherever
+            - text: You Are.
+          - paragraph [ref=e159]: From compact home setups to full outdoor festival bars, our fully equipped mobile units adapt to any space or occasion. Tell us your vision — we'll handle everything from setup to last call.
+          - link "Learn More" [ref=e160] [cursor=pointer]:
+            - /url: /contact
+        - generic:
+          - img "Mobile cocktail bar hire"
+  - contentinfo [ref=e161]:
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - heading "Contact the Team" [level=2] [ref=e165]
+          - paragraph [ref=e166]: Get in touch with our team to discuss your event. We'll get back to you as soon as possible with a tailored quote.
+          - generic [ref=e167]:
+            - textbox "Name" [ref=e168]
+            - textbox "Email" [ref=e169]
+            - textbox "Phone" [ref=e170]
+            - textbox "Tell us about your event" [ref=e171]
+            - button "Send Enquiry" [ref=e172] [cursor=pointer]
+        - generic [ref=e173]:
+          - heading "Find Us" [level=2] [ref=e174]
+          - paragraph [ref=e175]:
+            - strong [ref=e176]: Mobile Bar Hire
+            - text: Your Address Line 1
+            - text: City, Postcode
+            - link "000 000 0000" [ref=e177] [cursor=pointer]:
+              - /url: tel:0000000000
+            - link "hello@yourbrand.com" [ref=e178] [cursor=pointer]:
+              - /url: mailto:hello@yourbrand.com
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - heading "Connect" [level=2] [ref=e181]
+          - generic [ref=e182]:
+            - link "Instagram" [ref=e183] [cursor=pointer]:
+              - /url: "#"
+            - link "Facebook" [ref=e184] [cursor=pointer]:
+              - /url: "#"
+            - link "TikTok" [ref=e185] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e186]:
+          - heading "Quick Links" [level=2] [ref=e187]
+          - generic [ref=e188]:
+            - link "Classes" [ref=e189] [cursor=pointer]:
+              - /url: /classes
+            - link "Menu" [ref=e190] [cursor=pointer]:
+              - /url: /menu
+            - link "Reviews" [ref=e191] [cursor=pointer]:
+              - /url: /reviews
+            - link "FAQ" [ref=e192] [cursor=pointer]:
+              - /url: /faq
+            - link "Contact" [ref=e193] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e194]: © 2026 Your Brand

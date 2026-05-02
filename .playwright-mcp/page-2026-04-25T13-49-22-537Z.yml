@@ -1,0 +1,13 @@
+- generic [ref=e3]:
+  - generic [ref=e4]: "[plugin:vite:oxc] Transform failed with 1 error: [PARSE_ERROR] Error: Invalid Character `‘` ╭─[ src/App.tsx:26:3 ] │ 26 │ ‘photo-1684952849219-5a0d76012ed2’,’photo-1676136251163-fe3200bc734e’, │ ┬ │ ╰── ────╯"
+  - generic [ref=e5]: /Users/admin/Desktop/shopify $250 order uk/app/src/App.tsx
+  - generic [ref=e6]: at transformWithOxc (file:///Users/admin/Desktop/shopify%20$250%20order%20uk/app/node_modules/vite/dist/node/chunks/node.js:3343:19) at TransformPluginContext.transform (file:///Users/admin/Desktop/shopify%20$250%20order%20uk/app/node_modules/vite/dist/node/chunks/node.js:3411:26) at EnvironmentPluginContainer.transform (file:///Users/admin/Desktop/shopify%20$250%20order%20uk/app/node_modules/vite/dist/node/chunks/node.js:30164:51) at async loadAndTransform (file:///Users/admin/Desktop/shopify%20$250%20order%20uk/app/node_modules/vite/dist/node/chunks/node.js:24512:26) at async viteTransformMiddleware (file:///Users/admin/Desktop/shopify%20$250%20order%20uk/app/node_modules/vite/dist/node/chunks/node.js:24306:20)
+  - generic [ref=e7]:
+    - text: Click outside, press Esc key, or fix the code to dismiss.
+    - text: You can also disable this overlay by setting
+    - code [ref=e8]: server.hmr.overlay
+    - text: to
+    - code [ref=e9]: "false"
+    - text: in
+    - code [ref=e10]: vite.config.ts
+    - text: .

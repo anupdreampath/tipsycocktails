@@ -1,0 +1,877 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Tipsy Cocktails":
+        - /url: /
+        - img "Tipsy Cocktails" [ref=e5] [cursor=pointer]
+      - navigation [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Home" [ref=e9] [cursor=pointer]:
+              - /url: "#top"
+          - listitem [ref=e10]:
+            - link "Reviews" [ref=e11] [cursor=pointer]:
+              - /url: "#reviews"
+          - listitem [ref=e12]:
+            - link "FAQ" [ref=e13] [cursor=pointer]:
+              - /url: "#faq"
+          - listitem [ref=e14]:
+            - link "Contact Us" [ref=e15] [cursor=pointer]:
+              - /url: "#contact"
+      - generic [ref=e16]:
+        - link "Instant Quote" [ref=e17] [cursor=pointer]:
+          - /url: "#contact"
+        - button "Toggle menu" [ref=e18] [cursor=pointer]
+  - generic:
+    - generic:
+      - link:
+        - /url: /
+        - img
+      - button:
+        - img
+    - navigation:
+      - list:
+        - listitem:
+          - link:
+            - /url: "#top"
+            - text: Home
+        - listitem:
+          - link:
+            - /url: "#featured"
+            - text: What We Offer
+        - listitem:
+          - link:
+            - /url: "#contact"
+            - text: Get a Quote
+        - listitem:
+          - link:
+            - /url: "#reviews"
+            - text: Reviews
+        - listitem:
+          - link:
+            - /url: "#cocktails"
+            - text: Cocktails
+        - listitem:
+          - link:
+            - /url: "#faq"
+            - text: FAQ
+        - listitem:
+          - link:
+            - /url: "#contact"
+            - text: Contact Us
+  - generic [ref=e24]:
+    - heading "Mobile Bartending & Cocktail Experiences" [level=1] [ref=e25]:
+      - text: Mobile Bartending
+      - text: "& Cocktail Experiences"
+    - paragraph [ref=e26]: We bring THE PARTY to your event.
+    - link "Get the Party Started" [ref=e27] [cursor=pointer]:
+      - /url: "#contact"
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - link "21st Birthdays 21st Birthdays" [ref=e30] [cursor=pointer]:
+        - /url: "#"
+        - heading "21st Birthdays" [level=2] [ref=e31]
+        - img "21st Birthdays" [ref=e33]
+      - link "Hen Parties Hen Parties" [ref=e34] [cursor=pointer]:
+        - /url: "#"
+        - heading "Hen Parties" [level=2] [ref=e35]
+        - img "Hen Parties" [ref=e37]
+      - link "40th Birthdays 40th Birthdays" [ref=e38] [cursor=pointer]:
+        - /url: "#"
+        - heading "40th Birthdays" [level=2] [ref=e39]
+        - img "40th Birthdays" [ref=e41]
+      - link "50th Birthdays 50th Birthdays" [ref=e42] [cursor=pointer]:
+        - /url: "#"
+        - heading "50th Birthdays" [level=2] [ref=e43]
+        - img "50th Birthdays" [ref=e45]
+      - link "30th Birthdays 30th Birthdays" [ref=e46] [cursor=pointer]:
+        - /url: "#"
+        - heading "30th Birthdays" [level=2] [ref=e47]
+        - img "30th Birthdays" [ref=e49]
+      - link "60th Birthdays 60th Birthdays" [ref=e50] [cursor=pointer]:
+        - /url: "#"
+        - heading "60th Birthdays" [level=2] [ref=e51]
+        - img "60th Birthdays" [ref=e53]
+      - link "Garden Parties Garden Parties" [ref=e54] [cursor=pointer]:
+        - /url: "#"
+        - heading "Garden Parties" [level=2] [ref=e55]
+        - img "Garden Parties" [ref=e57]
+      - link "Corporate Events Corporate Events" [ref=e58] [cursor=pointer]:
+        - /url: "#"
+        - heading "Corporate Events" [level=2] [ref=e59]
+        - img "Corporate Events" [ref=e61]
+      - link "Christmas Parties Christmas Parties" [ref=e62] [cursor=pointer]:
+        - /url: "#"
+        - heading "Christmas Parties" [level=2] [ref=e63]
+        - img "Christmas Parties" [ref=e65]
+    - generic [ref=e66]: ›
+  - generic [ref=e69]:
+    - generic:
+      - img "Bartender crafting cocktails"
+    - generic [ref=e70]:
+      - heading "Your event, our bar, unforgettable moments" [level=2] [ref=e71]:
+        - text: Your event,
+        - text: our bar,
+        - text: unforgettable
+        - text: moments
+      - paragraph [ref=e72]: We're a passionate crew of expert mixologists who bring a premium bar experience straight to your door. From intimate house parties to grand venue celebrations, we transform any space into a cocktail destination.
+      - paragraph [ref=e73]: Every event is unique — which is why we tailor our cocktail menu, bar setup, and service style entirely to you. Premium spirits, personalised garnishes, and skilled bartenders who know how to read the room.
+      - link "Get a Quote" [ref=e74] [cursor=pointer]:
+        - /url: "#contact"
+  - generic [ref=e77]:
+    - generic [ref=e78]:
+      - heading "Cocktail Making Classes" [level=2] [ref=e79]:
+        - text: Cocktail
+        - text: Making
+        - text: Classes
+      - paragraph [ref=e80]: Discover the craft of cocktail making with our hands-on mixology experiences delivered straight to your venue — no travel, no hassle, just great drinks.
+      - paragraph [ref=e81]: Whether you're planning the ultimate hen night, a milestone birthday, or a standout team event, our masterclasses bring the bar to you. Your guests will shake, muddle, and pour their way through expertly chosen recipes — guided every step of the way by our enthusiastic bartenders.
+    - generic [ref=e82]:
+      - link "We Serve Glasgow We Serve Glasgow" [ref=e83] [cursor=pointer]:
+        - /url: "#"
+        - img "We Serve Glasgow" [ref=e85]
+        - heading "We Serve Glasgow" [level=3] [ref=e86]
+      - link "We Serve Edinburgh We Serve Edinburgh" [ref=e87] [cursor=pointer]:
+        - /url: "#"
+        - img "We Serve Edinburgh" [ref=e89]
+        - heading "We Serve Edinburgh" [level=3] [ref=e90]
+      - link "We Serve Aberdeen We Serve Aberdeen" [ref=e91] [cursor=pointer]:
+        - /url: "#"
+        - img "We Serve Aberdeen" [ref=e93]
+        - heading "We Serve Aberdeen" [level=3] [ref=e94]
+      - link "We Serve Dundee We Serve Dundee" [ref=e95] [cursor=pointer]:
+        - /url: "#"
+        - img "We Serve Dundee" [ref=e97]
+        - heading "We Serve Dundee" [level=3] [ref=e98]
+  - generic [ref=e100]:
+    - heading "Our Testimonials" [level=2] [ref=e102]
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic "5 out of 5 stars" [ref=e105]: ★★★★★
+        - generic [ref=e106]: Everything was fantastic and went down so well. The cocktail bartender Josh was an absolute star and very engaging.
+        - generic [ref=e107]:
+          - generic [ref=e108]: DAC Beachcroft
+          - generic [ref=e109]: June 2025
+      - generic [ref=e110]:
+        - generic "5 out of 5 stars" [ref=e111]: ★★★★★
+        - generic [ref=e112]: Tipsy Cocktails were highly professional and our guests were raving about their cocktails.
+        - generic [ref=e113]:
+          - generic [ref=e114]: Maguires, Glasgow
+          - generic [ref=e115]: March 2025
+      - generic [ref=e116]:
+        - generic "5 out of 5 stars" [ref=e117]: ★★★★★
+        - generic [ref=e118]: We had the best Christmas Party ever — the cocktails and the bartender made the night.
+        - generic [ref=e119]:
+          - generic [ref=e120]: Toni & Guy, Edinburgh
+          - generic [ref=e121]: January 2025
+      - generic [ref=e122]:
+        - generic "5 out of 5 stars" [ref=e123]: ★★★★★
+        - generic [ref=e124]: Our cocktail masterclass was the highlight of the night. The bartender was engaging, knowledgeable, and made everyone feel involved. The drinks were incredible and we learned loads too.
+      - generic [ref=e125]:
+        - generic "5 out of 5 stars" [ref=e126]: ★★★★★
+        - generic [ref=e127]: Absolutely brilliant service from start to finish. The setup looked amazing and the bartender brought such a great energy to the party. Highly recommend for any special occasion.
+      - generic [ref=e128]:
+        - generic "5 out of 5 stars" [ref=e129]: ★★★★★
+        - generic [ref=e130]: They will try their best to accommodate all of your needs. My daughter wanted to have two cocktails and two mocktails instead of four of the same, and they made it happen no issue.
+      - generic [ref=e131]:
+        - generic "5 out of 5 stars" [ref=e132]: ★★★★★
+        - generic [ref=e133]: Everything I wanted as an extra which isn't usually included in the bar hire, they've been able to do — even asked for a cocktail that wasn't in their menu and they delivered it perfectly.
+      - generic [ref=e134]:
+        - generic "5 out of 5 stars" [ref=e135]: ★★★★★
+        - generic [ref=e136]: We asked for a cocktail that wasn't included in their menu as it was the bride's favourite, and with no issues they agreed to it.
+      - generic [ref=e137]:
+        - generic "5 out of 5 stars" [ref=e138]: ★★★★★
+        - generic [ref=e139]: Very flexible company — met all my requirements and standards.
+      - generic [ref=e140]:
+        - generic "5 out of 5 stars" [ref=e141]: ★★★★★
+        - generic [ref=e142]: Our bartender was 10 minutes late, but it wasn't an issue as they always make up the minutes missed.
+      - generic [ref=e143]:
+        - generic "5 out of 5 stars" [ref=e144]: ★★★★★
+        - generic [ref=e145]: I've hired loads of bars before for different events and so far Tipsy Cocktails has been the best one. Highly recommend.
+      - generic [ref=e146]:
+        - generic "5 out of 5 stars" [ref=e147]: ★★★★★
+        - generic [ref=e148]: We booked a bartender for a house party and it completely transformed the evening. Professional, friendly, and the cocktails were better than most bars!
+      - generic [ref=e149]:
+        - generic "5 out of 5 stars" [ref=e150]: ★★★★★
+        - generic [ref=e151]: The cocktail class was so much fun. Perfect mix of entertainment and learning. Everyone got involved and the atmosphere was fantastic.
+      - generic [ref=e152]:
+        - generic "5 out of 5 stars" [ref=e153]: ★★★★★
+        - generic [ref=e154]: Couldn't have asked for a better experience. The bartender was punctual, well-prepared, and made the whole event feel really special.
+      - generic [ref=e155]:
+        - generic "5 out of 5 stars" [ref=e156]: ★★★★★
+        - generic [ref=e157]: From booking to the actual event, everything was smooth and professional. The bartender was excellent and the drinks were outstanding.
+      - generic [ref=e158]:
+        - generic "5 out of 5 stars" [ref=e159]: ★★★★★
+        - generic [ref=e160]: We've done a few cocktail classes before but this was by far the best. Super engaging and very well organised.
+      - generic [ref=e161]:
+        - generic "5 out of 5 stars" [ref=e162]: ★★★★★
+        - generic [ref=e163]: Hired a bartender for a house party and it was the best decision we made. The setup looked incredible and the cocktails were top quality all night.
+      - generic [ref=e164]:
+        - generic "5 out of 5 stars" [ref=e165]: ★★★★★
+        - generic [ref=e166]: We had a bartender for a birthday party at home and it felt like having a private cocktail bar. Guests couldn't stop talking about it.
+      - generic [ref=e167]:
+        - generic "5 out of 5 stars" [ref=e168]: ★★★★★
+        - generic [ref=e169]: Everything was taken care of, from setup to clean down. The bartender was friendly, skilled, and kept the drinks flowing all evening.
+      - generic [ref=e170]:
+        - generic "5 out of 5 stars" [ref=e171]: ★★★★★
+        - generic [ref=e172]: Such a smooth experience. Booking was easy and on the day the bar looked amazing. Really elevated the whole night.
+      - generic [ref=e173]:
+        - generic "5 out of 5 stars" [ref=e174]: ★★★★★
+        - generic [ref=e175]: Turned our garden party into something really special. Great drinks, great service, and zero stress for us as hosts.
+      - generic [ref=e176]:
+        - generic "5 out of 5 stars" [ref=e177]: ★★★★★
+        - generic [ref=e178]: Guests were genuinely impressed. It felt like a high-end bar experience but in our own home.
+      - generic [ref=e179]:
+        - generic "5 out of 5 stars" [ref=e180]: ★★★★★
+        - generic [ref=e181]: Fantastic experience from start to finish. The booking process was simple, communication was clear, and everything ran exactly as promised on the day.
+      - generic [ref=e182]:
+        - generic "5 out of 5 stars" [ref=e183]: ★★★★★
+        - generic [ref=e184]: Really impressed with how easy everything was to organise. Quick responses, flexible options, and a very professional service throughout.
+      - generic [ref=e185]:
+        - generic "5 out of 5 stars" [ref=e186]: ★★★★★
+        - generic [ref=e187]: Great communication and attention to detail. The team made the whole process stress-free and delivered exactly what we were looking for.
+      - generic [ref=e188]:
+        - generic "5 out of 5 stars" [ref=e189]: ★★★★★
+        - generic [ref=e190]: A really well organised service. The booking process was straightforward and the whole experience felt reliable and high quality.
+  - generic [ref=e192]:
+    - generic [ref=e193]:
+      - heading "Our Signature Cocktail Menu" [level=2] [ref=e194]
+      - paragraph [ref=e195]: From timeless classics to dazzling originals, our menu has something for every taste. Bold spirits, light fruity blends, or alcohol-free creations — our mixologists bring them all to life at your event.
+    - generic [ref=e196]:
+      - button "Previous" [ref=e197] [cursor=pointer]: ‹
+      - generic [ref=e198]:
+        - link "Pornstar Martini Pornstar Martini" [ref=e199] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e200]:
+            - img "Pornstar Martini"
+          - heading "Pornstar Martini" [level=3] [ref=e201]
+        - link "Espresso Martini Espresso Martini" [ref=e202] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e203]:
+            - img "Espresso Martini"
+          - heading "Espresso Martini" [level=3] [ref=e204]
+        - link "Strawberry Daiquiri Strawberry Daiquiri" [ref=e205] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e206]:
+            - img "Strawberry Daiquiri"
+          - heading "Strawberry Daiquiri" [level=3] [ref=e207]
+        - link "Bramble Bramble" [ref=e208] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e209]:
+            - img "Bramble"
+          - heading "Bramble" [level=3] [ref=e210]
+        - link "WooWoo WooWoo" [ref=e211] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e212]:
+            - img "WooWoo"
+          - heading "WooWoo" [level=3] [ref=e213]
+        - link "Cosmopolitan Cosmopolitan" [ref=e214] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e215]:
+            - img "Cosmopolitan"
+          - heading "Cosmopolitan" [level=3] [ref=e216]
+        - link "Pina Colada Pina Colada" [ref=e217] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e218]:
+            - img "Pina Colada"
+          - heading "Pina Colada" [level=3] [ref=e219]
+        - link "Mojito Mojito" [ref=e220] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e221]:
+            - img "Mojito"
+          - heading "Mojito" [level=3] [ref=e222]
+        - link "Mai-Tai Mai-Tai" [ref=e223] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e224]:
+            - img "Mai-Tai"
+          - heading "Mai-Tai" [level=3] [ref=e225]
+        - link "Blueberry Mule Blueberry Mule" [ref=e226] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e227]:
+            - img "Blueberry Mule"
+          - heading "Blueberry Mule" [level=3] [ref=e228]
+        - link "Martini Martini" [ref=e229] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e230]:
+            - img "Martini"
+          - heading "Martini" [level=3] [ref=e231]
+        - link "Daiquiri Daiquiri" [ref=e232] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e233]:
+            - img "Daiquiri"
+          - heading "Daiquiri" [level=3] [ref=e234]
+        - link "Old Fashioned Old Fashioned" [ref=e235] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e236]:
+            - img "Old Fashioned"
+          - heading "Old Fashioned" [level=3] [ref=e237]
+        - link "Caipirinha Caipirinha" [ref=e238] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e239]:
+            - img "Caipirinha"
+          - heading "Caipirinha" [level=3] [ref=e240]
+        - link "White Russian White Russian" [ref=e241] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e242]:
+            - img "White Russian"
+          - heading "White Russian" [level=3] [ref=e243]
+        - link "Negroni Negroni" [ref=e244] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e245]:
+            - img "Negroni"
+          - heading "Negroni" [level=3] [ref=e246]
+        - link "Margarita Margarita" [ref=e247] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e248]:
+            - img "Margarita"
+          - heading "Margarita" [level=3] [ref=e249]
+        - link "Dark 'N' Stormy Dark 'N' Stormy" [ref=e250] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e251]:
+            - img "Dark 'N' Stormy"
+          - heading "Dark 'N' Stormy" [level=3] [ref=e252]
+        - link "Cuba Libre Cuba Libre" [ref=e253] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e254]:
+            - img "Cuba Libre"
+          - heading "Cuba Libre" [level=3] [ref=e255]
+        - link "Sazerac Sazerac" [ref=e256] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e257]:
+            - img "Sazerac"
+          - heading "Sazerac" [level=3] [ref=e258]
+        - link "Bloody Mary Bloody Mary" [ref=e259] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e260]:
+            - img "Bloody Mary"
+          - heading "Bloody Mary" [level=3] [ref=e261]
+        - link "Manhattan Manhattan" [ref=e262] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e263]:
+            - img "Manhattan"
+          - heading "Manhattan" [level=3] [ref=e264]
+        - link "Long Island Iced Tea Long Island Iced Tea" [ref=e265] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e266]:
+            - img "Long Island Iced Tea"
+          - heading "Long Island Iced Tea" [level=3] [ref=e267]
+        - link "Amaretto Sour Amaretto Sour" [ref=e268] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e269]:
+            - img "Amaretto Sour"
+          - heading "Amaretto Sour" [level=3] [ref=e270]
+        - link "Singapore Sling Singapore Sling" [ref=e271] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e272]:
+            - img "Singapore Sling"
+          - heading "Singapore Sling" [level=3] [ref=e273]
+        - link "Moscow Mule Moscow Mule" [ref=e274] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e275]:
+            - img "Moscow Mule"
+          - heading "Moscow Mule" [level=3] [ref=e276]
+        - link "Clover Club Clover Club" [ref=e277] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e278]:
+            - img "Clover Club"
+          - heading "Clover Club" [level=3] [ref=e279]
+        - link "Mint Julep Mint Julep" [ref=e280] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e281]:
+            - img "Mint Julep"
+          - heading "Mint Julep" [level=3] [ref=e282]
+        - link "John Collins John Collins" [ref=e283] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e284]:
+            - img "John Collins"
+          - heading "John Collins" [level=3] [ref=e285]
+        - link "Gin Sour Gin Sour" [ref=e286] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e287]:
+            - img "Gin Sour"
+          - heading "Gin Sour" [level=3] [ref=e288]
+        - link "Appletini Appletini" [ref=e289] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e290]:
+            - img "Appletini"
+          - heading "Appletini" [level=3] [ref=e291]
+        - link "White Lady White Lady" [ref=e292] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e293]:
+            - img "White Lady"
+          - heading "White Lady" [level=3] [ref=e294]
+        - link "Black Russian Black Russian" [ref=e295] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e296]:
+            - img "Black Russian"
+          - heading "Black Russian" [level=3] [ref=e297]
+        - link "French 75 French 75" [ref=e298] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e299]:
+            - img "French 75"
+          - heading "French 75" [level=3] [ref=e300]
+        - link "Rusty Nail Rusty Nail" [ref=e301] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e302]:
+            - img "Rusty Nail"
+          - heading "Rusty Nail" [level=3] [ref=e303]
+        - link "Pisco Sour Pisco Sour" [ref=e304] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e305]:
+            - img "Pisco Sour"
+          - heading "Pisco Sour" [level=3] [ref=e306]
+        - link "Bucks Fizz Bucks Fizz" [ref=e307] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e308]:
+            - img "Bucks Fizz"
+          - heading "Bucks Fizz" [level=3] [ref=e309]
+        - link "Rum Runner Rum Runner" [ref=e310] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e311]:
+            - img "Rum Runner"
+          - heading "Rum Runner" [level=3] [ref=e312]
+        - link "El Presidente El Presidente" [ref=e313] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e314]:
+            - img "El Presidente"
+          - heading "El Presidente" [level=3] [ref=e315]
+        - link "Kir Royale Kir Royale" [ref=e316] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e317]:
+            - img "Kir Royale"
+          - heading "Kir Royale" [level=3] [ref=e318]
+        - link "Bellini Bellini" [ref=e319] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e320]:
+            - img "Bellini"
+          - heading "Bellini" [level=3] [ref=e321]
+        - link "Pink Gin Pink Gin" [ref=e322] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e323]:
+            - img "Pink Gin"
+          - heading "Pink Gin" [level=3] [ref=e324]
+        - link "B-52 B-52" [ref=e325] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e326]:
+            - img "B-52"
+          - heading "B-52" [level=3] [ref=e327]
+        - link "French Connection French Connection" [ref=e328] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e329]:
+            - img "French Connection"
+          - heading "French Connection" [level=3] [ref=e330]
+        - link "Paloma Paloma" [ref=e331] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e332]:
+            - img "Paloma"
+          - heading "Paloma" [level=3] [ref=e333]
+        - link "Royal Hawaiian Royal Hawaiian" [ref=e334] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e335]:
+            - img "Royal Hawaiian"
+          - heading "Royal Hawaiian" [level=3] [ref=e336]
+        - link "Tommy's Margarita Tommy's Margarita" [ref=e337] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e338]:
+            - img "Tommy's Margarita"
+          - heading "Tommy's Margarita" [level=3] [ref=e339]
+        - link "Ramos Gin Fizz Ramos Gin Fizz" [ref=e340] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e341]:
+            - img "Ramos Gin Fizz"
+          - heading "Ramos Gin Fizz" [level=3] [ref=e342]
+        - link "El Diablo El Diablo" [ref=e343] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e344]:
+            - img "El Diablo"
+          - heading "El Diablo" [level=3] [ref=e345]
+        - link "Breakfast Martini Breakfast Martini" [ref=e346] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e347]:
+            - img "Breakfast Martini"
+          - heading "Breakfast Martini" [level=3] [ref=e348]
+        - link "Tequila Sunrise Tequila Sunrise" [ref=e349] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e350]:
+            - img "Tequila Sunrise"
+          - heading "Tequila Sunrise" [level=3] [ref=e351]
+        - link "Caribbean Sunrise Caribbean Sunrise" [ref=e352] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e353]:
+            - img "Caribbean Sunrise"
+          - heading "Caribbean Sunrise" [level=3] [ref=e354]
+        - link "Bay Breeze Bay Breeze" [ref=e355] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e356]:
+            - img "Bay Breeze"
+          - heading "Bay Breeze" [level=3] [ref=e357]
+        - link "Raspberry Mojito Raspberry Mojito" [ref=e358] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e359]:
+            - img "Raspberry Mojito"
+          - heading "Raspberry Mojito" [level=3] [ref=e360]
+        - link "SideCar SideCar" [ref=e361] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e362]:
+            - img "SideCar"
+          - heading "SideCar" [level=3] [ref=e363]
+        - link "Champagne Cocktail Champagne Cocktail" [ref=e364] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e365]:
+            - img "Champagne Cocktail"
+          - heading "Champagne Cocktail" [level=3] [ref=e366]
+        - link "Godfather Godfather" [ref=e367] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e368]:
+            - img "Godfather"
+          - heading "Godfather" [level=3] [ref=e369]
+        - link "Hemingway Daiquiri Hemingway Daiquiri" [ref=e370] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e371]:
+            - img "Hemingway Daiquiri"
+          - heading "Hemingway Daiquiri" [level=3] [ref=e372]
+        - link "Raspberry Daiquiri Raspberry Daiquiri" [ref=e373] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e374]:
+            - img "Raspberry Daiquiri"
+          - heading "Raspberry Daiquiri" [level=3] [ref=e375]
+        - link "Blueberry Collins Blueberry Collins" [ref=e376] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e377]:
+            - img "Blueberry Collins"
+          - heading "Blueberry Collins" [level=3] [ref=e378]
+        - link "Gimlet Gimlet" [ref=e379] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e380]:
+            - img "Gimlet"
+          - heading "Gimlet" [level=3] [ref=e381]
+        - link "Passion Fruit Daiquiri Passion Fruit Daiquiri" [ref=e382] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e383]:
+            - img "Passion Fruit Daiquiri"
+          - heading "Passion Fruit Daiquiri" [level=3] [ref=e384]
+        - link "Cantarito Cantarito" [ref=e385] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e386]:
+            - img "Cantarito"
+          - heading "Cantarito" [level=3] [ref=e387]
+        - link "Brandy Collins Brandy Collins" [ref=e388] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e389]:
+            - img "Brandy Collins"
+          - heading "Brandy Collins" [level=3] [ref=e390]
+        - link "Americano Americano" [ref=e391] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e392]:
+            - img "Americano"
+          - heading "Americano" [level=3] [ref=e393]
+        - link "Mojito Royal Mojito Royal" [ref=e394] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e395]:
+            - img "Mojito Royal"
+          - heading "Mojito Royal" [level=3] [ref=e396]
+        - link "Tom Collins Tom Collins" [ref=e397] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e398]:
+            - img "Tom Collins"
+          - heading "Tom Collins" [level=3] [ref=e399]
+        - link "Blackberry Mule Blackberry Mule" [ref=e400] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e401]:
+            - img "Blackberry Mule"
+          - heading "Blackberry Mule" [level=3] [ref=e402]
+        - link "Toasted Almond Toasted Almond" [ref=e403] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e404]:
+            - img "Toasted Almond"
+          - heading "Toasted Almond" [level=3] [ref=e405]
+        - link "Boston Sour Boston Sour" [ref=e406] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e407]:
+            - img "Boston Sour"
+          - heading "Boston Sour" [level=3] [ref=e408]
+        - link "Alaska Cocktail Alaska Cocktail" [ref=e409] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e410]:
+            - img "Alaska Cocktail"
+          - heading "Alaska Cocktail" [level=3] [ref=e411]
+        - link "Amaretto Sunrise Amaretto Sunrise" [ref=e412] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e413]:
+            - img "Amaretto Sunrise"
+          - heading "Amaretto Sunrise" [level=3] [ref=e414]
+        - link "Beachcomber Beachcomber" [ref=e415] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e416]:
+            - img "Beachcomber"
+          - heading "Beachcomber" [level=3] [ref=e417]
+        - link "Southside Southside" [ref=e418] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e419]:
+            - img "Southside"
+          - heading "Southside" [level=3] [ref=e420]
+        - link "Bronx Bronx" [ref=e421] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e422]:
+            - img "Bronx"
+          - heading "Bronx" [level=3] [ref=e423]
+        - link "Gibson Gibson" [ref=e424] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e425]:
+            - img "Gibson"
+          - heading "Gibson" [level=3] [ref=e426]
+        - link "Lady Marmalade Lady Marmalade" [ref=e427] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e428]:
+            - img "Lady Marmalade"
+          - heading "Lady Marmalade" [level=3] [ref=e429]
+        - link "Peach Bellini Peach Bellini" [ref=e430] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e431]:
+            - img "Peach Bellini"
+          - heading "Peach Bellini" [level=3] [ref=e432]
+        - link "Lemon Drop Lemon Drop" [ref=e433] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e434]:
+            - img "Lemon Drop"
+          - heading "Lemon Drop" [level=3] [ref=e435]
+        - link "French Martini French Martini" [ref=e436] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e437]:
+            - img "French Martini"
+          - heading "French Martini" [level=3] [ref=e438]
+        - link "Porn Star Fizz Porn Star Fizz" [ref=e439] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e440]:
+            - img "Porn Star Fizz"
+          - heading "Porn Star Fizz" [level=3] [ref=e441]
+        - link "Aperol Spritz Aperol Spritz" [ref=e442] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e443]:
+            - img "Aperol Spritz"
+          - heading "Aperol Spritz" [level=3] [ref=e444]
+        - link "Hugo Spritz Hugo Spritz" [ref=e445] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e446]:
+            - img "Hugo Spritz"
+          - heading "Hugo Spritz" [level=3] [ref=e447]
+        - link "Limoncello Spritz Limoncello Spritz" [ref=e448] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e449]:
+            - img "Limoncello Spritz"
+          - heading "Limoncello Spritz" [level=3] [ref=e450]
+        - link "Watermelon Margarita Watermelon Margarita" [ref=e451] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e452]:
+            - img "Watermelon Margarita"
+          - heading "Watermelon Margarita" [level=3] [ref=e453]
+        - link "Passionfruit Mojito Passionfruit Mojito" [ref=e454] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e455]:
+            - img "Passionfruit Mojito"
+          - heading "Passionfruit Mojito" [level=3] [ref=e456]
+        - link "Mango Daiquiri Mango Daiquiri" [ref=e457] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e458]:
+            - img "Mango Daiquiri"
+          - heading "Mango Daiquiri" [level=3] [ref=e459]
+        - link "Coconut Mojito Coconut Mojito" [ref=e460] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e461]:
+            - img "Coconut Mojito"
+          - heading "Coconut Mojito" [level=3] [ref=e462]
+        - link "Cherry Sour Cherry Sour" [ref=e463] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e464]:
+            - img "Cherry Sour"
+          - heading "Cherry Sour" [level=3] [ref=e465]
+        - link "Lavender Gin Fizz Lavender Gin Fizz" [ref=e466] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e467]:
+            - img "Lavender Gin Fizz"
+          - heading "Lavender Gin Fizz" [level=3] [ref=e468]
+        - link "Cucumber Collins Cucumber Collins" [ref=e469] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e470]:
+            - img "Cucumber Collins"
+          - heading "Cucumber Collins" [level=3] [ref=e471]
+        - link "Rose Spritz Rose Spritz" [ref=e472] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e473]:
+            - img "Rose Spritz"
+          - heading "Rose Spritz" [level=3] [ref=e474]
+        - link "Chilli Margarita Chilli Margarita" [ref=e475] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e476]:
+            - img "Chilli Margarita"
+          - heading "Chilli Margarita" [level=3] [ref=e477]
+        - link "Smoky Negroni Smoky Negroni" [ref=e478] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e479]:
+            - img "Smoky Negroni"
+          - heading "Smoky Negroni" [level=3] [ref=e480]
+        - link "Espresso Negroni Espresso Negroni" [ref=e481] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e482]:
+            - img "Espresso Negroni"
+          - heading "Espresso Negroni" [level=3] [ref=e483]
+        - link "Rum Sour Rum Sour" [ref=e484] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e485]:
+            - img "Rum Sour"
+          - heading "Rum Sour" [level=3] [ref=e486]
+        - link "Elderflower Collins Elderflower Collins" [ref=e487] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e488]:
+            - img "Elderflower Collins"
+          - heading "Elderflower Collins" [level=3] [ref=e489]
+        - link "Honey Bourbon Sour Honey Bourbon Sour" [ref=e490] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e491]:
+            - img "Honey Bourbon Sour"
+          - heading "Honey Bourbon Sour" [level=3] [ref=e492]
+        - link "Ginger Mule Ginger Mule" [ref=e493] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e494]:
+            - img "Ginger Mule"
+          - heading "Ginger Mule" [level=3] [ref=e495]
+        - link "Tropical Punch Tropical Punch" [ref=e496] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e497]:
+            - img "Tropical Punch"
+          - heading "Tropical Punch" [level=3] [ref=e498]
+      - button "Next" [ref=e499] [cursor=pointer]: ›
+  - generic [ref=e501]:
+    - generic [ref=e502]:
+      - heading "Our Partner Venues" [level=2] [ref=e503]
+      - paragraph [ref=e504]: Beyond private hire, we're proud to be the resident bar team at some of the region's most celebrated event spaces.
+    - generic [ref=e505]:
+      - generic [ref=e506]:
+        - img "The Grand Ballroom" [ref=e508]
+        - heading "The Grand Ballroom" [level=3] [ref=e509]
+        - paragraph [ref=e511]: A breathtaking historic venue perfect for elegant weddings, milestone birthdays, and upscale corporate celebrations.
+      - generic [ref=e512]:
+        - img "Riverside Sports Club" [ref=e514]
+        - heading "Riverside Sports Club" [level=3] [ref=e515]
+        - paragraph [ref=e517]: A vibrant sporting venue where we deliver premium bar service for matches, functions, and private events.
+      - generic [ref=e518]:
+        - img "Meadowbrook Farm" [ref=e520]
+        - heading "Meadowbrook Farm" [level=3] [ref=e521]
+        - paragraph [ref=e523]: A stunning rural retreat surrounded by rolling countryside — ideal for outdoor weddings and unforgettable celebrations.
+  - generic [ref=e526]:
+    - generic [ref=e527]:
+      - heading "We Come To You. Wherever You Are." [level=2] [ref=e528]:
+        - text: We Come
+        - text: To You.
+        - text: Wherever
+        - text: You Are.
+      - paragraph [ref=e529]: From compact home setups to full outdoor festival bars, our fully equipped mobile units adapt to any space or occasion. Tell us your vision — we'll handle everything from setup to last call.
+      - link "Learn More" [ref=e530] [cursor=pointer]:
+        - /url: "#contact"
+    - generic:
+      - img "Cocktail making experience"
+  - generic [ref=e532]:
+    - generic [ref=e533]:
+      - heading "FAQ" [level=2] [ref=e534]
+      - paragraph [ref=e535]:
+        - strong [ref=e536]: "Please note:"
+        - text: Our packages can be tailored to suit most requirements. If you have any additional questions, please feel free to contact us via WhatsApp or email.
+    - generic [ref=e537]:
+      - generic [ref=e538]:
+        - button "Can I choose which cocktails are made?" [expanded] [ref=e539] [cursor=pointer]:
+          - generic [ref=e540]: Can I choose which cocktails are made?
+          - generic [ref=e541]: −
+        - paragraph [ref=e543]: Yes, you are welcome to select the cocktails for your masterclass and for bar hire from our menu. Please provide your choices to us at least 10 days prior to the event.
+      - generic [ref=e544]:
+        - button "Can I still make a booking if I don't know the full address of my venue?" [ref=e545] [cursor=pointer]:
+          - generic [ref=e546]: Can I still make a booking if I don't know the full address of my venue?
+          - generic [ref=e547]: +
+        - paragraph [ref=e548]: Yes, you can still make a booking. We initially require the general area of the event to provide an accurate quote. The full address can be confirmed a few days before the event.
+      - generic [ref=e549]:
+        - button "What do I need to provide?" [ref=e550] [cursor=pointer]:
+          - generic [ref=e551]: What do I need to provide?
+          - generic [ref=e552]: +
+        - paragraph [ref=e553]: All we require is a suitable table space — we'll take care of everything else. Access to a nearby sink is ideal, but we can make alternative arrangements if informed in advance.
+      - generic [ref=e554]:
+        - button "Do you provide any other drinks other than cocktails for my bar hire?" [ref=e555] [cursor=pointer]:
+          - generic [ref=e556]: Do you provide any other drinks other than cocktails for my bar hire?
+          - generic [ref=e557]: +
+        - paragraph [ref=e558]: We specialise in cocktails and do not supply other beverages. However, if you provide additional drinks and appropriate glassware (e.g. gin & tonic, bottled beers, wine), we are happy to serve them to your guests.
+      - generic [ref=e559]:
+        - button "What if some of my guests don't drink?" [ref=e560] [cursor=pointer]:
+          - generic [ref=e561]: What if some of my guests don't drink?
+          - generic [ref=e562]: +
+        - paragraph [ref=e563]: We offer a selection of mocktails, and we can also prepare cocktails using alcohol-free spirits to accommodate non-drinking guests.
+      - generic [ref=e564]:
+        - button "When will the bartender arrive?" [ref=e565] [cursor=pointer]:
+          - generic [ref=e566]: When will the bartender arrive?
+          - generic [ref=e567]: +
+        - paragraph [ref=e568]: Our bartender will typically arrive approximately 30 minutes before the start time to set up. This setup time does not reduce your booked service time. We also require around 30 minutes after the event to clear away.
+      - generic [ref=e569]:
+        - button "I would like to make a booking but what if my numbers aren't finalised?" [ref=e570] [cursor=pointer]:
+          - generic [ref=e571]: I would like to make a booking but what if my numbers aren't finalised?
+          - generic [ref=e572]: +
+        - paragraph [ref=e573]: You can secure your booking with a £20 deposit based on an estimated number of guests. Final guest numbers must be confirmed at least 10 days before the event, when the remaining balance is due. You may also adjust guests between cocktail and mocktail options at that time.
+      - generic [ref=e574]:
+        - button "Can I have my booking outside?" [ref=e575] [cursor=pointer]:
+          - generic [ref=e576]: Can I have my booking outside?
+          - generic [ref=e577]: +
+        - paragraph [ref=e578]: Yes, outdoor bookings are possible, weather permitting. Ideally, access to a sink and cold water tap is preferred, but we can adapt if informed in advance.
+      - generic [ref=e579]:
+        - button "Can I book at short notice?" [ref=e580] [cursor=pointer]:
+          - generic [ref=e581]: Can I book at short notice?
+          - generic [ref=e582]: +
+        - paragraph [ref=e583]: Absolutely. For bookings made within 14 days of the event, we recommend contacting us via email to confirm availability before booking. Cocktail selections will also need to be confirmed at the time of booking if less than 10 days' notice is given, and full payment will need to be made to confirm your booking.
+      - generic [ref=e584]:
+        - button "What is your cancellation policy?" [ref=e585] [cursor=pointer]:
+          - generic [ref=e586]: What is your cancellation policy?
+          - generic [ref=e587]: +
+        - paragraph [ref=e588]: Cancellations made less than 10 days before the event are non-refundable. Cancellations made more than 10 days in advance will receive a full refund, excluding the £20 deposit.
+  - contentinfo [ref=e589]:
+    - generic [ref=e590]:
+      - generic [ref=e591]:
+        - generic [ref=e592]:
+          - heading "Contact the Team" [level=2] [ref=e593]
+          - paragraph [ref=e594]: Get in touch with our team to discuss your event. We'll get back to you as soon as possible with a tailored quote.
+          - generic [ref=e595]:
+            - textbox "Name" [ref=e596]
+            - textbox "Email" [ref=e597]
+            - textbox "Phone" [ref=e598]
+            - textbox "Tell us about your event" [ref=e599]
+            - button "Send Enquiry" [ref=e600] [cursor=pointer]
+        - generic [ref=e601]:
+          - heading "Find Us" [level=2] [ref=e602]
+          - paragraph [ref=e603]:
+            - strong [ref=e604]: Mobile Bar Hire
+            - text: Your Address Line 1
+            - text: City, Postcode
+            - link "000 000 0000" [ref=e605] [cursor=pointer]:
+              - /url: tel:0000000000
+            - link "hello@yourbrand.com" [ref=e606] [cursor=pointer]:
+              - /url: mailto:hello@yourbrand.com
+      - generic [ref=e607]:
+        - generic [ref=e608]:
+          - heading "Connect" [level=2] [ref=e609]
+          - generic [ref=e610]:
+            - link "Instagram" [ref=e611] [cursor=pointer]:
+              - /url: "#"
+            - link "Facebook" [ref=e612] [cursor=pointer]:
+              - /url: "#"
+            - link "TikTok" [ref=e613] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e614]:
+          - heading "Quick Links" [level=2] [ref=e615]
+          - generic [ref=e616]:
+            - link "Classes" [ref=e617] [cursor=pointer]:
+              - /url: "#classes"
+            - link "Corporate Events" [ref=e618] [cursor=pointer]:
+              - /url: "#corporate"
+            - link "Recipes" [ref=e619] [cursor=pointer]:
+              - /url: "#cocktails"
+            - link "Parties" [ref=e620] [cursor=pointer]:
+              - /url: "#parties"
+            - link "FAQ" [ref=e621] [cursor=pointer]:
+              - /url: "#faq"
+            - link "Contact" [ref=e622] [cursor=pointer]:
+              - /url: "#contact"
+        - generic [ref=e623]: © 2026 Your Brand

@@ -1,0 +1,278 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fglasgow-scotland
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fglasgow-scotland
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fglasgow-scotland
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: glasgow scotland
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fglasgow-scotland
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 324":
+                - /url: /s/photos/glasgow-scotland
+                - img
+                - text: Photos
+                - generic: "324"
+            - listitem [ref=e73]:
+              - link "Illustrations 0" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/glasgow-scotland
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "0"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Glasgow scotland" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "glasgow" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/glasgow
+              - link "scotland" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/scotland
+              - link "city" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/city
+              - link "city view" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/city-view
+              - link "urban" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/urban
+              - link "town" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/town
+              - link "cityscape" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/cityscape
+              - link "european city" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/european-city
+              - link "stone building" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/stone-building
+              - link "old town" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/old-town
+              - link "historic city" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/historic-city
+        - generic [ref=e135]:
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - figure [ref=e141]:
+                - generic [ref=e143]:
+                  - link "a city with lots of tall buildings surrounded by trees" [ref=e144]:
+                    - /url: /photos/a-city-with-lots-of-tall-buildings-surrounded-by-trees-JqsQoz1wii0
+                    - img "a city with lots of tall buildings surrounded by trees" [ref=e145]
+                  - link [ref=e146] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-city-with-lots-of-tall-buildings-surrounded-by-trees-JqsQoz1wii0
+                    - img [ref=e147]
+              - figure [ref=e149]:
+                - link "a statue of a person holding a gun on a street" [ref=e152]:
+                  - /url: /photos/a-statue-of-a-person-holding-a-gun-on-a-street-I1yqu7Ym5FQ
+                  - img "a statue of a person holding a gun on a street" [ref=e153]
+              - figure [ref=e154]:
+                - link "a tall building with a green roof surrounded by tall grass" [ref=e157]:
+                  - /url: /photos/a-tall-building-with-a-green-roof-surrounded-by-tall-grass-wZ8S9pXiih0
+                  - img "a tall building with a green roof surrounded by tall grass" [ref=e158]
+              - generic [ref=e159]:
+                - heading "Sponsored images" [level=4] [ref=e160]:
+                  - generic [ref=e161]: Sponsored images
+                  - link [ref=e162] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A69013c85-e76b-48f1-8289-321094e16b25&phrase=glasgow+scotland&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e163]
+                - generic [ref=e165]:
+                  - link "Glasgow's prestigious Park District - Aerial view" [ref=e166] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/glasgows-prestigious-park-district-aerial-view-gm1290738665-386060521?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A4f9afe4a-c7aa-4f89-b51f-27bc28f616d1
+                    - img "Glasgow's prestigious Park District - Aerial view" [ref=e167]
+                  - link "Sunset, Glasgow" [ref=e168] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/sunset-glasgow-gm1979885120-558955444?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A1d577e62-ae60-48c2-b4dd-806b43224039
+                    - img "Sunset, Glasgow" [ref=e169]
+                  - link "Glasgow, Scotland" [ref=e170] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/glasgow-scotland-gm830486350-135306115?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3Af6660c30-d461-459e-aa46-b176dede86de
+                    - img "Glasgow, Scotland" [ref=e171]
+                  - link "Wide angle aerial view of the River Clyde and landmarks, Glasgow, Scotland, UK" [ref=e172] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/wide-angle-aerial-view-of-the-river-clyde-and-landmarks-glasgow-scotland-uk-gm1205363274-347201872?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A8d6c372f-80f0-4ded-a7aa-9bad7e2302f6
+                    - img "Wide angle aerial view of the River Clyde and landmarks, Glasgow, Scotland, UK" [ref=e173]
+                - link "Get 20% off with code UNSPLASH20" [ref=e174] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A69013c85-e76b-48f1-8289-321094e16b25&phrase=glasgow+scotland&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e175]:
+                - link "a large building with a tower and a crane on top of it" [ref=e178]:
+                  - /url: /photos/a-large-building-with-a-tower-and-a-crane-on-top-of-it-RBPULVmMc4o
+                  - img "a large building with a tower and a crane on top of it" [ref=e179]
+              - figure [ref=e180]:
+                - link "a car driving down a street next to tall buildings" [ref=e183]:
+                  - /url: /photos/a-car-driving-down-a-street-next-to-tall-buildings-X1s3tUERq6o
+                  - img "a car driving down a street next to tall buildings" [ref=e184]
+              - figure [ref=e185]:
+                - link "a woman walking down a street next to tall buildings" [ref=e188]:
+                  - /url: /photos/a-woman-walking-down-a-street-next-to-tall-buildings-A4GEBThqrDk
+                  - img "a woman walking down a street next to tall buildings" [ref=e189]
+            - generic [ref=e190]:
+              - figure [ref=e191]:
+                - link "brown concrete building under blue sky during daytime" [ref=e194]:
+                  - /url: /photos/brown-concrete-building-under-blue-sky-during-daytime-BRuMXOIvMhs
+                  - img "brown concrete building under blue sky during daytime" [ref=e195]
+              - figure [ref=e196]:
+                - link "a city street filled with lots of traffic and tall buildings" [ref=e199]:
+                  - /url: /photos/a-city-street-filled-with-lots-of-traffic-and-tall-buildings-XDjVoQqkMfs
+                  - img "a city street filled with lots of traffic and tall buildings" [ref=e200]
+              - figure [ref=e201]:
+                - link "a bridge over a river next to a lush green forest" [ref=e204]:
+                  - /url: /photos/a-bridge-over-a-river-next-to-a-lush-green-forest-PGb2I4BmBs8
+                  - img "a bridge over a river next to a lush green forest" [ref=e205]
+              - figure [ref=e206]:
+                - link "gray car parked" [ref=e209]:
+                  - /url: /photos/gray-car-parked-s9yfl37JPBs
+                  - img "gray car parked" [ref=e210]
+              - figure [ref=e211]:
+                - link "a large building with a green dome on top" [ref=e214]:
+                  - /url: /photos/a-large-building-with-a-green-dome-on-top-PKL0ScyEkm8
+                  - img "a large building with a green dome on top" [ref=e215]
+              - figure [ref=e216]:
+                - generic [ref=e218]:
+                  - link "a large rock formation in the middle of a field" [ref=e219]:
+                    - /url: /photos/a-large-rock-formation-in-the-middle-of-a-field-FehkEuVgob0
+                    - img "a large rock formation in the middle of a field" [ref=e220]
+                  - link [ref=e221] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-large-rock-formation-in-the-middle-of-a-field-FehkEuVgob0
+                    - img [ref=e222]
+              - figure [ref=e224]:
+                - link "a large building with pillars" [ref=e227]:
+                  - /url: /photos/a-large-building-with-pillars-7KLv5TOKOrM
+                  - img "a large building with pillars" [ref=e228]
+              - figure [ref=e229]:
+                - generic [ref=e231]:
+                  - link "The sun is setting over a grassy hill" [ref=e232]:
+                    - /url: /photos/the-sun-is-setting-over-a-grassy-hill-_0indx3EMp4
+                    - img "The sun is setting over a grassy hill" [ref=e233]
+                  - link [ref=e234] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fthe-sun-is-setting-over-a-grassy-hill-_0indx3EMp4
+                    - img [ref=e235]
+            - generic [ref=e237]:
+              - contentinfo [ref=e242]:
+                - generic [ref=e248]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e250]:
+                - generic [ref=e252]:
+                  - link "a view of a city with buildings and mountains in the background" [ref=e253]:
+                    - /url: /photos/a-view-of-a-city-with-buildings-and-mountains-in-the-background-awkNHnjhdEg
+                    - img "a view of a city with buildings and mountains in the background" [ref=e254]
+                  - link [ref=e255] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-view-of-a-city-with-buildings-and-mountains-in-the-background-awkNHnjhdEg
+                    - img [ref=e256]
+              - figure [ref=e258]:
+                - generic [ref=e260]:
+                  - link "a city street with a clock tower in the background" [ref=e261]:
+                    - /url: /photos/a-city-street-with-a-clock-tower-in-the-background-dpxqd4UkX1s
+                    - img "a city street with a clock tower in the background" [ref=e262]
+                  - link [ref=e263] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-city-street-with-a-clock-tower-in-the-background-dpxqd4UkX1s
+                    - img [ref=e264]
+              - figure [ref=e266]:
+                - link "a row of parked cars in front of a building" [ref=e269]:
+                  - /url: /photos/a-row-of-parked-cars-in-front-of-a-building-whYsXYc4o7k
+                  - img "a row of parked cars in front of a building" [ref=e270]
+              - figure [ref=e271]:
+                - link "A city street filled with lots of tall buildings" [ref=e274]:
+                  - /url: /photos/a-city-street-filled-with-lots-of-tall-buildings-UnVcU3bdolQ
+                  - img "A city street filled with lots of tall buildings" [ref=e275]
+              - figure [ref=e276]:
+                - link "a row of buildings on a city street" [ref=e279]:
+                  - /url: /photos/a-row-of-buildings-on-a-city-street-ydoaqoSTVjQ
+                  - img "a row of buildings on a city street" [ref=e280]
+              - figure [ref=e281]:
+                - link "a city street with tall buildings and a clock tower" [ref=e284]:
+                  - /url: /photos/a-city-street-with-tall-buildings-and-a-clock-tower-DWLjXctKMec
+                  - img "a city street with tall buildings and a clock tower" [ref=e285]
+          - button "Load more" [ref=e288] [cursor=pointer]
+          - generic [ref=e291]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e292]:
+              - text: Browse premium images on iStock
+              - generic [ref=e293]: "| Claim your discount now"
+            - generic [ref=e295]:
+              - link "Glasgow is Scotland’s largest city in the UK, featuring historic, artistic charm with beautiful Victorian architecture and the Clyde River." [ref=e296] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/glasgow-is-scotlands-largest-city-in-the-uk-featuring-historic-artistic-charm-with-gm2215181938-631940444?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A709e6da9-c659-4000-92c0-68bca047d379
+                - img "Glasgow is Scotland’s largest city in the UK, featuring historic, artistic charm with beautiful Victorian architecture and the Clyde River." [ref=e297]
+              - link "Aerial Clyde river Glasgow with Arc bridge, armadillo convention center and millenium" [ref=e298] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/aerial-clyde-river-glasgow-with-arc-bridge-armadillo-convention-center-and-millenium-gm2202255372-619866040?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A831134ad-c9b1-46d6-81e4-10351f57cb47
+                - img "Aerial Clyde river Glasgow with Arc bridge, armadillo convention center and millenium" [ref=e299]
+              - link "St Andrews, Scotland" [ref=e300] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/st-andrews-scotland-gm1183932343-333060921?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A0810cb10-f83a-4350-a2c2-5d637761b2af
+                - img "St Andrews, Scotland" [ref=e301]
+              - link "St.Andrews Aerial Scotland" [ref=e302] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/st-andrews-aerial-scotland-gm996349714-269644355?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A731ab720-2e44-42bf-b382-f7da017e2435
+                - img "St.Andrews Aerial Scotland" [ref=e303]
+              - link "Rainbow over Glasgow City Chambers and George Square, Scotland - UK" [ref=e304] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/rainbow-over-glasgow-city-chambers-and-george-square-scotland-uk-gm1424542588-469234582?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3Abd7bd627-98ce-4da1-af9e-bc6811d47c84
+                - img "Rainbow over Glasgow City Chambers and George Square, Scotland - UK" [ref=e305]
+              - link "Squinty Bridge, Glasgow" [ref=e306] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/squinty-bridge-glasgow-gm469974825-34819550?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3Afa88fd62-49ee-4984-8af6-3cd5aa9516fb
+                - img "Squinty Bridge, Glasgow" [ref=e307]
+              - link "Glasgow Cathedral from the Necropolis." [ref=e308] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/glasgow-cathedral-from-the-necropolis-gm1742436389-542882814?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3Aa173033b-a0ef-4c86-b712-e68081980166
+                - img "Glasgow Cathedral from the Necropolis." [ref=e309]
+              - generic [ref=e310]:
+                - link "The drone aerial view of Bordeaux Cathedral and Pey Berland Tower at sunrise, Bordeaux, France." [ref=e311] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/the-drone-aerial-view-of-bordeaux-cathedral-and-pey-berland-tower-at-sunrise-gm2168267210-588298853?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A37dd30e0-4d5d-401f-ad72-d539bbf3f93a
+                  - img "The drone aerial view of Bordeaux Cathedral and Pey Berland Tower at sunrise, Bordeaux, France." [ref=e312]
+                - link "View more on iStock ↗" [ref=e313] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fglasgow-scotland&utm_term=glasgow+scotland%3A%3Aaffiliate-layout-optim%3Ab%3A0ca65588-353a-4840-af7a-f0fe8b1b8f61&phrase=glasgow+scotland&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e315]:
+            - link [ref=e316] [cursor=pointer]:
+              - /url: /
+              - img [ref=e317]
+            - paragraph [ref=e319]: Make something awesome
+    - generic:
+      - region "Notifications"

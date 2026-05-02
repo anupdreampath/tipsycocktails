@@ -1,0 +1,260 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fedinburgh-scotland-city
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fedinburgh-scotland-city
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fedinburgh-scotland-city
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: edinburgh scotland city
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fedinburgh-scotland-city
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 859":
+                - /url: /s/photos/edinburgh-scotland-city
+                - img
+                - text: Photos
+                - generic: "859"
+            - listitem [ref=e73]:
+              - link "Illustrations 0" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/edinburgh-scotland-city
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "0"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Edinburgh scotland city" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "scotland" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/scotland
+              - link "city" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/city
+              - link "edinburgh" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/edinburgh
+              - link "uk" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/uk
+              - link "building" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/building
+              - link "urban" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/urban
+              - link "outdoor" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/outdoor
+              - link "nature" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/nature
+              - link "scenery" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/scenery
+              - link "street" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/street
+              - link "wheel" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/wheel
+              - link "road" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/road
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - link "A large building with a clock tower on top of it" [ref=e146]:
+                  - /url: /photos/a-large-building-with-a-clock-tower-on-top-of-it-0HmUawcL90Q
+                  - img "A large building with a clock tower on top of it" [ref=e147]
+              - generic [ref=e148]:
+                - heading "Sponsored images" [level=4] [ref=e149]:
+                  - generic [ref=e150]: Sponsored images
+                  - link [ref=e151] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=edinburgh+scotland+city&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e152]
+                - generic [ref=e154]:
+                  - link "Edinburgh castle, Scotland at sunset" [ref=e155] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/edinburgh-castle-scotland-at-sunset-gm1493119096-516906138?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Edinburgh castle, Scotland at sunset" [ref=e156]
+                  - link "Aerial view of Calton Hill, Edinburgh, Scotland, UK" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/aerial-view-of-calton-hill-edinburgh-scotland-uk-gm1153245177-313150515?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Aerial view of Calton Hill, Edinburgh, Scotland, UK" [ref=e158]
+                  - link "skyline of edinburgh" [ref=e159] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/skyline-of-edinburgh-gm1001833188-270772869?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "skyline of edinburgh" [ref=e160]
+                  - link "Mother and daughter walking up steps in Edinburgh, Scotland" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/mother-and-daughter-walking-up-steps-in-edinburgh-scotland-gm1018011722-273700019?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Mother and daughter walking up steps in Edinburgh, Scotland" [ref=e162]
+                - link "Get 20% off with code UNSPLASH20" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=edinburgh+scotland+city&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e164]:
+                - link "A bunch of people are standing on the stairs" [ref=e167]:
+                  - /url: /photos/a-bunch-of-people-are-standing-on-the-stairs-b_mrOODFsUQ
+                  - img "A bunch of people are standing on the stairs" [ref=e168]
+              - figure [ref=e169]:
+                - link "a view of a city from the top of a hill" [ref=e172]:
+                  - /url: /photos/a-view-of-a-city-from-the-top-of-a-hill-kbeIcytsdJE
+                  - img "a view of a city from the top of a hill" [ref=e173]
+              - figure [ref=e174]:
+                - link "man in white shirt and blue denim jeans standing near brown concrete building during daytime" [ref=e177]:
+                  - /url: /photos/man-in-white-shirt-and-blue-denim-jeans-standing-near-brown-concrete-building-during-daytime-HxKGxJRdT9c
+                  - img "man in white shirt and blue denim jeans standing near brown concrete building during daytime" [ref=e178]
+              - figure [ref=e179]:
+                - link "brown concrete building near river during daytime" [ref=e182]:
+                  - /url: /photos/brown-concrete-building-near-river-during-daytime-TmDEY0DtQd0
+                  - img "brown concrete building near river during daytime" [ref=e183]
+            - generic [ref=e184]:
+              - figure [ref=e185]:
+                - link "a group of people walking down a street next to a castle" [ref=e188]:
+                  - /url: /photos/a-group-of-people-walking-down-a-street-next-to-a-castle-TCt4ElSSldI
+                  - img "a group of people walking down a street next to a castle" [ref=e189]
+              - figure [ref=e190]:
+                - link "brown concrete building during daytime" [ref=e193]:
+                  - /url: /photos/brown-concrete-building-during-daytime-s4xJEurh4Ts
+                  - img "brown concrete building during daytime" [ref=e194]
+              - figure [ref=e195]:
+                - link "a view of a city with tall buildings" [ref=e198]:
+                  - /url: /photos/a-view-of-a-city-with-tall-buildings-JbOVWBFIasw
+                  - img "a view of a city with tall buildings" [ref=e199]
+              - figure [ref=e200]:
+                - link "a castle on top of a hill surrounded by trees" [ref=e203]:
+                  - /url: /photos/a-castle-on-top-of-a-hill-surrounded-by-trees-Bd3QdZajUc0
+                  - img "a castle on top of a hill surrounded by trees" [ref=e204]
+              - figure [ref=e205]:
+                - link "a view of a city with a ferris wheel" [ref=e208]:
+                  - /url: /photos/a-view-of-a-city-with-a-ferris-wheel-HTGGTV5rSrI
+                  - img "a view of a city with a ferris wheel" [ref=e209]
+              - figure [ref=e210]:
+                - link "a group of people walking down a street next to a park" [ref=e213]:
+                  - /url: /photos/a-group-of-people-walking-down-a-street-next-to-a-park-dZK_D8MT8mg
+                  - img "a group of people walking down a street next to a park" [ref=e214]
+              - figure [ref=e215]:
+                - link "a city with lots of tall buildings surrounded by trees" [ref=e218]:
+                  - /url: /photos/a-city-with-lots-of-tall-buildings-surrounded-by-trees-JqsQoz1wii0
+                  - img "a city with lots of tall buildings surrounded by trees" [ref=e219]
+              - figure [ref=e220]:
+                - link "a view of a city from a hill" [ref=e223]:
+                  - /url: /photos/a-view-of-a-city-from-a-hill-SMzS5_ODJaY
+                  - img "a view of a city from a hill" [ref=e224]
+              - figure [ref=e225]:
+                - link "brown and white concrete building" [ref=e228]:
+                  - /url: /photos/brown-and-white-concrete-building-oORewSaLPw8
+                  - img "brown and white concrete building" [ref=e229]
+            - generic [ref=e230]:
+              - contentinfo [ref=e235]:
+                - generic [ref=e241]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e243]:
+                - link "Autumn foliage in front of historic edinburgh buildings." [ref=e246]:
+                  - /url: /photos/autumn-foliage-in-front-of-historic-edinburgh-buildings-xNthdIjU_Tg
+                  - img "Autumn foliage in front of historic edinburgh buildings." [ref=e247]
+              - figure [ref=e248]:
+                - link "yellow taxi cab on road during sunset" [ref=e251]:
+                  - /url: /photos/yellow-taxi-cab-on-road-during-sunset-f0Vu2CW9ZQE
+                  - img "yellow taxi cab on road during sunset" [ref=e252]
+              - figure [ref=e253]:
+                - link "a view of a city with a ferris wheel" [ref=e256]:
+                  - /url: /photos/a-view-of-a-city-with-a-ferris-wheel-B091CuL9wpA
+                  - img "a view of a city with a ferris wheel" [ref=e257]
+              - figure [ref=e258]:
+                - link "a group of people walking across a street next to tall buildings" [ref=e261]:
+                  - /url: /photos/a-group-of-people-walking-across-a-street-next-to-tall-buildings-KeuduEOCDvM
+                  - img "a group of people walking across a street next to tall buildings" [ref=e262]
+              - figure [ref=e263]:
+                - link "a view of a city with buildings and mountains in the background" [ref=e266]:
+                  - /url: /photos/a-view-of-a-city-with-buildings-and-mountains-in-the-background-WeCXw9cMIyM
+                  - img "a view of a city with buildings and mountains in the background" [ref=e267]
+              - figure [ref=e268]:
+                - link "a city street at night with a clock tower in the background" [ref=e271]:
+                  - /url: /photos/a-city-street-at-night-with-a-clock-tower-in-the-background-95wfkwLv-qw
+                  - img "a city street at night with a clock tower in the background" [ref=e272]
+          - button "Load more" [ref=e275] [cursor=pointer]
+          - generic [ref=e278]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e279]:
+              - text: Browse premium images on iStock
+              - generic [ref=e280]: "| Claim your discount now"
+            - generic [ref=e282]:
+              - link "Cinematic View of Waverley Bridge and Old Town Buildings Illuminated at Dusk in Edinburgh, Scotland, UK" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/cinematic-view-of-waverley-bridge-and-old-town-buildings-illuminated-at-dusk-in-gm2213039242-629941886?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Cinematic View of Waverley Bridge and Old Town Buildings Illuminated at Dusk in Edinburgh, Scotland, UK" [ref=e284]
+              - link "Beautiful Dean Village in historic Edinburgh, Scotland, UK" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/beautiful-dean-village-in-historic-edinburgh-scotland-uk-gm2204002669-621502069?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Beautiful Dean Village in historic Edinburgh, Scotland, UK" [ref=e286]
+              - link "Edinburgh Skyline at Sunset, Scotland" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/edinburgh-skyline-at-sunset-scotland-gm2248325313-662183160?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Edinburgh Skyline at Sunset, Scotland" [ref=e288]
+              - link "Reflection Of Buildings In River Against Sky In The Shore, Leith, Edinburgh" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/reflection-of-buildings-in-river-against-sky-in-the-shore-leith-edinburgh-gm2166426196-586529108?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Reflection Of Buildings In River Against Sky In The Shore, Leith, Edinburgh" [ref=e290]
+              - link "Edinburgh skyline at sunset, UK - Scotland" [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/edinburgh-skyline-at-sunset-uk-scotland-gm1410765019-460838752?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Edinburgh skyline at sunset, UK - Scotland" [ref=e292]
+              - link "Edinburgh skyline as seen from Calton Hill, Scotland" [ref=e293] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/edinburgh-skyline-as-seen-from-calton-hill-scotland-gm655414358-119412173?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Edinburgh skyline as seen from Calton Hill, Scotland" [ref=e294]
+              - link "Dean Village district in Edinburg, Scotland" [ref=e295] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/dean-village-district-in-edinburg-scotland-gm1322103543-408166706?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Dean Village district in Edinburg, Scotland" [ref=e296]
+              - generic [ref=e297]:
+                - link "Aerial view of Edinburgh old town at night with Tolbooth Kirk Church, aerial view of the Old Town and Royal Mile in Edinburgh, The Hub high-spired church in Edinburgh city centre, Gothic Revival architecture in Scotland" [ref=e298] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/aerial-view-of-edinburgh-old-town-at-night-with-tolbooth-kirk-church-aerial-view-of-gm2149127080-570354311?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A
+                  - img "Aerial view of Edinburgh old town at night with Tolbooth Kirk Church, aerial view of the Old Town and Royal Mile in Edinburgh, The Hub high-spired church in Edinburgh city centre, Gothic Revival architecture in Scotland" [ref=e299]
+                - link "View more on iStock ↗" [ref=e300] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fedinburgh-scotland-city&utm_term=edinburgh+scotland+city%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=edinburgh+scotland+city&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e302]:
+            - link [ref=e303] [cursor=pointer]:
+              - /url: /
+              - img [ref=e304]
+            - paragraph [ref=e306]: Make something awesome
+    - generic:
+      - region "Notifications"

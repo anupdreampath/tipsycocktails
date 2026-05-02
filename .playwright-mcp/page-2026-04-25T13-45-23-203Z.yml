@@ -1,0 +1,280 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: farm countryside wedding venue
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 962":
+                - /url: /s/photos/farm-countryside-wedding-venue
+                - img
+                - text: Photos
+                - generic: "962"
+            - listitem [ref=e73]:
+              - link "Illustrations 4" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/farm-countryside-wedding-venue
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "4"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Farm countryside wedding venue" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "countryside" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/countryside
+              - link "pasture" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/pasture
+              - link "farm" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/farm
+              - link "nature" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/nature
+              - link "scenic view" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/scenic-view
+              - link "pastoral" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/pastoral
+              - link "rural landscape" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/rural-landscape
+              - link "country living" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/country-living
+              - link "tree" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/tree
+              - link "field" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/field
+              - link "agriculture" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/agriculture
+              - link "rural life" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/rural-life
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - generic [ref=e145]:
+                  - link "a bride and groom walking away from the barn" [ref=e146]:
+                    - /url: /photos/a-bride-and-groom-walking-away-from-the-barn-RYMzvrvVG9U
+                    - img "a bride and groom walking away from the barn" [ref=e147]
+                  - link [ref=e148] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-bride-and-groom-walking-away-from-the-barn-RYMzvrvVG9U
+                    - img [ref=e149]
+              - generic [ref=e151]:
+                - heading "Sponsored images" [level=4] [ref=e152]:
+                  - generic [ref=e153]: Sponsored images
+                  - link [ref=e154] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3A663b0c0f-f7ca-4a9f-8b4c-370a96e385b3&phrase=farm+countryside+wedding+venue&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e155]
+                - generic [ref=e157]:
+                  - link "Wooden chairs with flowers wedding ceremony" [ref=e158] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/wooden-chairs-with-flowers-wedding-ceremony-gm1461658764-495587035?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3A3b7643b2-18d3-42ec-868a-80942179f7b6
+                    - img "Wooden chairs with flowers wedding ceremony" [ref=e159]
+                  - link "Wedding ceremony outdoors on the farm" [ref=e160] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/wedding-ceremony-outdoors-on-the-farm-gm2052265772-563366935?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3A968c2ab9-537f-47c5-8bed-68a96c769237
+                    - img "Wedding ceremony outdoors on the farm" [ref=e161]
+                  - link "Wedding reception party laid out behind rustic doors in traditional old converted farm barn" [ref=e162] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/wedding-reception-party-laid-out-behind-rustic-doors-in-traditional-old-converted-gm1300876383-393069302?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3Acdcb49dd-7935-4df6-9adf-d872a8b165ec
+                    - img "Wedding reception party laid out behind rustic doors in traditional old converted farm barn" [ref=e163]
+                  - link "Eastern Townships Orchard with small house" [ref=e164] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/eastern-townships-orchard-with-small-house-gm155440589-21122259?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3Acb552435-2401-49df-9f98-9d23fad06545
+                    - img "Eastern Townships Orchard with small house" [ref=e165]
+                - link "Get 20% off with code UNSPLASH20" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3A663b0c0f-f7ca-4a9f-8b4c-370a96e385b3&phrase=farm+countryside+wedding+venue&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e167]:
+                - link "a grassy field with a couple of houses in the background" [ref=e170]:
+                  - /url: /photos/a-grassy-field-with-a-couple-of-houses-in-the-background-IQpJQXSM36c
+                  - img "a grassy field with a couple of houses in the background" [ref=e171]
+              - figure [ref=e172]:
+                - link "Rural farm with fields and trees under a pale sky" [ref=e175]:
+                  - /url: /photos/rural-farm-with-fields-and-trees-under-a-pale-sky-cfwQ4st5dCI
+                  - img "Rural farm with fields and trees under a pale sky" [ref=e176]
+              - figure [ref=e177]:
+                - link "Rustic red barn with weathered wood siding" [ref=e180]:
+                  - /url: /photos/rustic-red-barn-with-weathered-wood-siding-zJpDF2ruRZs
+                  - img "Rustic red barn with weathered wood siding" [ref=e181]
+              - figure [ref=e182]:
+                - link "A sunlit farm with a fence and trees" [ref=e185]:
+                  - /url: /photos/a-sunlit-farm-with-a-fence-and-trees-Y223xPP-N9k
+                  - img "A sunlit farm with a fence and trees" [ref=e186]
+              - figure [ref=e187]:
+                - link "Couple with horse in a grassy field at sunset" [ref=e190]:
+                  - /url: /photos/couple-with-horse-in-a-grassy-field-at-sunset-EqrYjyz7sDA
+                  - img "Couple with horse in a grassy field at sunset" [ref=e191]
+            - generic [ref=e192]:
+              - figure [ref=e193]:
+                - link "Rolling green hills with a small pond and cattle." [ref=e196]:
+                  - /url: /photos/rolling-green-hills-with-a-small-pond-and-cattle-YHdkxllDsmE
+                  - img "Rolling green hills with a small pond and cattle." [ref=e197]
+              - figure [ref=e198]:
+                - link "Sheep grazing in a green field near a large tree" [ref=e201]:
+                  - /url: /photos/sheep-grazing-in-a-green-field-near-a-large-tree-einx_-ssoYk
+                  - img "Sheep grazing in a green field near a large tree" [ref=e202]
+              - figure [ref=e203]:
+                - link "the sun is setting over a small house" [ref=e206]:
+                  - /url: /photos/the-sun-is-setting-over-a-small-house-CVgGXV8eJ1o
+                  - img "the sun is setting over a small house" [ref=e207]
+              - figure [ref=e208]:
+                - generic [ref=e210]:
+                  - link "Green field and trees seen through a fence." [ref=e211]:
+                    - /url: /photos/green-field-and-trees-seen-through-a-fence-TBJLzrklmnA
+                    - img "Green field and trees seen through a fence." [ref=e212]
+                  - link [ref=e213] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fgreen-field-and-trees-seen-through-a-fence-TBJLzrklmnA
+                    - img [ref=e214]
+              - figure [ref=e216]:
+                - generic [ref=e218]:
+                  - link "Green rolling hills with trees and a fence." [ref=e219]:
+                    - /url: /photos/green-rolling-hills-with-trees-and-a-fence-yU6bN7J1SrI
+                    - img "Green rolling hills with trees and a fence." [ref=e220]
+                  - link [ref=e221] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fgreen-rolling-hills-with-trees-and-a-fence-yU6bN7J1SrI
+                    - img [ref=e222]
+              - figure [ref=e224]:
+                - link "Rural farm with grain silo and fields at sunset" [ref=e227]:
+                  - /url: /photos/rural-farm-with-grain-silo-and-fields-at-sunset-yhOQ4fEoUxQ
+                  - img "Rural farm with grain silo and fields at sunset" [ref=e228]
+              - figure [ref=e229]:
+                - generic [ref=e231]:
+                  - link "Gravel path through a fenced field under a cloudy sky" [ref=e232]:
+                    - /url: /photos/gravel-path-through-a-fenced-field-under-a-cloudy-sky-r-Xm03mxut4
+                    - img "Gravel path through a fenced field under a cloudy sky" [ref=e233]
+                  - link [ref=e234] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fgravel-path-through-a-fenced-field-under-a-cloudy-sky-r-Xm03mxut4
+                    - img [ref=e235]
+              - figure [ref=e237]:
+                - link "a person in a field of plants" [ref=e240]:
+                  - /url: /photos/a-person-in-a-field-of-plants-DB1G5K5-V6s
+                  - img "a person in a field of plants" [ref=e241]
+            - generic [ref=e242]:
+              - contentinfo [ref=e247]:
+                - generic [ref=e253]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e255]:
+                - link "Barn and silo in a field at sunset" [ref=e258]:
+                  - /url: /photos/barn-and-silo-in-a-field-at-sunset-cxxEbEcuu_k
+                  - img "Barn and silo in a field at sunset" [ref=e259]
+              - figure [ref=e260]:
+                - generic [ref=e262]:
+                  - link "a bride and groom standing in front of a wooden arbor" [ref=e263]:
+                    - /url: /photos/a-bride-and-groom-standing-in-front-of-a-wooden-arbor-QMIZ8GCLZss
+                    - img "a bride and groom standing in front of a wooden arbor" [ref=e264]
+                  - link [ref=e265] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-bride-and-groom-standing-in-front-of-a-wooden-arbor-QMIZ8GCLZss
+                    - img [ref=e266]
+              - figure [ref=e268]:
+                - link "brown barn house" [ref=e271]:
+                  - /url: /photos/brown-barn-house--1aHfrSVA5Y
+                  - img "brown barn house" [ref=e272]
+              - figure [ref=e273]:
+                - link "Couple with horse and dog in a grassy field" [ref=e276]:
+                  - /url: /photos/couple-with-horse-and-dog-in-a-grassy-field-WxomCANXmWs
+                  - img "Couple with horse and dog in a grassy field" [ref=e277]
+              - figure [ref=e278]:
+                - link "Red barn on a grassy hill at sunset." [ref=e281]:
+                  - /url: /photos/red-barn-on-a-grassy-hill-at-sunset-10CjxqTVsA8
+                  - img "Red barn on a grassy hill at sunset." [ref=e282]
+              - figure [ref=e283]:
+                - link "A herd of sheep grazing on a lush green field" [ref=e286]:
+                  - /url: /photos/a-herd-of-sheep-grazing-on-a-lush-green-field-ll5PtOXMGN8
+                  - img "A herd of sheep grazing on a lush green field" [ref=e287]
+          - button "Load more" [ref=e290] [cursor=pointer]
+          - generic [ref=e293]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e294]:
+              - text: Browse premium images on iStock
+              - generic [ref=e295]: "| Claim your discount now"
+            - generic [ref=e297]:
+              - link "Outdoor Wedding Ceremony Setting With Wooden Chairs in Natural Surroundings" [ref=e298] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/outdoor-wedding-ceremony-setting-with-wooden-chairs-in-natural-surroundings-gm2211428498-628419410?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3A409dc8dc-4017-450f-8d76-20ab97a10ed4
+                - img "Outdoor Wedding Ceremony Setting With Wooden Chairs in Natural Surroundings" [ref=e299]
+              - link "Groom posing with his sister at his wedding reception" [ref=e300] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/groom-posing-with-his-sister-at-his-wedding-reception-gm2157713695-578388072?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3Af78e41f6-a138-4088-a7db-916db36e65be
+                - img "Groom posing with his sister at his wedding reception" [ref=e301]
+              - link "Farm table set for wedding dinner" [ref=e302] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/farm-table-set-for-wedding-dinner-gm2255316480-668562784?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3Ac9441f63-35e6-4b00-b8cb-1717493bdb43
+                - img "Farm table set for wedding dinner" [ref=e303]
+              - link "Rural informal Autumn wedding" [ref=e304] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/rural-informal-autumn-wedding-gm2175563860-595110014?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3Af1b09ee9-b305-4943-8d81-0978269aa1bc
+                - img "Rural informal Autumn wedding" [ref=e305]
+              - 'link "Digital Farming: Inventory, Plants & Technology" [ref=e306] [cursor=pointer]':
+                - /url: https://www.istockphoto.com/photo/inventory-plants-technology-gm2234045696-649499032?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3A901ec1d1-2c65-40a3-a30c-b174fb98b3ad
+                - 'img "Digital Farming: Inventory, Plants & Technology" [ref=e307]'
+              - link "Barn wedding reception with table settings and flower centerpieces" [ref=e308] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/barn-wedding-reception-with-table-settings-and-flower-centerpieces-gm2103329735-566553055?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3Ab93a67a3-2a81-40b4-9f53-11d12d58d322
+                - img "Barn wedding reception with table settings and flower centerpieces" [ref=e309]
+              - link "Country wedding" [ref=e310] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/country-wedding-gm1475179015-504757034?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3A42b977d0-3d28-4d9b-9033-d959775b54e7
+                - img "Country wedding" [ref=e311]
+              - generic [ref=e312]:
+                - link "Wedding ceremony" [ref=e313] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/wedding-ceremony-gm1043934118-279426479?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3A605f6387-09a8-443c-9f57-0cbbb7c568fd
+                  - img "Wedding ceremony" [ref=e314]
+                - link "View more on iStock ↗" [ref=e315] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-countryside-wedding-venue&utm_term=farm+countryside+wedding+venue%3A%3Aaffiliate-layout-optim%3Ab%3A16a994b4-2442-4857-af8a-58239a3d1bd4&phrase=farm+countryside+wedding+venue&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e317]:
+            - link [ref=e318] [cursor=pointer]:
+              - /url: /
+              - img [ref=e319]
+            - paragraph [ref=e321]: Make something awesome
+    - generic:
+      - region "Notifications"

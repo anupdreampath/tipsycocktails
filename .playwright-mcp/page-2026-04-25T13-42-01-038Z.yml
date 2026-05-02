@@ -1,0 +1,260 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-bar-party
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-bar-party
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-bar-party
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: cocktail bar party
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-bar-party
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 2.4k":
+                - /url: /s/photos/cocktail-bar-party
+                - img
+                - text: Photos
+                - generic: 2.4k
+            - listitem [ref=e73]:
+              - link "Illustrations 238" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/cocktail-bar-party
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "238"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Cocktail bar party" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "cocktail" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/cocktail
+              - link "bar" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/bar
+              - link "bar counter" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/bar-counter
+              - link "bartender" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/bartender
+              - link "drink" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/drink
+              - link "mixology" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/mixology
+              - link "becherovka" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/becherovka
+              - link "kyiv" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/kyiv
+              - link "cocktail party" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/cocktail-party
+              - link "pub" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/pub
+              - link "alcohol" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/alcohol
+              - link "beverage" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/beverage
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - link "Young beautiful women with cocktails in bar or club having fun, dancing" [ref=e146]:
+                  - /url: /photos/young-beautiful-women-with-cocktails-in-bar-or-club-having-fun-dancing-CF3Yld_bpAY
+                  - img "Young beautiful women with cocktails in bar or club having fun, dancing" [ref=e147]
+              - generic [ref=e148]:
+                - heading "Sponsored images" [level=4] [ref=e149]:
+                  - generic [ref=e150]: Sponsored images
+                  - link [ref=e151] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=cocktail+bar+party&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e152]
+                - generic [ref=e154]:
+                  - link "Young people enjoying a night at club" [ref=e155] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/young-people-enjoying-a-night-at-club-gm689256360-126865625?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Young people enjoying a night at club" [ref=e156]
+                  - link "People dancing in the club" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/people-dancing-in-the-club-gm637804538-113965785?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "People dancing in the club" [ref=e158]
+                  - link "Friends socializing and enjoying a lively evening gathering in a modern kitchen setting" [ref=e159] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/friends-socializing-and-enjoying-a-lively-evening-gathering-in-a-modern-kitchen-gm2216906945-633526003?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Friends socializing and enjoying a lively evening gathering in a modern kitchen setting" [ref=e160]
+                  - link "Cute redhead girl hanging out with her friends at the nightclub" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/cute-redhead-girl-hanging-out-with-her-friends-at-the-nightclub-gm2184744901-603554274?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Cute redhead girl hanging out with her friends at the nightclub" [ref=e162]
+                - link "Get 20% off with code UNSPLASH20" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=cocktail+bar+party&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e164]:
+                - link "People are toasting with colorful cocktails." [ref=e167]:
+                  - /url: /photos/people-are-toasting-with-colorful-cocktails-rKDa6woTjhY
+                  - img "People are toasting with colorful cocktails." [ref=e168]
+              - figure [ref=e169]:
+                - link "Confidence Asian woman sitting at bar counter drinking alcoholic drink and talking to barman in nightclub. Male mixologist bartender preparing alcohol drink to customer. Small business bar and city nightlife concept" [ref=e172]:
+                  - /url: /photos/confidence-asian-woman-sitting-at-bar-counter-drinking-alcoholic-drink-and-talking-to-barman-in-nightclub-male-mixologist-bartender-preparing-alcohol-drink-to-customer-small-business-bar-and-city-nightlife-concept-ZsQXlIEOXGo
+                  - img "Confidence Asian woman sitting at bar counter drinking alcoholic drink and talking to barman in nightclub. Male mixologist bartender preparing alcohol drink to customer. Small business bar and city nightlife concept" [ref=e173]
+              - figure [ref=e174]:
+                - link "a bar with a vase of flowers and glasses on it" [ref=e177]:
+                  - /url: /photos/a-bar-with-a-vase-of-flowers-and-glasses-on-it-VMYJElvsGCo
+                  - img "a bar with a vase of flowers and glasses on it" [ref=e178]
+              - figure [ref=e179]:
+                - link "a person holding up a wine glass in front of a bottle" [ref=e182]:
+                  - /url: /photos/a-person-holding-up-a-wine-glass-in-front-of-a-bottle-j9wXhR7TG2U
+                  - img "a person holding up a wine glass in front of a bottle" [ref=e183]
+              - figure [ref=e184]:
+                - link "a man is making a drink at a bar" [ref=e187]:
+                  - /url: /photos/a-man-is-making-a-drink-at-a-bar-HN2ukPUF_og
+                  - img "a man is making a drink at a bar" [ref=e188]
+            - generic [ref=e189]:
+              - figure [ref=e190]:
+                - link "a drink sitting on top of a wooden table" [ref=e193]:
+                  - /url: /photos/a-drink-sitting-on-top-of-a-wooden-table-6nG7m9AYbio
+                  - img "a drink sitting on top of a wooden table" [ref=e194]
+              - figure [ref=e195]:
+                - link "a woman sitting at a bar holding a drink" [ref=e198]:
+                  - /url: /photos/a-woman-sitting-at-a-bar-holding-a-drink-tIX_S8bFWUI
+                  - img "a woman sitting at a bar holding a drink" [ref=e199]
+              - figure [ref=e200]:
+                - link "a table with a vase of flowers and glasses on it" [ref=e203]:
+                  - /url: /photos/a-table-with-a-vase-of-flowers-and-glasses-on-it-8MwSTEkiH60
+                  - img "a table with a vase of flowers and glasses on it" [ref=e204]
+              - figure [ref=e205]:
+                - link "a row of glasses sitting on top of a wooden table" [ref=e208]:
+                  - /url: /photos/a-row-of-glasses-sitting-on-top-of-a-wooden-table-eddxptxx9OY
+                  - img "a row of glasses sitting on top of a wooden table" [ref=e209]
+              - figure [ref=e210]:
+                - link "a person holding a bottle of alcohol in front of a bar" [ref=e213]:
+                  - /url: /photos/a-person-holding-a-bottle-of-alcohol-in-front-of-a-bar-qPM3Si-uVrM
+                  - img "a person holding a bottle of alcohol in front of a bar" [ref=e214]
+              - figure [ref=e215]:
+                - link "Cheers! people are toasting with two cocktails at a bar." [ref=e218]:
+                  - /url: /photos/cheers-people-are-toasting-with-two-cocktails-at-a-bar-zuhyZhbN-14
+                  - img "Cheers! people are toasting with two cocktails at a bar." [ref=e219]
+              - figure [ref=e220]:
+                - link "a table with a bottle of alcohol and a bowl of food on it" [ref=e223]:
+                  - /url: /photos/a-table-with-a-bottle-of-alcohol-and-a-bowl-of-food-on-it-g3W22qg8YlI
+                  - img "a table with a bottle of alcohol and a bowl of food on it" [ref=e224]
+              - figure [ref=e225]:
+                - link "a glass of ice and a salt shaker on a bar" [ref=e228]:
+                  - /url: /photos/a-glass-of-ice-and-a-salt-shaker-on-a-bar-qO7IxJQbdKo
+                  - img "a glass of ice and a salt shaker on a bar" [ref=e229]
+            - generic [ref=e230]:
+              - contentinfo [ref=e235]:
+                - generic [ref=e241]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e243]:
+                - link "a man sitting at a bar with a drink in front of him" [ref=e246]:
+                  - /url: /photos/a-man-sitting-at-a-bar-with-a-drink-in-front-of-him-DxeL2cggAfc
+                  - img "a man sitting at a bar with a drink in front of him" [ref=e247]
+              - figure [ref=e248]:
+                - link "a bottle of liquor and a cup on a table" [ref=e251]:
+                  - /url: /photos/a-bottle-of-liquor-and-a-cup-on-a-table-JqeUN6qUuqQ
+                  - img "a bottle of liquor and a cup on a table" [ref=e252]
+              - figure [ref=e253]:
+                - link "a woman is holding a drink in her hand" [ref=e256]:
+                  - /url: /photos/a-woman-is-holding-a-drink-in-her-hand-tLUGpAiIEws
+                  - img "a woman is holding a drink in her hand" [ref=e257]
+              - figure [ref=e258]:
+                - link "a woman sitting at a bar holding a drink" [ref=e261]:
+                  - /url: /photos/a-woman-sitting-at-a-bar-holding-a-drink-0sxqz-EzCp4
+                  - img "a woman sitting at a bar holding a drink" [ref=e262]
+              - figure [ref=e263]:
+                - link "Hand holding a red cocktail with ice and orange" [ref=e266]:
+                  - /url: /photos/hand-holding-a-red-cocktail-with-ice-and-orange-BseHasZ570M
+                  - img "Hand holding a red cocktail with ice and orange" [ref=e267]
+              - figure [ref=e268]:
+                - link "a bottle and two glasses sitting on a table" [ref=e271]:
+                  - /url: /photos/a-bottle-and-two-glasses-sitting-on-a-table-mWI0e_J2n8M
+                  - img "a bottle and two glasses sitting on a table" [ref=e272]
+          - button "Load more" [ref=e275] [cursor=pointer]
+          - generic [ref=e278]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e279]:
+              - text: Browse premium images on iStock
+              - generic [ref=e280]: "| Claim your discount now"
+            - generic [ref=e282]:
+              - link "Happy wedding guests attending wedding reception" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/happy-wedding-guests-attending-wedding-reception-gm2157713698-578388079?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Happy wedding guests attending wedding reception" [ref=e284]
+              - link "Red strawberry martinis on a tiered glass display at a gala" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/red-strawberry-martinis-on-a-tiered-glass-display-at-a-gala-gm2266600328-679253881?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Red strawberry martinis on a tiered glass display at a gala" [ref=e286]
+              - link "Friends a having fun dancing on a rooftop" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/friends-a-having-fun-dancing-on-a-rooftop-gm2181984788-600965469?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Friends a having fun dancing on a rooftop" [ref=e288]
+              - link "Girls having fun on corporate party" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/girls-having-fun-on-corporate-party-gm1436957671-477876599?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Girls having fun on corporate party" [ref=e290]
+              - link "Young Businessman Hanging Out with Friends at the Bar" [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/young-businessman-hanging-out-with-friends-at-the-bar-gm168710944-23897188?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Young Businessman Hanging Out with Friends at the Bar" [ref=e292]
+              - link "Two people holding cocktail glasses with sweet alcoholic drink" [ref=e293] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/two-people-holding-cocktail-glasses-with-sweet-alcoholic-drink-gm962089656-262746017?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Two people holding cocktail glasses with sweet alcoholic drink" [ref=e294]
+              - link "Portrait of multiracial young couple at the house party" [ref=e295] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/portrait-of-multiracial-young-couple-at-the-house-party-gm1646781427-533758573?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Portrait of multiracial young couple at the house party" [ref=e296]
+              - generic [ref=e297]:
+                - link "Multiracial group of female friends having fun at the nightclub" [ref=e298] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/multiracial-group-of-female-friends-having-fun-at-the-nightclub-gm2184744917-603554282?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A
+                  - img "Multiracial group of female friends having fun at the nightclub" [ref=e299]
+                - link "View more on iStock ↗" [ref=e300] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-bar-party&utm_term=cocktail+bar+party%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=cocktail+bar+party&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e302]:
+            - link [ref=e303] [cursor=pointer]:
+              - /url: /
+              - img [ref=e304]
+            - paragraph [ref=e306]: Make something awesome
+    - generic:
+      - region "Notifications"

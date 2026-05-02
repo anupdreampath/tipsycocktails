@@ -1,0 +1,260 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-making-class-workshop
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-making-class-workshop
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-making-class-workshop
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: cocktail making class workshop
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fcocktail-making-class-workshop
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 14k":
+                - /url: /s/photos/cocktail-making-class-workshop
+                - img
+                - text: Photos
+                - generic: 14k
+            - listitem [ref=e73]:
+              - link "Illustrations 462" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/cocktail-making-class-workshop
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "462"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - generic [ref=e82]:
+            - button "License" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: License
+              - img [ref=e87]
+            - button "Orientation" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: Orientation
+              - img [ref=e93]
+            - button "Sort by Relevance" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Sort by Relevance
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - heading "Cocktail making class workshop" [level=1] [ref=e103]
+          - generic [ref=e105]:
+            - button "scroll list to the right" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - link "person" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/person
+              - link "glass" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/glass
+              - link "human" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/human
+              - link "alcohol" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/alcohol
+              - link "beverage" [ref=e121] [cursor=pointer]:
+                - /url: /s/photos/beverage
+              - link "cocktail" [ref=e123] [cursor=pointer]:
+                - /url: /s/photos/cocktail
+              - link "worker" [ref=e125] [cursor=pointer]:
+                - /url: /s/photos/worker
+              - link "beer" [ref=e127] [cursor=pointer]:
+                - /url: /s/photos/beer
+              - link "drink" [ref=e129] [cursor=pointer]:
+                - /url: /s/photos/drink
+              - link "bartender" [ref=e131] [cursor=pointer]:
+                - /url: /s/photos/bartender
+              - link "head" [ref=e133] [cursor=pointer]:
+                - /url: /s/photos/head
+              - link "food" [ref=e135] [cursor=pointer]:
+                - /url: /s/photos/food
+        - generic [ref=e137]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - figure [ref=e143]:
+                - link "a pink table topped with glasses filled with drinks" [ref=e146]:
+                  - /url: /photos/a-pink-table-topped-with-glasses-filled-with-drinks-l_CA8XMY-UY
+                  - img "a pink table topped with glasses filled with drinks" [ref=e147]
+              - generic [ref=e148]:
+                - heading "Sponsored images" [level=4] [ref=e149]:
+                  - generic [ref=e150]: Sponsored images
+                  - link [ref=e151] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=cocktail+making+class+workshop&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e152]
+                - generic [ref=e154]:
+                  - link "Professional bartender teaches new employee on how to make cocktails." [ref=e155] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/professional-bartender-teaches-new-employee-on-how-to-make-cocktails-gm1300870943-393065325?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Professional bartender teaches new employee on how to make cocktails." [ref=e156]
+                  - link "Barman preparing cocktail in shaker" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/barman-preparing-cocktail-in-shaker-gm584230172-100021901?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Barman preparing cocktail in shaker" [ref=e158]
+                  - link "Cocktail preparing" [ref=e159] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/cocktail-preparing-gm863723820-143377817?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Cocktail preparing" [ref=e160]
+                  - link "Close up details of barman pouring vodka cosmopolitan cocktail in martini glass" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/close-up-details-of-barman-pouring-vodka-cosmopolitan-cocktail-in-martini-glass-gm952022582-259902752?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                    - img "Close up details of barman pouring vodka cosmopolitan cocktail in martini glass" [ref=e162]
+                - link "Get 20% off with code UNSPLASH20" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=cocktail+making+class+workshop&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e164]:
+                - link "Hands adding lemon slice to copper mug drink" [ref=e167]:
+                  - /url: /photos/hands-adding-lemon-slice-to-copper-mug-drink-F8aJKP_Vizg
+                  - img "Hands adding lemon slice to copper mug drink" [ref=e168]
+              - figure [ref=e169]:
+                - link "A person pouring a drink into a glass" [ref=e172]:
+                  - /url: /photos/a-person-pouring-a-drink-into-a-glass-rVJTnk1EgKY
+                  - img "A person pouring a drink into a glass" [ref=e173]
+              - figure [ref=e174]:
+                - link "a hand holding a glass of liquid" [ref=e177]:
+                  - /url: /photos/a-hand-holding-a-glass-of-liquid-U6LDrbgkkKI
+                  - img "a hand holding a glass of liquid" [ref=e178]
+              - figure [ref=e179]:
+                - link "woman pouring liquid on margarita glass" [ref=e182]:
+                  - /url: /photos/woman-pouring-liquid-on-margarita-glass-ET24mipcCko
+                  - img "woman pouring liquid on margarita glass" [ref=e183]
+              - figure [ref=e184]:
+                - link "a couple of glasses with liquid in them" [ref=e187]:
+                  - /url: /photos/a-couple-of-glasses-with-liquid-in-them-1lga7wjpTMc
+                  - img "a couple of glasses with liquid in them" [ref=e188]
+            - generic [ref=e189]:
+              - figure [ref=e190]:
+                - link "person holding orange and black tube mod" [ref=e193]:
+                  - /url: /photos/person-holding-orange-and-black-tube-mod-1PZbqi7dggg
+                  - img "person holding orange and black tube mod" [ref=e194]
+              - figure [ref=e195]:
+                - link "a person holding a spoon over a cocktail" [ref=e198]:
+                  - /url: /photos/a-person-holding-a-spoon-over-a-cocktail-p00EOZFaLzo
+                  - img "a person holding a spoon over a cocktail" [ref=e199]
+              - figure [ref=e200]:
+                - link "a group of people sitting at a bar with drinks" [ref=e203]:
+                  - /url: /photos/a-group-of-people-sitting-at-a-bar-with-drinks-RDJ52xhrCCI
+                  - img "a group of people sitting at a bar with drinks" [ref=e204]
+              - figure [ref=e205]:
+                - link "a group of people sitting at a bar" [ref=e208]:
+                  - /url: /photos/a-group-of-people-sitting-at-a-bar--0a1SBv0MgY
+                  - img "a group of people sitting at a bar" [ref=e209]
+              - figure [ref=e210]:
+                - link "Bartender strains a purple cocktail into a glass." [ref=e213]:
+                  - /url: /photos/bartender-strains-a-purple-cocktail-into-a-glass-qfopFDliJRk
+                  - img "Bartender strains a purple cocktail into a glass." [ref=e214]
+              - figure [ref=e215]:
+                - link "a couple of people that are making some drinks" [ref=e218]:
+                  - /url: /photos/a-couple-of-people-that-are-making-some-drinks-KxNQ0XKb2mA
+                  - img "a couple of people that are making some drinks" [ref=e219]
+              - figure [ref=e220]:
+                - link "Bartender garnishes a red cocktail with berries." [ref=e223]:
+                  - /url: /photos/bartender-garnishes-a-red-cocktail-with-berries-3kVW6ugo_kU
+                  - img "Bartender garnishes a red cocktail with berries." [ref=e224]
+              - figure [ref=e225]:
+                - link "clear drinking glass with orange liquid and green leaves" [ref=e228]:
+                  - /url: /photos/clear-drinking-glass-with-orange-liquid-and-green-leaves-i1yNn8fdd1c
+                  - img "clear drinking glass with orange liquid and green leaves" [ref=e229]
+            - generic [ref=e230]:
+              - contentinfo [ref=e235]:
+                - generic [ref=e241]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e243]:
+                - link "woman in black framed eyeglasses holding white smartphone" [ref=e246]:
+                  - /url: /photos/woman-in-black-framed-eyeglasses-holding-white-smartphone-xv2BIMkp19Y
+                  - img "woman in black framed eyeglasses holding white smartphone" [ref=e247]
+              - figure [ref=e248]:
+                - link "a man is making a cocktail at a bar" [ref=e251]:
+                  - /url: /photos/a-man-is-making-a-cocktail-at-a-bar-JR517y45v0M
+                  - img "a man is making a cocktail at a bar" [ref=e252]
+              - figure [ref=e253]:
+                - link "Someone is making a cocktail with berries." [ref=e256]:
+                  - /url: /photos/someone-is-making-a-cocktail-with-berries-8rdXlYHULg8
+                  - img "Someone is making a cocktail with berries." [ref=e257]
+              - figure [ref=e258]:
+                - link "person pouring yellow liquid on clear cocktail glass" [ref=e261]:
+                  - /url: /photos/person-pouring-yellow-liquid-on-clear-cocktail-glass-R0eY0I9cQCY
+                  - img "person pouring yellow liquid on clear cocktail glass" [ref=e262]
+              - figure [ref=e263]:
+                - link "Bartender pouring drinks into champagne glasses." [ref=e266]:
+                  - /url: /photos/bartender-pouring-drinks-into-champagne-glasses-691Rc-Y0WkM
+                  - img "Bartender pouring drinks into champagne glasses." [ref=e267]
+              - figure [ref=e268]:
+                - link "a woman sitting at a table with three glasses of wine" [ref=e271]:
+                  - /url: /photos/a-woman-sitting-at-a-table-with-three-glasses-of-wine-3NpJRvv1nNc
+                  - img "a woman sitting at a table with three glasses of wine" [ref=e272]
+          - button "Load more" [ref=e275] [cursor=pointer]
+          - generic [ref=e278]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e279]:
+              - text: Browse premium images on iStock
+              - generic [ref=e280]: "| Claim your discount now"
+            - generic [ref=e282]:
+              - link "employee of a small restaurant is in the kitchen preparing delicious juice for a customer" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/employee-of-a-small-restaurant-is-in-the-kitchen-preparing-delicious-juice-for-a-gm1425318547-469825680?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "employee of a small restaurant is in the kitchen preparing delicious juice for a customer" [ref=e284]
+              - link "Close-up of a bartender preparing a drink on a pub" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/close-up-of-a-bartender-preparing-a-drink-on-a-pub-gm2181982584-600963984?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Close-up of a bartender preparing a drink on a pub" [ref=e286]
+              - link "Young Bartender Working In Party At Night" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/young-bartender-working-in-party-at-night-gm2163755652-584083739?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Young Bartender Working In Party At Night" [ref=e288]
+              - link "Measuring the coffee hots that the beverage will carry" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/measuring-the-coffee-hots-that-the-beverage-will-carry-gm2227621819-643480008?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Measuring the coffee hots that the beverage will carry" [ref=e290]
+              - link "Three young women preparing party decorations in a modern kitchen with creative supplies" [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/three-young-women-preparing-party-decorations-in-a-modern-kitchen-with-creative-gm2223610391-639800808?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Three young women preparing party decorations in a modern kitchen with creative supplies" [ref=e292]
+              - link "Bartenders creating new cocktails" [ref=e293] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/bartenders-creating-new-cocktails-gm547513882-98962909?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Bartenders creating new cocktails" [ref=e294]
+              - link "Cocktails" [ref=e295] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/cocktails-gm620723770-108309901?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                - img "Cocktails" [ref=e296]
+              - generic [ref=e297]:
+                - link "Male bartender pouring alcohol in glass, A young bartender making luxury cocktail." [ref=e298] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/male-bartender-pouring-alcohol-in-glass-a-young-bartender-making-luxury-cocktail-gm1143080981-306848000?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A
+                  - img "Male bartender pouring alcohol in glass, A young bartender making luxury cocktail." [ref=e299]
+                - link "View more on iStock ↗" [ref=e300] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcocktail-making-class-workshop&utm_term=cocktail+making+class+workshop%3A%3Aaffiliate-layout-optim%3Ab%3A&phrase=cocktail+making+class+workshop&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e302]:
+            - link [ref=e303] [cursor=pointer]:
+              - /url: /
+              - img [ref=e304]
+            - paragraph [ref=e306]: Make something awesome
+    - generic:
+      - region "Notifications"
